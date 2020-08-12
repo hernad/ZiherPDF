@@ -127,7 +127,7 @@ if __name__ == "__main__":
 	data = Serialize(root)
 	assert Serialize(Parse(data)) == data
 
-	path = os.path.join("obj-dbg", "SumatraPDF-settings.txt")
+	path = os.path.join("obj-dbg", "ZiherPDF-settings.txt")
 	if os.path.exists(path):
 		data = open(path).read()
 		root = Parse(data)
