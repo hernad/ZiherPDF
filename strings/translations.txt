@@ -1,4 +1,4 @@
-AppTranslator: SumatraPDF
+AppTranslator: ZiherPDF
 19fd11c42cd964791e4ef06009213312347fbefa
 :%s installation not found.
 am:%s-ի տեղադրումը չի գտնվել:
@@ -27,7 +27,7 @@ cn:关于(&A)...
 co:&Apprupositu
 cy:&Ynghylch...
 cz:&O programu
-de:Über &SumatraPDF
+de:Über &ZiherPDF
 dk:&Om
 el:&Σχετικά
 es:&Acerca de
@@ -53,7 +53,7 @@ ku:دەربارەی&
 kw:&A-dro dhe...
 lt:Apie
 lv:&Par
-mk:&За SumatraPDF...
+mk:&За ZiherPDF...
 ml:പറ്റി
 mm:အကြောင်း
 my:&Mengenai
@@ -62,7 +62,7 @@ nl:&Over...
 nn:&Om
 no:&Om
 pa:&ਇਸ ਬਾਰੇ
-pl:&O SumatraPDF
+pl:&O ZiherPDF
 pt:&Acerca
 ro:&Despre
 ru:&О программе...
@@ -3526,77 +3526,77 @@ tw:(第 %s 頁)
 uk:(сторінка %s)
 uz:(bet %s)
 vn:(trang %s)
-:About SumatraPDF
-af:Omtrent SumatraPDF
-am:SumatraPDF-ի մասին
-ar:حول SumatraPDF
-az:SumatraPDF haqqında
-bg:За SumatraPDF
+:About ZiherPDF
+af:Omtrent ZiherPDF
+am:ZiherPDF-ի մասին
+ar:حول ZiherPDF
+az:ZiherPDF haqqında
+bg:За ZiherPDF
 bn:সুমাত্রাপিডিএফ-এর সম্পর্কে
-br:Sobre o SumatraPDF
-bs:O SumatraPDF
-by:Аб SumatraPDF
-ca-xv:Quant al SumatraPDF
-ca:Quant al SumatraPDF
-cn:关于 SumatraPDF
-co:Apprupositu di SumatraPDF
-cy:Ynghylch SumatraPDF
-cz:O programu SumatraPDF
-de:Über SumatraPDF
-dk:Om SumatraPDF
-el:Σχετικά με το SumatraPDF
-es:Acerca de SumatraPDF
-et:Info SumatraPDF kohta
-eu:SumatraPDF-ri buruz
-fa:درباره‌ی برنامه‌ی SumatraPDF
-fi:Tietoja SumatraPDF:stä
-fr:À propos de SumatraPDF
-fy-nl:Oer SumatraPDF
-ga:Maidir le SumatraPDF
-gl:Acerca do SumatraPDF
-he:אודות SumatraPDF
-hi:Sumatra PDF के बारे में
+br:Sobre o ZiherPDF
+bs:O ZiherPDF
+by:Аб ZiherPDF
+ca-xv:Quant al ZiherPDF
+ca:Quant al ZiherPDF
+cn:关于 ZiherPDF
+co:Apprupositu di ZiherPDF
+cy:Ynghylch ZiherPDF
+cz:O programu ZiherPDF
+de:Über ZiherPDF
+dk:Om ZiherPDF
+el:Σχετικά με το ZiherPDF
+es:Acerca de ZiherPDF
+et:Info ZiherPDF kohta
+eu:ZiherPDF-ri buruz
+fa:درباره‌ی برنامه‌ی ZiherPDF
+fi:Tietoja ZiherPDF:stä
+fr:À propos de ZiherPDF
+fy-nl:Oer ZiherPDF
+ga:Maidir le ZiherPDF
+gl:Acerca do ZiherPDF
+he:אודות ZiherPDF
+hi:Ziher PDF के बारे में
 hr:O SumatriPDF
-hu:A SumatraPDF névjegye
-id:Tentang SumatraPDF
-it:Informazioni su SumatraPDF
-ja:SumatraPDF のバージョン情報
-jv:Babagan SumatraPDF
-ka:SumatraPDF-ის შესახებ
-kr:SumatraPDF 정보
-ku:SumatraPDF دەربارەی
-kw:A-dro dhe SumatraPDF
+hu:A ZiherPDF névjegye
+id:Tentang ZiherPDF
+it:Informazioni su ZiherPDF
+ja:ZiherPDF のバージョン情報
+jv:Babagan ZiherPDF
+ka:ZiherPDF-ის შესახებ
+kr:ZiherPDF 정보
+ku:ZiherPDF دەربارەی
+kw:A-dro dhe ZiherPDF
 lt:Apie „SumatraPDF“
-lv:Par SumatraPDF
-mk:За SumatraPDF
+lv:Par ZiherPDF
+mk:За ZiherPDF
 ml:സുമാത്രാപിഡീഎഫിനെപ്പറ്റി
 mm:စူမာတရာ အကြောင်း
-my:Mengenai SumatraPDF
-ne:SumatraPDF बारेमा
-nl:Over SumatraPDF
-nn:Om SumatraPDF
-no:Om SumatraPDF
-pa:SumatraPDF ਬਾਰੇ
-pl:O SumatraPDF
-pt:Acerca de SumatraPDF
-ro:Despre SumatraPDF
-ru:О программе SumatraPDF
-si:SumatraPDF පිළිබඳව
-sk:O programe SumatraPDF
-sl:O programu SumatraPDF
+my:Mengenai ZiherPDF
+ne:ZiherPDF बारेमा
+nl:Over ZiherPDF
+nn:Om ZiherPDF
+no:Om ZiherPDF
+pa:ZiherPDF ਬਾਰੇ
+pl:O ZiherPDF
+pt:Acerca de ZiherPDF
+ro:Despre ZiherPDF
+ru:О программе ZiherPDF
+si:ZiherPDF පිළිබඳව
+sk:O programe ZiherPDF
+sl:O programu ZiherPDF
 sn:NezveSumatraPDF
-sp-rs:O programu SumatraPDF
-sq:Për SumatraPDF
-sr-rs:О програму SumatraPDF
-sv:Om SumatraPDF
+sp-rs:O programu ZiherPDF
+sq:Për ZiherPDF
+sr-rs:О програму ZiherPDF
+sv:Om ZiherPDF
 ta:சுமத்ராPDF-ஐ பற்றி
-th:เกี่ยวกับ SumatraPDF
-tl:Tungkol sa SumatraPDF
-tr:SumatraPDF hakkında
-tw:關於 SumatraPDF
-uk:Про програму SumatraPDF
-uz:SumatraPDF haqida
-vn:Giới thiệu SumatraPDF
+th:เกี่ยวกับ ZiherPDF
+tl:Tungkol sa ZiherPDF
+tr:ZiherPDF hakkında
+tw:關於 ZiherPDF
+uk:Про програму ZiherPDF
+uz:ZiherPDF haqida
+vn:Giới thiệu ZiherPDF
 :Add Favorite
 am:Ավելացնել ընտրյալներին
 ar:اضافة للمفضلة
@@ -4224,72 +4224,72 @@ nl:Weet u zeker dat u %s wilt dé-installeren?
 pl:Czy na pewno chcesz odinstalować %s?
 ru:Уверены, что хотите удалить %s?
 vn:Bạn có chắc chắn muốn gỡ cài đặt %s?
-:Are you sure you want to uninstall SumatraPDF?
-af:Is jy seker jy wil SumatraPDF oninstalleer?
-am:Համոզվա՞ծ եք, որ ցանկանում եք ջնջել SumatraPDF-ը:
-ar:؟  SumatraPDF هل انت متاكد تريد مسح 
-az:Əminsiniz ki, SumatraPDF-i silmək istəyirsiniz?
-bg:Наистина ли искате да деинсталирате SumatraPDF ?
+:Are you sure you want to uninstall ZiherPDF?
+af:Is jy seker jy wil ZiherPDF oninstalleer?
+am:Համոզվա՞ծ եք, որ ցանկանում եք ջնջել ZiherPDF-ը:
+ar:؟  ZiherPDF هل انت متاكد تريد مسح 
+az:Əminsiniz ki, ZiherPDF-i silmək istəyirsiniz?
+bg:Наистина ли искате да деинсталирате ZiherPDF ?
 bn:আপনি কি নিশ্চিত যে আপনি সুমাত্রা-পিডিএফ আন-ইন্সটল করতে চান?
-br:Deseja mesmo desinstalar o SumatraPDF?
-bs:Da li ste sigurni da želite deinstalirati SumatraPDF?
-by:Вы сапраўды ўпэўнены, что трэба знішчыць SumatraPDF?
-ca-xv:Esteu segur de voler desinstal·lar el SumatraPDF?
-ca:Segur que voleu desinstal·lar el SumatraPDF?
-cn:您确定要卸载 SumatraPDF 吗？
-co:Site sicuru di vulè disinstallà SumatraPDF ?
-cy:Ydych chi'n siŵr eich bod am ddadosod SumatraPDF
-cz:Opravdu chcete odinstalovat SumatraPDF?
-de:Möchten Sie SumatraPDF wirklich deinstallieren?
-dk:Er du sikker på, at du vil afinstallere SumatraPDF?
-el:Είστε σίγουροι πως επιθυμείτε την απεγκατάσταση του SumatraPDF ;
-es:¿Está seguro de querer desinstalar SumatraPDF?
-et:Kas oled kindel, et soovid eemaldada rakendust SumatraPDF?
-eu:Zihur zaude SumatraPDF kentzea nahi duzula?
+br:Deseja mesmo desinstalar o ZiherPDF?
+bs:Da li ste sigurni da želite deinstalirati ZiherPDF?
+by:Вы сапраўды ўпэўнены, что трэба знішчыць ZiherPDF?
+ca-xv:Esteu segur de voler desinstal·lar el ZiherPDF?
+ca:Segur que voleu desinstal·lar el ZiherPDF?
+cn:您确定要卸载 ZiherPDF 吗？
+co:Site sicuru di vulè disinstallà ZiherPDF ?
+cy:Ydych chi'n siŵr eich bod am ddadosod ZiherPDF
+cz:Opravdu chcete odinstalovat ZiherPDF?
+de:Möchten Sie ZiherPDF wirklich deinstallieren?
+dk:Er du sikker på, at du vil afinstallere ZiherPDF?
+el:Είστε σίγουροι πως επιθυμείτε την απεγκατάσταση του ZiherPDF ;
+es:¿Está seguro de querer desinstalar ZiherPDF?
+et:Kas oled kindel, et soovid eemaldada rakendust ZiherPDF?
+eu:Zihur zaude ZiherPDF kentzea nahi duzula?
 fa:آیا برای پاک کردن برنامه‌ی سوماترا پی‌دی‌اف مطمئن هستید؟
-fi:Oletko varma, että haluat poistaa SumatraPDF:n?
-fr:Êtes-vous certain de vouloir désinstaller SumatraPDF ?
-ga:An bhfuil tú cinnte gur mian leat SumatraPDF a dhíshuiteáil?
-gl:Seguro que queres desinstalar SumatraPDF?
-he:האם אתה בטוח שברצונך להסיר את SumatraPDF?
+fi:Oletko varma, että haluat poistaa ZiherPDF:n?
+fr:Êtes-vous certain de vouloir désinstaller ZiherPDF ?
+ga:An bhfuil tú cinnte gur mian leat ZiherPDF a dhíshuiteáil?
+gl:Seguro que queres desinstalar ZiherPDF?
+he:האם אתה בטוח שברצונך להסיר את ZiherPDF?
 hi:अस्थायी निर्देशिका नहीं बना सका
-hr:Jeste li sigurni da želite deinstalirati SumatraPDF?
-hu:Biztosan el szeretné távolítani a SumatraPDF-et?
-id:Anda yakin ingin menghapus instalasi SumatraPDF?
-it:Siete sicuri di voler disinstallare SumatraPDF?
+hr:Jeste li sigurni da želite deinstalirati ZiherPDF?
+hu:Biztosan el szeretné távolítani a ZiherPDF-et?
+id:Anda yakin ingin menghapus instalasi ZiherPDF?
+it:Siete sicuri di voler disinstallare ZiherPDF?
 ja:SumatraPDFを本当にアンインストールしますか？
-jv:Apa panjenengan yakin arep mbusak instalasi SumatraPDF?
+jv:Apa panjenengan yakin arep mbusak instalasi ZiherPDF?
 kr:SumatraPDF를 제거할까요?
-ku:ئایا دڵنیایت لە سڕینەوەی SumatraPDF?
-kw:Os ta sur bos hwans dhis anlea SumatraPDF?
-lt:Ar tikrai norite pašalinti SumatraPDF?
-lv:Vai jūs esat pārliecināti, ka vēlaties atinstalēt SumatraPDF?
-mk:Дали сте сигурни дека сакате да го избришете SumatraPDF?
-my:Adakah anda pasti anda mahu membuang SumatraPDF?
-ne:SumatraPDF हटाउन चाहानुहुन्छ?
-nl:Weet u zeker dat u SumatraPDF wilt verwijderen?
-nn:Er du sikker på at du vil avinstallere SumatraPDF?
-no:Vil du virkelig avinstallere SumatraPDF?
-pa:ਕੀ ਤੁਸੀਂ SumatraPDF ਨੂੰ ਅਣ-ਸਥਾਪਿਤ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?
-pl:Czy na pewno chcesz usunąć SumatraPDF?
-pt:Tem a certeza de que deseja desinstalar SumatraPDF?
-ro:Sunteti sigur ca doriti sa dezinstalati Sumatra PDF?
-ru:Вы уверены, что хотите удалить SumatraPDF?
-si:ඔබට SumatraPDF අස්ථාපනය කිරීමට අවශ්‍ය බවට විශ්වාසද?
-sk:Naozaj chcete odinštalovat SumatraPDF?
-sl:Ali ste prepričani, da želite odstraniti SumatraPDF?
-sn:Une chokwadi chekuti urikuda kubvisa SumatraPDF?
-sp-rs:Da li sigurno želite da uklonite SumatraPDF?
-sq:Jeni i sigurt se doni të çinstaloni SumatraPDF?
+ku:ئایا دڵنیایت لە سڕینەوەی ZiherPDF?
+kw:Os ta sur bos hwans dhis anlea ZiherPDF?
+lt:Ar tikrai norite pašalinti ZiherPDF?
+lv:Vai jūs esat pārliecināti, ka vēlaties atinstalēt ZiherPDF?
+mk:Дали сте сигурни дека сакате да го избришете ZiherPDF?
+my:Adakah anda pasti anda mahu membuang ZiherPDF?
+ne:ZiherPDF हटाउन चाहानुहुन्छ?
+nl:Weet u zeker dat u ZiherPDF wilt verwijderen?
+nn:Er du sikker på at du vil avinstallere ZiherPDF?
+no:Vil du virkelig avinstallere ZiherPDF?
+pa:ਕੀ ਤੁਸੀਂ ZiherPDF ਨੂੰ ਅਣ-ਸਥਾਪਿਤ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?
+pl:Czy na pewno chcesz usunąć ZiherPDF?
+pt:Tem a certeza de que deseja desinstalar ZiherPDF?
+ro:Sunteti sigur ca doriti sa dezinstalati Ziher PDF?
+ru:Вы уверены, что хотите удалить ZiherPDF?
+si:ඔබට ZiherPDF අස්ථාපනය කිරීමට අවශ්‍ය බවට විශ්වාසද?
+sk:Naozaj chcete odinštalovat ZiherPDF?
+sl:Ali ste prepričani, da želite odstraniti ZiherPDF?
+sn:Une chokwadi chekuti urikuda kubvisa ZiherPDF?
+sp-rs:Da li sigurno želite da uklonite ZiherPDF?
+sq:Jeni i sigurt se doni të çinstaloni ZiherPDF?
 sr-rs:Да ли желите деинсталацију СуматраПДФ
-sv:Är du säker på att du vill avinstallera SumatraPDF?
+sv:Är du säker på att du vill avinstallera ZiherPDF?
 ta:சுமத்ரா PDF நிறுவலை நீக்கவா?
-th:คุณแน่ใจหรือไม่ว่าต้องการถอนการติดตั้ง SumatraPDF?
-tr:SumatraPDF'yi bilgisayarınızdan kaldırmak istediğinize emin misiniz ?
-tw:你確定要解除安裝 SumatraPDF 嗎？
-uk:Ви впевнені, що хочете видалити SumatraPDF?
-uz:SumatraPDF'ni o'chirishga ishonchingiz komilmi?
-vn:Bạn có chắc muốn gỡ bỏ SumatraPDF không?
+th:คุณแน่ใจหรือไม่ว่าต้องการถอนการติดตั้ง ZiherPDF?
+tr:ZiherPDF'yi bilgisayarınızdan kaldırmak istediğinize emin misiniz ?
+tw:你確定要解除安裝 ZiherPDF 嗎？
+uk:Ви впевнені, що хочете видалити ZiherPDF?
+uz:ZiherPDF'ni o'chirishga ishonchingiz komilmi?
+vn:Bạn có chắc muốn gỡ bỏ ZiherPDF không?
 :Associate with PDF files?
 af:Assosieer Met PDF lêers?
 am:Ասոցիացնե՞լ PDF ֆայլերի հետ։
@@ -8633,7 +8633,7 @@ fa:در پیشفرض قرارداد اپلیکیشن در ویندوز 10 خطا
 fr:Échec de l'enregistrement comme programme par défaut sous Windows 10.
 ga:Theip ar chlárú mar chlár  réamhshocraithe ar Win 10
 gl:Non se puido rexistrar como programa por defecto en Windows 10
-he:רישום SumatraPDF כתוכנת ברירת מחדל לקובצי PDF ב- Windows 10 נכשל.
+he:רישום ZiherPDF כתוכנת ברירת מחדל לקובצי PDF ב- Windows 10 נכשל.
 hi:इस प्रोग्राम को विंडोज १० पर डिफ़ॉल्ट प्रोग्राम के तौर पर दर्ज नहीं जा सका
 hr:Neuspješno registriranje kao zadani program na Windows 10
 hu:Sikertelen regisztráció alapértelmezett programként Windows 10-en
@@ -10953,133 +10953,133 @@ kw:Ynk
 nl:Snelkoppeling
 pl:Atrament
 ru:Чернила
-:Install SumatraPDF
-af:Installeer SumatraPDF
-am:Տեղակայել SumatraPDF-ը
+:Install ZiherPDF
+af:Installeer ZiherPDF
+am:Տեղակայել ZiherPDF-ը
 ar:المحمولة Sumatra تثبيت مستندات
-az:SumatraPDF-i quraşdır
-bg:Инсталиране на SumatraPDF
+az:ZiherPDF-i quraşdır
+bg:Инсталиране на ZiherPDF
 bn:সুমাত্রা পিডিএফ স্থাপন করুন
-br:Instalar SumatraPDF
-bs:Instaliraj SumatraPDF
-by:Усталяваць SumatraPDF
-ca-xv:Instal·la el SumatraPDF
-ca:Instal·la el SumatraPDF
-cn:安装 SumatraPDF
-co:Installà SumatraPDF
-cy:Gosod SumatraPDF
-cz:Nainstalovat SumatraPDF
+br:Instalar ZiherPDF
+bs:Instaliraj ZiherPDF
+by:Усталяваць ZiherPDF
+ca-xv:Instal·la el ZiherPDF
+ca:Instal·la el ZiherPDF
+cn:安装 ZiherPDF
+co:Installà ZiherPDF
+cy:Gosod ZiherPDF
+cz:Nainstalovat ZiherPDF
 de:Installieren
-dk:Installer SumatraPDF
-el:Εγκατάσταση SumatraPDF
-es:Instalar SumatraPDF
-et:Paigalda SumatraPDF
-eu:Ezarri SumatraPDF
-fa:نصب کردن SumatraPDF
-fi:Asenna SumatraPDF
-fr:Installer SumatraPDF
-ga:Suiteáil SumatraPDF
-gl:Instalar SumatraPDF
-he:התקן את SumatraPDF
-hi:SumatraPDF स्थापित करें
-hr:Instaliraj SumatraPDF
-hu:SumatraPDF telepítése
-id:Install SumatraPDF
-it:Installa SumatraPDF
+dk:Installer ZiherPDF
+el:Εγκατάσταση ZiherPDF
+es:Instalar ZiherPDF
+et:Paigalda ZiherPDF
+eu:Ezarri ZiherPDF
+fa:نصب کردن ZiherPDF
+fi:Asenna ZiherPDF
+fr:Installer ZiherPDF
+ga:Suiteáil ZiherPDF
+gl:Instalar ZiherPDF
+he:התקן את ZiherPDF
+hi:ZiherPDF स्थापित करें
+hr:Instaliraj ZiherPDF
+hu:ZiherPDF telepítése
+id:Install ZiherPDF
+it:Installa ZiherPDF
 ja:SumatraPDFをインストール
-jv:Install SumatraPDF
-ka:SumatraPDF-ის ინსტალაცია
-kr:SumatraPDF 설치
-ku:دابەزاندنی SumatraPDF
-kw:Lea SumatraPDF
-lt:Įdiegti SumatraPDF
-lv:Instalēt SumatraPDF
-mk:Инсталирај SumatraPDF
-my:Pasang SumatraPDF
-ne:SumatraPDF स्थापना गर्नुहोस
-nl:Installeer SumatraPDF
-nn:Installer SumatraPDF
-no:Installer SumatraPDF
-pl:Zainstaluj SumatraPDF
-pt:Instalar SumatraPDF
-ro:Instalare SumatraPDF
+jv:Install ZiherPDF
+ka:ZiherPDF-ის ინსტალაცია
+kr:ZiherPDF 설치
+ku:دابەزاندنی ZiherPDF
+kw:Lea ZiherPDF
+lt:Įdiegti ZiherPDF
+lv:Instalēt ZiherPDF
+mk:Инсталирај ZiherPDF
+my:Pasang ZiherPDF
+ne:ZiherPDF स्थापना गर्नुहोस
+nl:Installeer ZiherPDF
+nn:Installer ZiherPDF
+no:Installer ZiherPDF
+pl:Zainstaluj ZiherPDF
+pt:Instalar ZiherPDF
+ro:Instalare ZiherPDF
 ru:Начать установку
-si:SumatraPDF සථාපනය කරන්න
-sk:Inštaluj SumatraPDF
-sl:Namesti SumatraPDF
-sp-rs:Instaliraj SumatraPDF
-sq:Instaloj SumatraPDF
+si:ZiherPDF සථාපනය කරන්න
+sk:Inštaluj ZiherPDF
+sl:Namesti ZiherPDF
+sp-rs:Instaliraj ZiherPDF
+sq:Instaloj ZiherPDF
 sr-rs:Инсталација СуматраПДФ
-sv:Installera SumatraPDF
+sv:Installera ZiherPDF
 ta:சுமத்ராPDFஐ நிறுவு
-th:ติดตั้ง SumatraPDF
-tr:SumatraPDF yükle
-tw:安裝 SumatraPDF
-uk:Встановити SumatraPDF
-uz:SumatraPDF o'rnatish
-vn:Cài đặt SumatraPDF
-:Install SumatraPDF in &folder:
-am:Տեղադրել SumatraPDF-ը &հետևյալ պանակում՝
+th:ติดตั้ง ZiherPDF
+tr:ZiherPDF yükle
+tw:安裝 ZiherPDF
+uk:Встановити ZiherPDF
+uz:ZiherPDF o'rnatish
+vn:Cài đặt ZiherPDF
+:Install ZiherPDF in &folder:
+am:Տեղադրել ZiherPDF-ը &հետևյալ պանակում՝
 ar:المحمولة في المجلد Sumatra تثبيت مستندات :
-az:SumatraPDF-i bu &qovluqda quraşdır:
-bg:Инсталираи SumatraPDF във &папка
-br:Instalar SumatraPDF na &pasta:
-bs:Instaliraj SumatraPDF u &direktorij:
-by:Усталяваць SumatraPDF у &каталог:
-ca-xv:Instal·la el SumatraPDF a la &carpeta:
-ca:Instal·la el SumatraPDF a la &carpeta:
-cn:安装 SumatraPDF 于文件夹(&F):
-co:Installà SumatraPDF in u &cartulare :
-cy:Gosod SumatraPDF yn &ffolder:
-cz:Nainstalovat SumatraPDF do &složky:
+az:ZiherPDF-i bu &qovluqda quraşdır:
+bg:Инсталираи ZiherPDF във &папка
+br:Instalar ZiherPDF na &pasta:
+bs:Instaliraj ZiherPDF u &direktorij:
+by:Усталяваць ZiherPDF у &каталог:
+ca-xv:Instal·la el ZiherPDF a la &carpeta:
+ca:Instal·la el ZiherPDF a la &carpeta:
+cn:安装 ZiherPDF 于文件夹(&F):
+co:Installà ZiherPDF in u &cartulare :
+cy:Gosod ZiherPDF yn &ffolder:
+cz:Nainstalovat ZiherPDF do &složky:
 de:&Installationsverzeichnis:
-dk:Installer SumatraPDF i &mappe:
-el:Εγκατάσταση SumatraPDF στο φάκελο:
-es:&Instalar SumatraPDF en la siguiente carpeta:
-et:Paigalda SumatraPDF &kataloogi:
+dk:Installer ZiherPDF i &mappe:
+el:Εγκατάσταση ZiherPDF στο φάκελο:
+es:&Instalar ZiherPDF en la siguiente carpeta:
+et:Paigalda ZiherPDF &kataloogi:
 eu:Ezarri Su&matraPDF agiritegi honetan:
-fa:SumatraPDF را در این &پوشه نصب کن:
-fi:Asenna SumatraPDF kansioon:
-fr:Installer SumatraPDF dans le répertoire :
-ga:Suiteáil SumatraPDF sa bh&fillteán seo:
-gl:Instalar SumatraPDF no &cartafol:
-he:התקן את SumatraPDF בתיקייה:
-hr:Instaliraj SumatraPDF u &mapu:
-hu:SumatraPDF telepítése a következő &könyvtárba:
-id:Install SumatraPDF ke &folder:
+fa:ZiherPDF را در این &پوشه نصب کن:
+fi:Asenna ZiherPDF kansioon:
+fr:Installer ZiherPDF dans le répertoire :
+ga:Suiteáil ZiherPDF sa bh&fillteán seo:
+gl:Instalar ZiherPDF no &cartafol:
+he:התקן את ZiherPDF בתיקייה:
+hr:Instaliraj ZiherPDF u &mapu:
+hu:ZiherPDF telepítése a következő &könyvtárba:
+id:Install ZiherPDF ke &folder:
 it:Installa SumatraPD&F nella cartella:
-ja:SumatraPDF インストール先フォルダ(&F)
-jv:Install SumatraPDF ning &folder:
-ka:SumatraPDF-ის ინსტალაცია &საქაღალდეში:
-kr:SumatraPDF 설치 폴더(&F):
-ku:لە فۆڵدەری SumatraPDF دابەزاندنی:
-kw:Lea SumatraPDF yn &restren:
-lt:Įdiegti SumatraPDF į &katalogą:
-lv:Instalēt SumatraPDF &mapē:
-mk:Инсталирај SumatraPDF во &папка:
-my:Pasang SumatraPDF dalam &folder
-ne:SumatraPDF स्थापना फोल्डर:
-nl:Installeer SumatraPDF in &map
-nn:Installer SumatraPDF i mappa:
-no:Installere SumatraPDF i &mappe:
-pl:Zainstaluj SumatraPDF w &folderze:
+ja:ZiherPDF インストール先フォルダ(&F)
+jv:Install ZiherPDF ning &folder:
+ka:ZiherPDF-ის ინსტალაცია &საქაღალდეში:
+kr:ZiherPDF 설치 폴더(&F):
+ku:لە فۆڵدەری ZiherPDF دابەزاندنی:
+kw:Lea ZiherPDF yn &restren:
+lt:Įdiegti ZiherPDF į &katalogą:
+lv:Instalēt ZiherPDF &mapē:
+mk:Инсталирај ZiherPDF во &папка:
+my:Pasang ZiherPDF dalam &folder
+ne:ZiherPDF स्थापना फोल्डर:
+nl:Installeer ZiherPDF in &map
+nn:Installer ZiherPDF i mappa:
+no:Installere ZiherPDF i &mappe:
+pl:Zainstaluj ZiherPDF w &folderze:
 pt:Instalar SumatraPD&F na pasta:
-ro:Instalare SumatraPDF in &folderul:
-ru:Установить SumatraPDF в &папку:
-si:ෆෝල්ඩරයේ SumatraPDF ස්ථාපනය කරන්න
-sk:Inštaluj SumatraPDF do &adresára:
-sl:Namesti SumatraPDF v mapo:
-sp-rs:Instalacija SumatraPDF u folder
-sq:Instaloj SumatraPDF në &dosje:
+ro:Instalare ZiherPDF in &folderul:
+ru:Установить ZiherPDF в &папку:
+si:ෆෝල්ඩරයේ ZiherPDF ස්ථාපනය කරන්න
+sk:Inštaluj ZiherPDF do &adresára:
+sl:Namesti ZiherPDF v mapo:
+sp-rs:Instalacija ZiherPDF u folder
+sq:Instaloj ZiherPDF në &dosje:
 sr-rs:Инсталација СуматраПДФ
-sv:Installera SumatraPDF i katalog:
+sv:Installera ZiherPDF i katalog:
 ta:சுமத்ராPDFஐ &கோப்புறையில் நிறுவவும்:
-th:ติดตั้ง SumatraPDF ใน &โฟลเดอร์:
-tr:&folder klasörüne SumatraPDF'yi yükle
-tw:安裝 SumatraPDF 於資料夾(&F):
-uk:Встановити SumatraPDF у папку
-uz:SumatraPDF &jildga o'rnatish
-vn:Cài đặt SumatraPDF trong &thư mục:
+th:ติดตั้ง ZiherPDF ใน &โฟลเดอร์:
+tr:&folder klasörüne ZiherPDF'yi yükle
+tw:安裝 ZiherPDF 於資料夾(&F):
+uk:Встановити ZiherPDF у папку
+uz:ZiherPDF &jildga o'rnatish
+vn:Cài đặt ZiherPDF trong &thư mục:
 :Installation failed!
 am:Տեղակայումը ձախողվեց:
 ar:!فشل التثبيت
@@ -11106,7 +11106,7 @@ fi:Asentaminen epäonnistui!
 fr:Échec de l'installation !
 ga:Theip ar an suiteáil!
 gl:Fallou a instalación!
-he:התקנת SumatraPDF נכשלה.
+he:התקנת ZiherPDF נכשלה.
 hr:Instalacija nije uspjela!
 hu:Telepítés sikertelen!
 id:Instalasi gagal!
@@ -11168,7 +11168,7 @@ fi:Asennus käynnissä...
 fr:Installation en cours…
 ga:Suiteáil ar siúl...
 gl:Instalación en curso...
-he:מתקין את SumatraPDF...
+he:מתקין את ZiherPDF...
 hr:Instaliranje...
 hu:Telepítés folyamatban...
 id:Instalasi sedang berlangsung...
@@ -11532,144 +11532,144 @@ tw:MB
 uk:MB
 uz:MB
 vn:MB
-:Make SumatraPDF default application for PDF files?
+:Make ZiherPDF default application for PDF files?
 af:Maak Sumatra Die Automatiese Program Vir PDF Lêers?
-am:Հաստատե՞լ SumatraPDF-ն PDF ֆայլերը բացող հիմնական ծրագիր։
+am:Հաստատե՞լ ZiherPDF-ն PDF ֆայլերը բացող հիմնական ծրագիր։
 ar: المحمولة الافتراضي  لملفات المستندات المحمولة؟ Sumatra  جعل تطبيق مستندات
-az:SumatraPDF PDF faylların görüntülənməsi üçün standart proqram edilsin?
-bg:Искате ли да зададете SumatraPDF като основното си приложение за отваряне на PDF файлове?
+az:ZiherPDF PDF faylların görüntülənməsi üçün standart proqram edilsin?
+bg:Искате ли да зададете ZiherPDF като основното си приложение за отваряне на PDF файлове?
 bn:সুমাত্রাপিডিএফ কে পিডিএফ সঞ্চিকাগুলির জন্য স্বাভাবিক অনুপ্রয়োগ রূপে নির্ধারণ করা হবে?
-br:Fazer do SumatraPDF o programa padrão para arquivos PDF?
-bs:Postavi SumatraPDF za glavnu aplikaciju za PDF fajlove?
-by:Зрабіць SumatraPDF стандартнай праграмай прагляду PDF-файлаў?
-ca-xv:Voleu que el SumatraPDF siga el visor predeterminat dels fitxers PDF?
-ca:Voleu que el SumatraPDF sigui el visor predeterminat dels fitxers PDF?
-cn:把 SumatraPDF 作为默认的 PDF 阅读器?
-co:Fà di SumatraPDF l’appiecazione predefinita per i schedarii PDF ?
-cy:Gosod SumatraPDF fel rhaglen rhagosodedig ar gyfer ffeiliau PDF?
-cz:Nastavit SumatraPDF jako výchozí prohlížeč PDF souborů?
-de:SumatraPDF als Standardanwendung für PDF-Dateien registrieren?
-dk:Gør SumatraPDF til standardprogrammet for PDF-filer
-el:Να γίνει το SumatraPDF το προεπιλεγμένο πρόγραμμα αρχείων PDF;
-es:¿Convertir SumatraPDF en la aplicación predeterminada para archivos PDF?
-et:Tee SumatraPDF PDF-failide vaikerakenduseks?
+br:Fazer do ZiherPDF o programa padrão para arquivos PDF?
+bs:Postavi ZiherPDF za glavnu aplikaciju za PDF fajlove?
+by:Зрабіць ZiherPDF стандартнай праграмай прагляду PDF-файлаў?
+ca-xv:Voleu que el ZiherPDF siga el visor predeterminat dels fitxers PDF?
+ca:Voleu que el ZiherPDF sigui el visor predeterminat dels fitxers PDF?
+cn:把 ZiherPDF 作为默认的 PDF 阅读器?
+co:Fà di ZiherPDF l’appiecazione predefinita per i schedarii PDF ?
+cy:Gosod ZiherPDF fel rhaglen rhagosodedig ar gyfer ffeiliau PDF?
+cz:Nastavit ZiherPDF jako výchozí prohlížeč PDF souborů?
+de:ZiherPDF als Standardanwendung für PDF-Dateien registrieren?
+dk:Gør ZiherPDF til standardprogrammet for PDF-filer
+el:Να γίνει το ZiherPDF το προεπιλεγμένο πρόγραμμα αρχείων PDF;
+es:¿Convertir ZiherPDF en la aplicación predeterminada para archivos PDF?
+et:Tee ZiherPDF PDF-failide vaikerakenduseks?
 eu:Egin SumatraPFD berezko aplikazioa PDF agirientzat?
 fa:پرونده‌های PDF همیشه با این برنامه خوانده شوند؟
-fi:Tee SumatraPDF:stä PDF-asiakirjojen oletuslukuohjelma?
-fr:Faire de SumatraPDF l’application par défaut pour les fichiers PDF ?
-fy-nl:SumatraPDF as standertlêzer fan PDF-bestannen ynstelle?
-ga:Bíodh SumatraPDF mar an léitheoir PDF réamhshocruithe?
-gl:Facer o SumatraPDF a aplicación por defecto para arquivos PDF?
-he:האם ברצונך להגדיר את SumatraPDF\n כתוכנת ברירת מחדל לקובצי PDF?
-hi:सभी PDF फाईलें SumatraPDF में खोलें ?
+fi:Tee ZiherPDF:stä PDF-asiakirjojen oletuslukuohjelma?
+fr:Faire de ZiherPDF l’application par défaut pour les fichiers PDF ?
+fy-nl:ZiherPDF as standertlêzer fan PDF-bestannen ynstelle?
+ga:Bíodh ZiherPDF mar an léitheoir PDF réamhshocruithe?
+gl:Facer o ZiherPDF a aplicación por defecto para arquivos PDF?
+he:האם ברצונך להגדיר את ZiherPDF\n כתוכנת ברירת מחדל לקובצי PDF?
+hi:सभी PDF फाईलें ZiherPDF में खोलें ?
 hr:Postaviti SumatruPDF pretpostavljenim preglednikom PDF datoteka?
-hu:Legyen a SumatraPDF az alapértelmezett PDF-megnyitó program?
-id:Jadikan SumatraPDF sebagai aplikasi standar untuk membuka berkas PDF?
-it:Impostare SumatraPDF come programma predefinito per i file PDF?
-ja:SumatraPDF を PDF ファイルの既定のアプリケーションにしますか?
-ka:ნამდვილად გსურთ SumatraPDF თქვენს ნაგულისხმევი PDF წამკითხველად დაყენება?
+hu:Legyen a ZiherPDF az alapértelmezett PDF-megnyitó program?
+id:Jadikan ZiherPDF sebagai aplikasi standar untuk membuka berkas PDF?
+it:Impostare ZiherPDF come programma predefinito per i file PDF?
+ja:ZiherPDF を PDF ファイルの既定のアプリケーションにしますか?
+ka:ნამდვილად გსურთ ZiherPDF თქვენს ნაგულისხმევი PDF წამკითხველად დაყენება?
 kr:SumatraPDF를 PDF 파일의 기본 프로그램으로 만들까요?
-ku:؟PDF وەکو بەرنامەی سەرەکی بۆ کردنەوەی فایلەکانی SumatraPDF ڕێکخستنی
-kw:Gul SumatraPDF towlen savonek rag restrennow PDF?
+ku:؟PDF وەکو بەرنامەی سەرەکی بۆ کردنەوەی فایلەکانی ZiherPDF ڕێکخستنی
+kw:Gul ZiherPDF towlen savonek rag restrennow PDF?
 lt:Ar nustatyti „SumatraPDF“ kaip numatytąją PDF žiūryklę?
-lv:Vai iestatīt SumatraPDF kā noklusējuma lietojumprogrammu PDF failiem?
-mk:Дали да ја направам SumatraPDF основна апликација за PDF-датотеки?
-mm:SumatraPDF ကို PDF ဖိုင်များဖွင့်ရန် အဖြစ်ပြုလုပ်လိုပါသလား။
-my:Jadikan aplikasi SumatraPDF pembaca utama bagi fail PDF?
-ne:SumatraPDF लाई PDF फाइलको पूर्वनिर्धारित अनुप्रयोग बनाउने?
-nl:SumatraPDF als standaardlezer van PDF-bestanden instellen?
-nn:Gjere SumatraPDF til standardprogram for PDF-filer?
-no:Gjøre SumatraPDF til standard åpningsprogram for PDF-filer?
-pa:PDF ਫਾਈਲਾਂ SumatraPDF ਵਿੱਚ ਖੋਲੋ?
-pl:Ustawić program SumatraPDF jako domyślną przeglądarkę plików PDF?
-pt:Tornar SumatraPDF a aplicação principal para PDFs?
-ro:Setați SumatraPDF ca program implicit pentru fișierele PDF?
-ru:Сделать SumatraPDF программой просмотра PDF-файлов по умолчанию?
-si:PDF ගොනු සදහා පෙරනිමි මෘදුකාංගය ලෙස SumatraPDF සකසන්නද?
-sk:Nastaviť SumatraPDF ako predvolený prehliadač PDF súborov?
-sl:Naj bo SumatraPDF privezti program za datoteke PDF?
-sp-rs:Postaviti SumatraPDF kao podrazumevanu aplikaciju za PDF datoteke?
-sq:A të jetë SumatraPDF aplikacioni standard për skedarët PDF?
-sr-rs:Поставити SumatraPDF као подразумевану апликацију за PDF датотеке?
-sv:Ställa in SumatraPDF som standardprogram för PDF-filer?
+lv:Vai iestatīt ZiherPDF kā noklusējuma lietojumprogrammu PDF failiem?
+mk:Дали да ја направам ZiherPDF основна апликација за PDF-датотеки?
+mm:ZiherPDF ကို PDF ဖိုင်များဖွင့်ရန် အဖြစ်ပြုလုပ်လိုပါသလား။
+my:Jadikan aplikasi ZiherPDF pembaca utama bagi fail PDF?
+ne:ZiherPDF लाई PDF फाइलको पूर्वनिर्धारित अनुप्रयोग बनाउने?
+nl:ZiherPDF als standaardlezer van PDF-bestanden instellen?
+nn:Gjere ZiherPDF til standardprogram for PDF-filer?
+no:Gjøre ZiherPDF til standard åpningsprogram for PDF-filer?
+pa:PDF ਫਾਈਲਾਂ ZiherPDF ਵਿੱਚ ਖੋਲੋ?
+pl:Ustawić program ZiherPDF jako domyślną przeglądarkę plików PDF?
+pt:Tornar ZiherPDF a aplicação principal para PDFs?
+ro:Setați ZiherPDF ca program implicit pentru fișierele PDF?
+ru:Сделать ZiherPDF программой просмотра PDF-файлов по умолчанию?
+si:PDF ගොනු සදහා පෙරනිමි මෘදුකාංගය ලෙස ZiherPDF සකසන්නද?
+sk:Nastaviť ZiherPDF ako predvolený prehliadač PDF súborov?
+sl:Naj bo ZiherPDF privezti program za datoteke PDF?
+sp-rs:Postaviti ZiherPDF kao podrazumevanu aplikaciju za PDF datoteke?
+sq:A të jetë ZiherPDF aplikacioni standard për skedarët PDF?
+sr-rs:Поставити ZiherPDF као подразумевану апликацију за PDF датотеке?
+sv:Ställa in ZiherPDF som standardprogram för PDF-filer?
 ta:சுமத்ராPDFயை கோட நிலை PDF படிப்பியாக மாற்றவா?
-th:ตั้ง SumatraPDF เป็นโปรแกรมมาตรฐานสำหรับเปิดไฟล์ PDF หรือไม่
-tl:Gawin ang SumatraPDF bilang default na pambukas ng mga PDF files?
-tr:SumatraPDF'i PDF dosyaları için varsayılan uygulama yapmak ister misiniz?
-tw:把 SumatraPDF 作為預設的 PDF 閱讀器?
-uk:Зробити SumatraPDF типовою програмою для PDF-файлів?
-uz:SumatraPDF PDF-fayllarni ko'rish andoza dasturi sifatida ishlatilsinmi?
-vn:Đặt SumatraPDF làm trình đọc PDF mặc định?
-:Make SumatraPDF my default PDF reader
+th:ตั้ง ZiherPDF เป็นโปรแกรมมาตรฐานสำหรับเปิดไฟล์ PDF หรือไม่
+tl:Gawin ang ZiherPDF bilang default na pambukas ng mga PDF files?
+tr:ZiherPDF'i PDF dosyaları için varsayılan uygulama yapmak ister misiniz?
+tw:把 ZiherPDF 作為預設的 PDF 閱讀器?
+uk:Зробити ZiherPDF типовою програмою для PDF-файлів?
+uz:ZiherPDF PDF-fayllarni ko'rish andoza dasturi sifatida ishlatilsinmi?
+vn:Đặt ZiherPDF làm trình đọc PDF mặc định?
+:Make ZiherPDF my default PDF reader
 af:Maak Sumatra Die Automatiese PDF Leser
-am:Ասոցիացնել PDF ֆայլերը SumatraPDF-ի հետ
+am:Ասոցիացնել PDF ֆայլերը ZiherPDF-ի հետ
 ar:المحمولة  قارئ المستندات المحمولة الافتراضي Sumatra جعل  مستندات 
-az:SumatraPDF-i PDF fayllarla əlaqələndir
-bg:Направи SumatraPDF четец на PDF по подразбиране
+az:ZiherPDF-i PDF fayllarla əlaqələndir
+bg:Направи ZiherPDF четец на PDF по подразбиране
 bn:সুমাত্রাপিডিএফ কে আপনার স্বাভাবিক পঠক রূপে নির্ধারণ
-br:Tornar o SumatraPDF o leitor PDF padrão
-bs:Učini SumatraPDF mojim glavnim čitačem PDF fajlova
-by:Зрабіць SumatraPDF чытальнікам PDF па-змаўчанні
-ca-xv:Fes el SumatraPDF el lector de PDF predeterminat
-ca:Fes el SumatraPDF el lector de PDF predeterminat
-cn:将 SumatraPDF 设置为默认的 PDF 阅读器
-co:Fà di SumatraPDF u mo lettore PDF predefinitu
-cy:Gosod SumatraPDF fel y darllenydd PDF rhagosodedig
-cz:Nastavit SumatraPDF jako výchozí PDF prohlížeč
-de:Standardmäßig PDF-Dateien mit SumatraPDF öffnen
-dk:Gør SumatraPDF til min standardlæser for PDF-filer
-el:Συσχετισμός του SumatraPDF με τα αρχεία PDF
-es:Convertir SumatraPDF el lector PDF predeterminado
-et:Tee SumatraPDF PDF-failide vaikerakenduseks
-eu:Egin SumatraPDF nire berezko PDF irakurlea
-fa:انتخاب SumatraPDF به عنوان برنامه‌ی پیش‌فرض من برای خواندن اسناد PDF
-fi:Tee SumatraPDF:stä PDF-asiakirjojen oletuslukuohjelma
-fr:Définir SumatraPDF comme lecteur PDF par défaut
-fy-nl:SumatraPDF as standert PDF-lêzer ynstelle
-ga:Bíodh SumatraPDF mar an léitheoir PDF réamhshocruithe
-gl:Facer do SumatraPDF o lector PDF predefinido
-he:הגדר את SumatraPDF כתוכנת ברירת מחדל לקובצי PDF
-hi:सभी PDF फाईलें SumatraPDF में खोलें
-hr:Neka SumatraPDF bude pretpostavljeni preglednik PDF datoteka
-hu:SumatraPDF mint alapértelmezett PDF olvasó
-id:Jadikan SumatraPDF sebagai pembaca PDF standar saya
-it:Imposta SumatraPDF come lettore PDF predefinito
-ja:SumatraPDF を規定の PDF リーダーにする
-ka:მოხდეს SumatraPDF-ის ასოცირება PDF ფაილებთან
+br:Tornar o ZiherPDF o leitor PDF padrão
+bs:Učini ZiherPDF mojim glavnim čitačem PDF fajlova
+by:Зрабіць ZiherPDF чытальнікам PDF па-змаўчанні
+ca-xv:Fes el ZiherPDF el lector de PDF predeterminat
+ca:Fes el ZiherPDF el lector de PDF predeterminat
+cn:将 ZiherPDF 设置为默认的 PDF 阅读器
+co:Fà di ZiherPDF u mo lettore PDF predefinitu
+cy:Gosod ZiherPDF fel y darllenydd PDF rhagosodedig
+cz:Nastavit ZiherPDF jako výchozí PDF prohlížeč
+de:Standardmäßig PDF-Dateien mit ZiherPDF öffnen
+dk:Gør ZiherPDF til min standardlæser for PDF-filer
+el:Συσχετισμός του ZiherPDF με τα αρχεία PDF
+es:Convertir ZiherPDF el lector PDF predeterminado
+et:Tee ZiherPDF PDF-failide vaikerakenduseks
+eu:Egin ZiherPDF nire berezko PDF irakurlea
+fa:انتخاب ZiherPDF به عنوان برنامه‌ی پیش‌فرض من برای خواندن اسناد PDF
+fi:Tee ZiherPDF:stä PDF-asiakirjojen oletuslukuohjelma
+fr:Définir ZiherPDF comme lecteur PDF par défaut
+fy-nl:ZiherPDF as standert PDF-lêzer ynstelle
+ga:Bíodh ZiherPDF mar an léitheoir PDF réamhshocruithe
+gl:Facer do ZiherPDF o lector PDF predefinido
+he:הגדר את ZiherPDF כתוכנת ברירת מחדל לקובצי PDF
+hi:सभी PDF फाईलें ZiherPDF में खोलें
+hr:Neka ZiherPDF bude pretpostavljeni preglednik PDF datoteka
+hu:ZiherPDF mint alapértelmezett PDF olvasó
+id:Jadikan ZiherPDF sebagai pembaca PDF standar saya
+it:Imposta ZiherPDF come lettore PDF predefinito
+ja:ZiherPDF を規定の PDF リーダーにする
+ka:მოხდეს ZiherPDF-ის ასოცირება PDF ფაილებთან
 kr:SumatraPDF를 기본 PDF 리더로 만들기
 ku:ڕێکخستنی ئەم بەرنامەیە وەکو خوێنەرەوەی سەرەکی فایلەکانی PDF
-kw:Gwra SumatraPDF ow fennredyer PDF
+kw:Gwra ZiherPDF ow fennredyer PDF
 lt:„SumatraPDF“ nustatymas numatytąja PDF žiūrykle
-lv:Padarīt SumatraPDF par manu noklusējuma PDF lasītāju
-mk:Направи ја SumatraPDF основен читач на PDF
+lv:Padarīt ZiherPDF par manu noklusējuma PDF lasītāju
+mk:Направи ја ZiherPDF основен читач на PDF
 ml:സുമാത്രാപിഡീഎഫ് നിങ്ങളു PDF ഫയല്‍ വായിക്കാനുള്ള മുഖ്യ പ്രോഗ്രാം ആക്കുക
 mm:စူမာတရာ PDF ကြည့်ရာကို အဓိကအဖြစ် အသုံးပြုရန်
-my:Jadikan SumatraPDF pembaca utama PDF
-ne:SumatraPDF लाई PDF फाइलको पूर्वनिर्धारित अनुप्रयोग बनाउनुहोस्
-nl:SumatraPDF als standaard PDF-lezer instellen
-nn:Bruk SumatraPDF som standard PDF-lesar
-no:Bruk SumatraPDF som standard PDF-leser
-pa:ਸਾਰੀਂਆ  PDF ਫਾਈਲਾ SumatraPDF ਵਿਚ ਖੋਲੋ
-pl:Ustaw SumatraPDF jako domyślną przeglądarkę PDF
-pt:Tornar SumatraPDF o leitor principal dos PDF
-ro:Setați SumatraPDF ca cititor implicit de PDF
-ru:Ассоциировать SumatraPDF с файлами PDF
-si:SumatraPDF ප්‍රධාන PDF කියවනය ලෙස සකසන්න
-sk:Nastaviť SumatraPDF ako predvolený PDF prehliadač
-sl:SumatraPDF naj bo privzeti bralnik PDF
-sn:Ita SumatraPDF igovhura maPDF ese
+my:Jadikan ZiherPDF pembaca utama PDF
+ne:ZiherPDF लाई PDF फाइलको पूर्वनिर्धारित अनुप्रयोग बनाउनुहोस्
+nl:ZiherPDF als standaard PDF-lezer instellen
+nn:Bruk ZiherPDF som standard PDF-lesar
+no:Bruk ZiherPDF som standard PDF-leser
+pa:ਸਾਰੀਂਆ  PDF ਫਾਈਲਾ ZiherPDF ਵਿਚ ਖੋਲੋ
+pl:Ustaw ZiherPDF jako domyślną przeglądarkę PDF
+pt:Tornar ZiherPDF o leitor principal dos PDF
+ro:Setați ZiherPDF ca cititor implicit de PDF
+ru:Ассоциировать ZiherPDF с файлами PDF
+si:ZiherPDF ප්‍රධාන PDF කියවනය ලෙස සකසන්න
+sk:Nastaviť ZiherPDF ako predvolený PDF prehliadač
+sl:ZiherPDF naj bo privzeti bralnik PDF
+sn:Ita ZiherPDF igovhura maPDF ese
 sp-rs:Neka SumatraPFD bude podrazumevani PDF čitač
-sq:SumatraPDF të jetë lexuesi standard i PDF-ve
+sq:ZiherPDF të jetë lexuesi standard i PDF-ve
 sr-rs:Нека SumatraPFD буде подразумевани PDF читач
-sv:Använd SumatraPDF som standardläsare för PDF
+sv:Använd ZiherPDF som standardläsare för PDF
 ta:சுமத்ராPDFயை முன்னிருப்பு PDF படிப்பியாக பதிவு செய்
-th:ตั้ง SumatraPDF ตั้งเป็นโปรแกรมหลักสำหรับเปิดไฟล์ PDF
-tl:Gawin ang SumatraPDF bilang default na pambukas ng mga PDF files
+th:ตั้ง ZiherPDF ตั้งเป็นโปรแกรมหลักสำหรับเปิดไฟล์ PDF
+tl:Gawin ang ZiherPDF bilang default na pambukas ng mga PDF files
 tr:Varsayılan PDF okuyucusu yap
-tw:把 SumatraPDF 作為預設的 PDF 閱讀工具
-uk:Зробити SumatraPDF переглядачем PDF за замовчуванням
-uz:SumatraPDF PDF fayllar bilan bog'lanish
-vn:Đặt SumatraPDF làm trình đọc PDF chính
+tw:把 ZiherPDF 作為預設的 PDF 閱讀工具
+uk:Зробити ZiherPDF переглядачем PDF за замовчуванням
+uz:ZiherPDF PDF fayllar bilan bog'lanish
+vn:Đặt ZiherPDF làm trình đọc PDF chính
 :Man&ga Mode
 am:Man&ga եղանակ
 ar:نمط Man&ga 
@@ -15701,67 +15701,67 @@ tw:按 Ctrl+滑鼠左鍵選取內容
 uk:Виберіть вміст з допомогою Ctrl+ліва кнопка миші
 uz:Ctrl va sichqonchaning chap tugmasini bosib tarkibini tanlang
 vn:Đánh dấu nội dung bằng Ctrl+phím chuột trái
-:Select the folder where SumatraPDF should be installed:
-am:Ընտրեք պանակ, որտեղ պետք է տեղադրվի SumatraPDF-ը՝
+:Select the folder where ZiherPDF should be installed:
+am:Ընտրեք պանակ, որտեղ պետք է տեղադրվի ZiherPDF-ը՝
 ar:المحمولة Sumatra حدد المجلد حيث يجب أن يكون مثبت مستندات :
-az:SumatraPDF-in quraşdırılacağı qovluğu seçin:
-bg:Изберете папката, в която да се инсталира SumatraPDF:
-br:Selecione a pasta onde o SumatraPDF deverá ser instalado:
-bs:Izaberite direktorij gdje bi SumatraPDF trebao biti instaliran:
-by:Абярыце каталог, куды ўсталяваць SumatraPDF:
-ca-xv:Seleccioneu la carpeta on voleu instal·lar el SumatraPDF:
-ca:Seleccioneu la carpeta on voleu instal·lar el SumatraPDF:
-cn:选择 SumatraPDF 应被安装的文件夹：
-co:Selezziunà u cartulare induve SumatraPDF serà installatu :
-cy:Dewis y ffolder lle ddylai SumatraPDF gael ei gosod:
-cz:Vyberte adresář, do kterého chcete nainstalovat SumatraPDF:
-de:Wählen Sie den Ordner, in dem SumatraPDF installiert werden soll:
-dk:Vælg mappen hvor SumatraPDF skal installeres:
-el:Επιλέξτε το φάκελο που θα εγκατασταθεί SumatraPDF:
-es:Seleccione la carpeta de instalación de SumatraPDF:
-et:Vali kataloog, mille seest SumatraPDF paigaldatakse.
-eu:Hautatu SumatraPDF ezarri behar den agiritegia:
-fa:پوشه‌ای را برای نصب Sumatra PDF انتخاب کنید:
-fi:Valitse kansio, johon SumatraPDF asennetaan:
-fr:Sélectionner le répertoire d'installation de SumatraPDF :
-ga:Roghnaigh an fillteán inar chóir SumatraPDF a shuiteáil:
-gl:Escolla o cartafol onde quere instalar SumatraPDF
-he:בחר את תיקיית ההתקנה של SumatraPDF:
+az:ZiherPDF-in quraşdırılacağı qovluğu seçin:
+bg:Изберете папката, в която да се инсталира ZiherPDF:
+br:Selecione a pasta onde o ZiherPDF deverá ser instalado:
+bs:Izaberite direktorij gdje bi ZiherPDF trebao biti instaliran:
+by:Абярыце каталог, куды ўсталяваць ZiherPDF:
+ca-xv:Seleccioneu la carpeta on voleu instal·lar el ZiherPDF:
+ca:Seleccioneu la carpeta on voleu instal·lar el ZiherPDF:
+cn:选择 ZiherPDF 应被安装的文件夹：
+co:Selezziunà u cartulare induve ZiherPDF serà installatu :
+cy:Dewis y ffolder lle ddylai ZiherPDF gael ei gosod:
+cz:Vyberte adresář, do kterého chcete nainstalovat ZiherPDF:
+de:Wählen Sie den Ordner, in dem ZiherPDF installiert werden soll:
+dk:Vælg mappen hvor ZiherPDF skal installeres:
+el:Επιλέξτε το φάκελο που θα εγκατασταθεί ZiherPDF:
+es:Seleccione la carpeta de instalación de ZiherPDF:
+et:Vali kataloog, mille seest ZiherPDF paigaldatakse.
+eu:Hautatu ZiherPDF ezarri behar den agiritegia:
+fa:پوشه‌ای را برای نصب Ziher PDF انتخاب کنید:
+fi:Valitse kansio, johon ZiherPDF asennetaan:
+fr:Sélectionner le répertoire d'installation de ZiherPDF :
+ga:Roghnaigh an fillteán inar chóir ZiherPDF a shuiteáil:
+gl:Escolla o cartafol onde quere instalar ZiherPDF
+he:בחר את תיקיית ההתקנה של ZiherPDF:
 hi:sumatraPDF स्थापित करने के लिए फोल्डर का चुनाव किजिए:
-hr:Odaberite mapu gdje bi trebalo instalirati SumatraPDF:
-hu:Válassza ki a SumatraPDF telepítési könyvtárát:
-id:Pilih folder instalasi SumatraPDF:
-it:Seleziona la cartella dove installare SumatraPDF:
+hr:Odaberite mapu gdje bi trebalo instalirati ZiherPDF:
+hu:Válassza ki a ZiherPDF telepítési könyvtárát:
+id:Pilih folder instalasi ZiherPDF:
+it:Seleziona la cartella dove installare ZiherPDF:
 ja:インストール先ディレクトリの選択:
 kr:SumatraPDF를 설치할 폴더 선택:
-ku::SumatraPDF فۆڵدەرێک دیاریبکە بۆ دابەزاندنی
-kw:Dewis an restren le may fynnydh lea SumatraPDF:
-lt:Pasirinkite kur diegti SumatraPDF:
-lv:Atlasiet mapi, kurā ir jāinstalē SumatraPDF
-mk:Изберете ја папката каде што треба да се инсталира SumatraPDF:
-my:Pilih folder di mana SumatraPDF harus dipasang:
-ne:SumatraPDF स्थापना गर्ने फोल्डर चयन गर्नुहोस्:
-nl:Kies de folder waar SumatraPDF geinstalleerd moet worden:
-nn:Vel mappa der SumatraPDF skal bli installert:
-no:Velg mappe der SumatraPDF skal installeres:
-pl:Wybierz folder, w którym należy zainstalować program SumatraPDF:
-pt:Escolha a pasta de instalação do SumatraPDF:
-ro:Alegeti folderul in care sa se instaleze SumatraPDF:
-ru:Укажите папку установки SumatraPDF:
-si:SumatraPDF ස්ථාපනය විය යුතු ෆෝල්ඩරය තෝරන්න:
-sk:Vyberte adresár, kde sa má SumatraPDF nainštalovať:
-sl:Izberite mapo, kjer naj se namesti SumatraPDF:
-sp-rs:Odaberite folder gde želite da instalirate SumatraPDF:
-sq:Seleksiononi dosjen ku do të instalohet SumatraPDF:
+ku::ZiherPDF فۆڵدەرێک دیاریبکە بۆ دابەزاندنی
+kw:Dewis an restren le may fynnydh lea ZiherPDF:
+lt:Pasirinkite kur diegti ZiherPDF:
+lv:Atlasiet mapi, kurā ir jāinstalē ZiherPDF
+mk:Изберете ја папката каде што треба да се инсталира ZiherPDF:
+my:Pilih folder di mana ZiherPDF harus dipasang:
+ne:ZiherPDF स्थापना गर्ने फोल्डर चयन गर्नुहोस्:
+nl:Kies de folder waar ZiherPDF geinstalleerd moet worden:
+nn:Vel mappa der ZiherPDF skal bli installert:
+no:Velg mappe der ZiherPDF skal installeres:
+pl:Wybierz folder, w którym należy zainstalować program ZiherPDF:
+pt:Escolha a pasta de instalação do ZiherPDF:
+ro:Alegeti folderul in care sa se instaleze ZiherPDF:
+ru:Укажите папку установки ZiherPDF:
+si:ZiherPDF ස්ථාපනය විය යුතු ෆෝල්ඩරය තෝරන්න:
+sk:Vyberte adresár, kde sa má ZiherPDF nainštalovať:
+sl:Izberite mapo, kjer naj se namesti ZiherPDF:
+sp-rs:Odaberite folder gde želite da instalirate ZiherPDF:
+sq:Seleksiononi dosjen ku do të instalohet ZiherPDF:
 sr-rs:Одабрати фолдер за инсталацију СуматраПДФ
-sv:Välj en katalog där SumatraPDF ska installeras:
+sv:Välj en katalog där ZiherPDF ska installeras:
 ta:சுமத்ராPDF நிறுவல் கோப்புறை தேர்வு செய்க:
-th:เลือกโฟลเดอร์ที่ควรติดตั้ง SumatraPDF:
-tr:SumatraPDF'in yükleneceği alanı seçin:
-tw:選擇 SumatraPDF 應被安裝的資料夾：
-uk:Виберіть папку, в яку буде встановлено SumatraPDF
-uz:SumatraPDF o'rnatish uchun jildni tanlang:
-vn:Chọn thư mục nơi mà SumatraPDF sẽ được cài đặt:
+th:เลือกโฟลเดอร์ที่ควรติดตั้ง ZiherPDF:
+tr:ZiherPDF'in yükleneceği alanı seçin:
+tw:選擇 ZiherPDF 應被安裝的資料夾：
+uk:Виберіть папку, в яку буде встановлено ZiherPDF
+uz:ZiherPDF o'rnatish uchun jildni tanlang:
+vn:Chọn thư mục nơi mà ZiherPDF sẽ được cài đặt:
 :Selection:
 am:Նշվածը.
 ar:التحديد
@@ -16653,68 +16653,68 @@ kw:Stampa
 nl:Stempel
 pl:Pieczęć
 ru:Печать
-:Start SumatraPDF
-am:Բացել SumatraPDF-ը
+:Start ZiherPDF
+am:Բացել ZiherPDF-ը
 ar:بدء تشغيل مستندات Sumatra  المحمولة
-az:SumatraPDF-i işə sal
-bg:Стартираи SumatraPDF
-br:Iniciar SumatraPDF
-bs:Pokreni SumatraPDF
-by:Запуск SumatraPDF
-ca-xv:Inicia el SumatraPDF
-ca:Inicia el SumatraPDF
+az:ZiherPDF-i işə sal
+bg:Стартираи ZiherPDF
+br:Iniciar ZiherPDF
+bs:Pokreni ZiherPDF
+by:Запуск ZiherPDF
+ca-xv:Inicia el ZiherPDF
+ca:Inicia el ZiherPDF
 cn:启动SumatraPDF
-co:Lancià SumatraPDF
-cy:Cychwyn SumatraPDF
-cz:Spustit SumatraPDF
-de:SumatraPDF starten
-dk:Start SumatraPDF
-el:Έναρξη SumatraPDF
-es:Iniciar SumatraPDF
-et:Käivita SumatraPDF
-eu:Abiarazi SumatraPDF
-fa:اجرای Sumatra PDF
-fi:Avaa SumatraPDF
-fr:Lancer SumatraPDF
-ga:Tosaigh SumatraPDF
-gl:Iniciar SumatraPDF
-he:הפעל את SumatraPDF
-hi:SumatraPDF शुरू
-hr:Pokreni SumatraPDF
-hu:SumatraPDF indítása
-id:Jalankan SumatraPDF
-it:Avvia SumatraPDF
+co:Lancià ZiherPDF
+cy:Cychwyn ZiherPDF
+cz:Spustit ZiherPDF
+de:ZiherPDF starten
+dk:Start ZiherPDF
+el:Έναρξη ZiherPDF
+es:Iniciar ZiherPDF
+et:Käivita ZiherPDF
+eu:Abiarazi ZiherPDF
+fa:اجرای Ziher PDF
+fi:Avaa ZiherPDF
+fr:Lancer ZiherPDF
+ga:Tosaigh ZiherPDF
+gl:Iniciar ZiherPDF
+he:הפעל את ZiherPDF
+hi:ZiherPDF शुरू
+hr:Pokreni ZiherPDF
+hu:ZiherPDF indítása
+id:Jalankan ZiherPDF
+it:Avvia ZiherPDF
 ja:SumatraPDFを実行
-ka:SumatraPDF-ის გაშვება
-kr:SumatraPDF 시작
-ku:SumatraPDF دەستپێکردنی
-kw:Dalleth SumatraPDF
-lt:Paleisti SumatraPDF
-lv:Palaist SumatraPDF
-mk:Стартувај SumatraPDF
-my:Mula SumatraPDF
-ne:SumatraPDF सुरुवात गर्नुहोस
-nl:Start SumatraPDF
-nn:Start SumatraPDF
-no:Start SumatraPDF
-pl:Uruchom SumatraPDF
-pt:Iniciar SumatraPDF
-ro:Pornire SumatraPDF
-ru:Пуск SumatraPDF
-si:SumatraPDF ආරම්භ කරන්න
-sk:Spustiť SumatraPDF
-sl:Zaženi SumatraPDF
+ka:ZiherPDF-ის გაშვება
+kr:ZiherPDF 시작
+ku:ZiherPDF دەستپێکردنی
+kw:Dalleth ZiherPDF
+lt:Paleisti ZiherPDF
+lv:Palaist ZiherPDF
+mk:Стартувај ZiherPDF
+my:Mula ZiherPDF
+ne:ZiherPDF सुरुवात गर्नुहोस
+nl:Start ZiherPDF
+nn:Start ZiherPDF
+no:Start ZiherPDF
+pl:Uruchom ZiherPDF
+pt:Iniciar ZiherPDF
+ro:Pornire ZiherPDF
+ru:Пуск ZiherPDF
+si:ZiherPDF ආරම්භ කරන්න
+sk:Spustiť ZiherPDF
+sl:Zaženi ZiherPDF
 sp-rs:Startovati sumatraPDF
-sq:Nis SumatraPDF
+sq:Nis ZiherPDF
 sr-rs:Старовати СуматраПДФ
-sv:Starta SumatraPDF
+sv:Starta ZiherPDF
 ta:சுமத்ராPDF தொடரவும்
-th:เริ่มต้น SumatraPDF
-tr:SumatraPDF'yi başlat
-tw:啟動 SumatraPDF
-uk:Запустити SumatraPDF
-uz:SumatraPDF ishga tushirish
-vn:Mở SumatraPDF
+th:เริ่มต้น ZiherPDF
+tr:ZiherPDF'yi başlat
+tw:啟動 ZiherPDF
+uk:Запустити ZiherPDF
+uz:ZiherPDF ishga tushirish
+vn:Mở ZiherPDF
 :Strike Out
 am:Գծաջնջված
 az:Üstdən xətt
@@ -16792,578 +16792,579 @@ tw:主題:
 uk:Тема:
 uz:Mavzu:
 vn:Chủ đề:
-:SumatraPDF %s Installer
-af:SumatraPDF %s Installeerder
-am:SumatraPDF %s-ը տեղակայելու ծրագիր
+:ZiherPDF %s Installer
+af:ZiherPDF %s Installeerder
+am:ZiherPDF %s-ը տեղակայելու ծրագիր
 ar:المثبت%s المحمولة Sumatra مستندات
-az:SumatraPDF quraşdırıcısı %s
-bg:SumatraPDF %s инсталатор
-br:SumatraPDF %s instalador
-bs:SumatraPDF %s instaler
-by:SumatraPDF %s Усталёўшчык
-ca-xv:Instal·lador del SumatraPDF %s
-ca:Instal·lador del SumatraPDF %s
-cn:SumatraPDF %s 安装程序
-co:Stalladore di SumatraPDF %s
-cy:Gosodwr SumatraPDF %s
-cz:SumatraPDF %s instalátor
-de:SumatraPDF %s installieren
-dk:SumatraPDF %s installationsprogram
-el:Πρόγραμμα εγκατάστασης SumatraPDF %s
-es:Instalador de SumatraPDF %s
-et:SumatraPDF %s paigaldamine
-eu:SumatraPDF %s Ezartzailea
-fa:نصب کننده SumatraPDF %s
-fi:SumatraPDF %s asennusohjelma
-fr:Installeur de SumatraPDF %s
-ga:Suiteálaí %s SumatraPDF
-gl:Instalador %s SumatraPDF
-he:התקנת SumatraPDF %s
-hr:SumatraPDF %s instaler
-hu:SumatraPDF %s telepítő
-id:Pemasang instalasi SumatraPDF %s
-it:Installazione SumatraPDF %s
-ja:SumatraPDF %s インストーラ
-kr:SumatraPDF %s 설치 관리자
-ku:SumatraPDF %s دابەزاندنی
-kw:Leell %s SumatraPDF
-lt:SumatraPDF diegimo programa %s
-lv:SumatraPDF %s instalēšanas programma
-mk:Инсталација на SumatraPDF %s
-my:Installer SumatraPDF %s
+az:ZiherPDF quraşdırıcısı %s
+bg:ZiherPDF %s инсталатор
+br:ZiherPDF %s instalador
+bs:ZiherPDF %s instaler
+by:ZiherPDF %s Усталёўшчык
+ca-xv:Instal·lador del ZiherPDF %s
+ca:Instal·lador del ZiherPDF %s
+cn:ZiherPDF %s 安装程序
+co:Stalladore di ZiherPDF %s
+cy:Gosodwr ZiherPDF %s
+cz:ZiherPDF %s instalátor
+de:ZiherPDF %s installieren
+dk:ZiherPDF %s installationsprogram
+el:Πρόγραμμα εγκατάστασης ZiherPDF %s
+es:Instalador de ZiherPDF %s
+et:ZiherPDF %s paigaldamine
+eu:ZiherPDF %s Ezartzailea
+fa:نصب کننده ZiherPDF %s
+fi:ZiherPDF %s asennusohjelma
+fr:Installeur de ZiherPDF %s
+ga:Suiteálaí %s ZiherPDF
+gl:Instalador %s ZiherPDF
+he:התקנת ZiherPDF %s
+hr:ZiherPDF %s instaler
+hu:ZiherPDF %s telepítő
+id:Pemasang instalasi ZiherPDF %s
+it:Installazione ZiherPDF %s
+ja:ZiherPDF %s インストーラ
+kr:ZiherPDF %s 설치 관리자
+ku:ZiherPDF %s دابەزاندنی
+kw:Leell %s ZiherPDF
+lt:ZiherPDF diegimo programa %s
+lv:ZiherPDF %s instalēšanas programma
+mk:Инсталација на ZiherPDF %s
+my:Installer ZiherPDF %s
 ne:Sumatrapdf %s स्थापक
-nl:SumatraPDF %s installatieprogramma
-nn:SumatraPDF %s-installerer
-no:SumatraPDF %s installering 
-pl:Instalator SumatraPDF %s
-pt:Instalador do SumatraPDF %s
-ro:Programul de instalare %s SumatraPDF
-ru:Инсталлятор SumatraPDF %s
-si:SumatraPDF %s ස්ථාපනය කරනය
-sk:SumatraPDF %s inštalátor
-sl:SumatraPDF %s namestitev
-sp-rs:SumatraPDF %s instalacija
-sq:Instaluesi i SumatraPDF %s
+nl:ZiherPDF %s installatieprogramma
+nn:ZiherPDF %s-installerer
+no:ZiherPDF %s installering 
+pl:Instalator ZiherPDF %s
+pt:Instalador do ZiherPDF %s
+ro:Programul de instalare %s ZiherPDF
+ru:Инсталлятор ZiherPDF %s
+si:ZiherPDF %s ස්ථාපනය කරනය
+sk:ZiherPDF %s inštalátor
+sl:ZiherPDF %s namestitev
+sp-rs:ZiherPDF %s instalacija
+sq:Instaluesi i ZiherPDF %s
 sr-rs:СуматраПДФ %s инсталација
-sv:Installationsprogram för SumatraPDF %s
+sv:Installationsprogram för ZiherPDF %s
 ta:சுமத்ராPDF %s நிறுவி
-th:ตัวติดตั้ง %s SumatraPDF
-tr:SumatraPDF %s yükleyici
-tw:SumatraPDF %s 安裝器
-uk:Інсталятор SumatraPDF %s
-uz:SumatraPDF %s o'rnatuvchisi
-vn:Bộ cài đặt %s SumatraPDF
-:SumatraPDF %s Uninstaller
-am:SumatraPDF %s-ը հեռացնելու ծրագիր
+th:ตัวติดตั้ง %s ZiherPDF
+tr:ZiherPDF %s yükleyici
+tw:ZiherPDF %s 安裝器
+uk:Інсталятор ZiherPDF %s
+uz:ZiherPDF %s o'rnatuvchisi
+vn:Bộ cài đặt %s ZiherPDF
+:ZiherPDF %s Uninstaller
+am:ZiherPDF %s-ը հեռացնելու ծրագիր
 ar:إلغاء  تثبيت %s المحمولة Sumatra مستندات
-az:SumatraPDF deinstalyatoru %s
-bg:SumatraPDF %s деинсталатор
-br:SumatraPDF %s desinstalador
-bs:SumatraPDF %s deinstaler
-by:SumatraPDF %s Знішчальнік
-ca-xv:Desintal·lador del SumatraPDF %s
-ca:Desintal·lador del SumatraPDF %s
-cn:SumatraPDF %s 卸载程序
-co:Disinstalladore di SumatraPDF %s
-cy:Dadosodwr SumatraPDF %s
-cz:SumatraPDF %s odinstalátor
-de:SumatraPDF %s deinstallieren
-dk:SumatraPDF %s afinstallationsprogram
-el:Πρόγραμμα απεγκατάστασης SumatraPDF %s
-es:Desinstalador de SumatraPDF %s
-et:SumatraPDF %s eemaldamine
-eu:SumatraPDF %s Kentzailea
-fa:حذف کننده SumatraPDF %s
-fi:SumatraPDF %s poisto-ohjelma
-fr:Désinstalleur de SumatraPDF %s
-ga:Díshuiteálaí SumatraPDF %s
-gl:Desinstalador %s SumatraPDF
-he:הסרת SumatraPDF %s
-hr:SumatraPDF %s deinstaler
-hu:SumatraPDF %s eltávolító
-id:Penghapus instalasi SumatraPDF %s
-it:Disinstallazione SumatraPDF %s
-ja:SumatraPDF %s アンインストーラ
-kr:SumatraPDF %s 제거 관리자
-ku:SumatraPDF %s سڕینەوەی
-kw:Anleell %s SumatraPDF
-lt:SumatraPDF šalinimo programa %s
-lv:SumatraPDF %s atinstalēšanas programma
-mk:Деинсталација на SumatraPDF %s
-my:SumatraPDF %s Uninstaller
-ne:SumatraPDF %s अनस्थापक
-nl:SumatraPDF %s deinstallatieprogramma
-nn:SumatraPDF %s-avinstallerer
-no:SumatraPDF %s avinstallering
-pl:Usuń SumatraPDF %s
-pt:Desinstalador do SumatraPDF %s
-ro:Programul de dezinstalare a %s SumatraPDF
-ru:Деинсталлятор SumatraPDF %s
-si:SumatraPDF %s ඉවත් කරනය
-sk:SumatraPDF %s odinštalátor
-sl:SumatraPDF %s odstranitev
-sp-rs:SumatraPDF %s deinstalacija
-sq:Çinstaluesi i SumatraPDF %s
+az:ZiherPDF deinstalyatoru %s
+bg:ZiherPDF %s деинсталатор
+br:ZiherPDF %s desinstalador
+bs:ZiherPDF %s deinstaler
+by:ZiherPDF %s Знішчальнік
+ca-xv:Desintal·lador del ZiherPDF %s
+ca:Desintal·lador del ZiherPDF %s
+cn:ZiherPDF %s 卸载程序
+co:Disinstalladore di ZiherPDF %s
+cy:Dadosodwr ZiherPDF %s
+cz:ZiherPDF %s odinstalátor
+de:ZiherPDF %s deinstallieren
+dk:ZiherPDF %s afinstallationsprogram
+el:Πρόγραμμα απεγκατάστασης ZiherPDF %s
+es:Desinstalador de ZiherPDF %s
+et:ZiherPDF %s eemaldamine
+eu:ZiherPDF %s Kentzailea
+fa:حذف کننده ZiherPDF %s
+fi:ZiherPDF %s poisto-ohjelma
+fr:Désinstalleur de ZiherPDF %s
+ga:Díshuiteálaí ZiherPDF %s
+gl:Desinstalador %s ZiherPDF
+he:הסרת ZiherPDF %s
+hr:ZiherPDF %s deinstaler
+hu:ZiherPDF %s eltávolító
+id:Penghapus instalasi ZiherPDF %s
+it:Disinstallazione ZiherPDF %s
+ja:ZiherPDF %s アンインストーラ
+kr:ZiherPDF %s 제거 관리자
+ku:ZiherPDF %s سڕینەوەی
+kw:Anleell %s ZiherPDF
+lt:ZiherPDF šalinimo programa %s
+lv:ZiherPDF %s atinstalēšanas programma
+mk:Деинсталација на ZiherPDF %s
+my:ZiherPDF %s Uninstaller
+ne:ZiherPDF %s अनस्थापक
+nl:ZiherPDF %s deinstallatieprogramma
+nn:ZiherPDF %s-avinstallerer
+no:ZiherPDF %s avinstallering
+pl:Usuń ZiherPDF %s
+pt:Desinstalador do ZiherPDF %s
+ro:Programul de dezinstalare a %s ZiherPDF
+ru:Деинсталлятор ZiherPDF %s
+si:ZiherPDF %s ඉවත් කරනය
+sk:ZiherPDF %s odinštalátor
+sl:ZiherPDF %s odstranitev
+sp-rs:ZiherPDF %s deinstalacija
+sq:Çinstaluesi i ZiherPDF %s
 sr-rs:СуматраПДФ %s деинсталација
-sv:Avinstallationsprogram för SumatraPDF %s
+sv:Avinstallationsprogram för ZiherPDF %s
 ta:சுமத்ராPDF %s நிறுவல்நீக்கி
-th:ถอนการติดตั้ง SumatraPDF %s
-tr:SumatraPDF %s Kaldırıcı
-tw:SumatraPDF %s 解除安裝器
-uk:Деінсталятор SumatraPDF %s
-uz:SumatraPDF %s o'chirish dasturi
-vn:Bộ gỡ cài đặt %s SumatraPDF
-:SumatraPDF Options
+th:ถอนการติดตั้ง ZiherPDF %s
+tr:ZiherPDF %s Kaldırıcı
+tw:ZiherPDF %s 解除安裝器
+uk:Деінсталятор ZiherPDF %s
+uz:ZiherPDF %s o'chirish dasturi
+vn:Bộ gỡ cài đặt %s ZiherPDF
+:ZiherPDF Options
 am:Ընտրանքներ
 ar:خيارات مستندات Sumatra المحمولة
-az:SumatraPDF seçimləri
-bg:Настройки на SumatraPDF
-br:Opções do SumatraPDF
-bs:SumatraPDF opcije
-by:Параметры SumatraPDF
-ca-xv:Opcions del SumatraPDF
-ca:Opcions del SumatraPDF
-cn:SumatraPDF 选项
-co:Ozzioni di SumatraPDF
-cy:Dewisiadau SumatraPDF
-cz:Možnosti programu SumatraPDF
-de:SumatraPDF-Optionen
-dk:SumatraPDF-valgmuligheder
-el:Επιλογές SumatraPDF
-es:Opciones de SumatraPDF
-et:SumatraPDF-i sätted
-eu:SumatraPDF Aukerak
-fa: گزینه‌های SumatraPDF
-fi:SumatraPDF:n asetukset
-fr:SumatraPDF Options
-fy-nl:SumatraPDF Opsjes
-ga:Roghanna SumatraPDF
-gl:Opcións de SumatraPDF
-he:הגדרות SumatraPDF
+az:ZiherPDF seçimləri
+bg:Настройки на ZiherPDF
+br:Opções do ZiherPDF
+bs:ZiherPDF opcije
+by:Параметры ZiherPDF
+ca-xv:Opcions del ZiherPDF
+ca:Opcions del ZiherPDF
+cn:ZiherPDF 选项
+co:Ozzioni di ZiherPDF
+cy:Dewisiadau ZiherPDF
+cz:Možnosti programu ZiherPDF
+de:ZiherPDF-Optionen
+dk:ZiherPDF-valgmuligheder
+el:Επιλογές ZiherPDF
+es:Opciones de ZiherPDF
+et:ZiherPDF-i sätted
+eu:ZiherPDF Aukerak
+fa: گزینه‌های ZiherPDF
+fi:ZiherPDF:n asetukset
+fr:ZiherPDF Options
+fy-nl:ZiherPDF Opsjes
+ga:Roghanna ZiherPDF
+gl:Opcións de ZiherPDF
+he:הגדרות ZiherPDF
 hi:Sumatra पीडीएफ विकल्प
 hr:Mogućnosti programa
-hu:A SumatraPDF beállításai
-id:Pilihan SumatraPDF
-it:Opzioni di SumatraPDF
-ja:SumatraPDF のオプション
-ka:SumatraPDF-ის პარამეტრები
-kr:SumatraPDF 옵션
-ku:هەڵبژاردنەکانی SumatraPDF
-kw:Etholyow SumatraPDF
+hu:A ZiherPDF beállításai
+id:Pilihan ZiherPDF
+it:Opzioni di ZiherPDF
+ja:ZiherPDF のオプション
+ka:ZiherPDF-ის პარამეტრები
+kr:ZiherPDF 옵션
+ku:هەڵبژاردنەکانی ZiherPDF
+kw:Etholyow ZiherPDF
 lt:„SumatraPDF“ nuostatos
-lv:SumatraPDF opcijas
-mk:Поставувања на SumatraPDF
-my:Tetapan-tetapan SumatraPDF
-ne:SumatraPDF विकल्पहरु
-nl:SumatraPDF Opties
-nn:SumatraPDF-innstillingar
+lv:ZiherPDF opcijas
+mk:Поставувања на ZiherPDF
+my:Tetapan-tetapan ZiherPDF
+ne:ZiherPDF विकल्पहरु
+nl:ZiherPDF Opties
+nn:ZiherPDF-innstillingar
 no:Innstillinger
-pl:Opcje SumatraPDF
-pt:Opções do SumatraPDF
-ro:Opțiuni SumatraPDF
-ru:Параметры SumatraPDF
-si:SumatraPDF විකල්ප (O)
-sk:Nastavenia SumatraPDF
-sl:Možnosti SumatraPDF
-sp-rs:Podešavanja programa SumatraPDF
-sq:SumatraPDF opsionet
-sr-rs:Подешавања програма SumatraPDF
-sv:SumatraPDF Inställningar
+pl:Opcje ZiherPDF
+pt:Opções do ZiherPDF
+ro:Opțiuni ZiherPDF
+ru:Параметры ZiherPDF
+si:ZiherPDF විකල්ප (O)
+sk:Nastavenia ZiherPDF
+sl:Možnosti ZiherPDF
+sp-rs:Podešavanja programa ZiherPDF
+sq:ZiherPDF opsionet
+sr-rs:Подешавања програма ZiherPDF
+sv:ZiherPDF Inställningar
 ta:சுமத்ராPDFஇன் விருப்பப பேரம்
-th:ตัวเลือก SumatraPDF
-tl:Mga Opsyon para sa SumatraPDF
-tr:SumatraPDF Seçenekleri
-tw:SumatraPDF 選項
-uk:Опції SumatraPDF
-uz:SumatraPDF Parametrlari
-vn:Tuỳ chọn SumatraPDF
-:SumatraPDF Update
-am:SumatraPDF-ի թարմացումներ
+th:ตัวเลือก ZiherPDF
+tl:Mga Opsyon para sa ZiherPDF
+tr:ZiherPDF Seçenekleri
+tw:ZiherPDF 選項
+uk:Опції ZiherPDF
+uz:ZiherPDF Parametrlari
+vn:Tuỳ chọn ZiherPDF
+:ZiherPDF Update
+am:ZiherPDF-ի թարմացումներ
 ar:تحديث  مستندات Sumatra المحمولة
-az:SumatraPDF yeniləməsi
-bg:Обновяване на SumatraPDF
-bn:SumatraPDF হালনাগাদ করুন
-br:Atualização do SumatraPDF
-bs:SumatraPDF nadogradnja
-by:Абнаўленне SumatraPDF
-ca-xv:Actualització del SumatraPDF
-ca:Actualització del SumatraPDF
-cn:升级 SumatraPDF
-co:Rinnovu di SumatraPDF
-cy:Diweddaru SumatraPDF
-cz:SumatraPDF - Aktualizace
-de:SumatraPDF-Update
-dk:SumatraPDF-opdatering
-el:Ενημέρωση SumatraPDF
-es:Actualizar SumatraPDF
-et:SumatraPDF-i uuendamine
-eu:SumatraPDF Eguneratu
-fa:به‌روز رسانی SumatraPDF
-fi:SumatraPDF:n päivitys
-fr:Mise à jour de SumatraPDF
+az:ZiherPDF yeniləməsi
+bg:Обновяване на ZiherPDF
+bn:ZiherPDF হালনাগাদ করুন
+br:Atualização do ZiherPDF
+bs:ZiherPDF nadogradnja
+by:Абнаўленне ZiherPDF
+ca-xv:Actualització del ZiherPDF
+ca:Actualització del ZiherPDF
+cn:升级 ZiherPDF
+co:Rinnovu di ZiherPDF
+cy:Diweddaru ZiherPDF
+cz:ZiherPDF - Aktualizace
+de:ZiherPDF-Update
+dk:ZiherPDF-opdatering
+el:Ενημέρωση ZiherPDF
+es:Actualizar ZiherPDF
+et:ZiherPDF-i uuendamine
+eu:ZiherPDF Eguneratu
+fa:به‌روز رسانی ZiherPDF
+fi:ZiherPDF:n päivitys
+fr:Mise à jour de ZiherPDF
 ga:Nuashonrú do ShumatraPDF
-gl:Actualización de SumatraPDF
-he:עדכון SumatraPDF
+gl:Actualización de ZiherPDF
+he:עדכון ZiherPDF
 hi:Sumatra पीडीएफ अपडेट
-hr:SumatraPDF ažuriranje
-hu:SumatraPDF frissítés
-id:Pembaruan SumatraPDF
-it:Controllo aggiornamenti SumatraPDF
-ja:SumatraPDF の更新
-ka:SumatraPDF-ის განახლება
-kr:SumatraPDF 업데이트
-ku:نوێکردنەوەی SumatraPDF
-kw:Nowedhi SumatraPDF
+hr:ZiherPDF ažuriranje
+hu:ZiherPDF frissítés
+id:Pembaruan ZiherPDF
+it:Controllo aggiornamenti ZiherPDF
+ja:ZiherPDF の更新
+ka:ZiherPDF-ის განახლება
+kr:ZiherPDF 업데이트
+ku:نوێکردنەوەی ZiherPDF
+kw:Nowedhi ZiherPDF
 lt:„SumatraPDF“ naujinimas
-lv:SumatraPDF atjaunināšana
-mk:Надградување на SumatraPDF
-my:Kemaskini SumatraPDF
-ne:SumatraPDF अद्यावधिक
-nl:SumatraPDF Update
-nn:SumatraPDF Oppdatering
-no:SumatraPDF-oppdatering
-pl:Aktualizacja SumatraPDF
-pt:Atualização do SumatraPDF
-ro:Versiune nouă SumatraPDF
-ru:Обновление SumatraPDF
-si:SumatraPDF යාවත්කාලීන කිරීම
-sk:Aktualizácia SumatraPDF
-sl:Posodobitev SumatraPDF
-sp-rs:Ažuriranje SumatraPDF
-sq:SumatraPDF azhurnimi
-sr-rs:Ажурирање SumatraPDF
-sv:SumatraPDF Uppdatering
+lv:ZiherPDF atjaunināšana
+mk:Надградување на ZiherPDF
+my:Kemaskini ZiherPDF
+ne:ZiherPDF अद्यावधिक
+nl:ZiherPDF Update
+nn:ZiherPDF Oppdatering
+no:ZiherPDF-oppdatering
+pl:Aktualizacja ZiherPDF
+pt:Atualização do ZiherPDF
+ro:Versiune nouă ZiherPDF
+ru:Обновление ZiherPDF
+si:ZiherPDF යාවත්කාලීන කිරීම
+sk:Aktualizácia ZiherPDF
+sl:Posodobitev ZiherPDF
+sp-rs:Ažuriranje ZiherPDF
+sq:ZiherPDF azhurnimi
+sr-rs:Ажурирање ZiherPDF
+sv:ZiherPDF Uppdatering
 ta:சுமத்ராPDF மேம்படுத்து
-th:อัพเดต SumatraPDF
-tl:Update sa SumatraPDF
-tr:SumatraPDF Güncelleme
-tw:SumatraPDF 更新
-uk:Оновлення SumatraPDF
-uz:SumatraPDF yangilash
-vn:Cập nhật SumatraPDF
-:SumatraPDF crashed
-am:SumatraPDF-ի ձախողում
+th:อัพเดต ZiherPDF
+tl:Update sa ZiherPDF
+tr:ZiherPDF Güncelleme
+tw:ZiherPDF 更新
+uk:Оновлення ZiherPDF
+uz:ZiherPDF yangilash
+vn:Cập nhật ZiherPDF
+:ZiherPDF crashed
+am:ZiherPDF-ի ձախողում
 ar:مستندات Sumatra المحمولة تحطمت
-az:SumatraPDF əməliyyatı qəza ilə nəticələndi
-bg:SumatraPDF се срина (спря внезапно)
-br:O SumatraPDF travou
-bs:SumatraPDF se srušio
-by:SumatraPDF зламаўся
-ca-xv:El SumatraPDF ha fallat
-ca:El SumatraPDF ha fallat
-cn:SumatraPDF 发生错误
-co:SumatraPDF s’hè lampatu
-cy:Chwalodd SumatraPDF
-cz:SumatraPDF - Selhání
-de:SumatraPDF ist abgestürzt
-dk:Kritisk fejl, SumatraPDF lukkes
-el:Το SumatraPDF σταμάτησε να λειτουργεί
-es:SumatraPDF se ha reiniciado debido a un fallo
-et:SumatraPDF jooksis kokku
-eu:SumatraPDF matxuratu egin da
-fa:SumatraPDF از کار افتاد
-fi:SumatraPDF kaatui
-fr:SumatraPDF a planté
-ga:Chlis SumatraPDF
-gl:SumatraPDF fallou
-he:התוכנה SumatraPDF קרסה.
+az:ZiherPDF əməliyyatı qəza ilə nəticələndi
+bg:ZiherPDF се срина (спря внезапно)
+br:O ZiherPDF travou
+bs:ZiherPDF se srušio
+by:ZiherPDF зламаўся
+ca-xv:El ZiherPDF ha fallat
+ca:El ZiherPDF ha fallat
+cn:ZiherPDF 发生错误
+co:ZiherPDF s’hè lampatu
+cy:Chwalodd ZiherPDF
+cz:ZiherPDF - Selhání
+de:ZiherPDF ist abgestürzt
+dk:Kritisk fejl, ZiherPDF lukkes
+el:Το ZiherPDF σταμάτησε να λειτουργεί
+es:ZiherPDF se ha reiniciado debido a un fallo
+et:ZiherPDF jooksis kokku
+eu:ZiherPDF matxuratu egin da
+fa:ZiherPDF از کار افتاد
+fi:ZiherPDF kaatui
+fr:ZiherPDF a planté
+ga:Chlis ZiherPDF
+gl:ZiherPDF fallou
+he:התוכנה ZiherPDF קרסה.
 hi:Sumatra पीडीएफ दुर्घटनाग्रस्त हो गया
-hr:SumatraPDF se srušio
-hu:SumatraPDF működése leállt
-id:SumatraPDF berhenti berfungsi
-it:SumatraPDF ha incontrato un errore irreparabile
-ja:SumatraPDF がクラッシュしました
-jv:SumatraPDF ora mlaku
-ka:SumatraPDF-ის მუშაობა ავარიულად დასრულდა
-kr:SumatraPDF 충돌남
-ku:تێکچوو SumatraPDF
-kw:SumatraPDF a hedhas distowgh
+hr:ZiherPDF se srušio
+hu:ZiherPDF működése leállt
+id:ZiherPDF berhenti berfungsi
+it:ZiherPDF ha incontrato un errore irreparabile
+ja:ZiherPDF がクラッシュしました
+jv:ZiherPDF ora mlaku
+ka:ZiherPDF-ის მუშაობა ავარიულად დასრულდა
+kr:ZiherPDF 충돌남
+ku:تێکچوو ZiherPDF
+kw:ZiherPDF a hedhas distowgh
 lt:„SumatraPDF“ strigo
-lv:SumatraPDF avarēja
-mk:SumatraPDF се сруши
-my:SumatraPDF crashed
-ne:SumatraPDF बिग्रियो
-nl:SumatraPDF is vastgelopen
-nn:SumatraPDF har krasja
-no:SumatraPDF krasjet
-pl:SumatraPDF uległ awarii
-pt:O SumatraPDF terminou
-ro:SumatraPDF s-a terminat incorect
-ru:Аварийное завершение работы SumatraPDF
-si:SumatraPDF අකර්මන්‍ය විය
-sk:SumatraPDF - zrútenie programu
-sl:SumatraPDF se je sesul
-sp-rs:Program SumatraPDF je krahirao
-sq:SumatraPDF ngeci
-sr-rs:Програм SumatraPDF је крахирао
-sv:SumatraPDF avslutades oväntat
+lv:ZiherPDF avarēja
+mk:ZiherPDF се сруши
+my:ZiherPDF crashed
+ne:ZiherPDF बिग्रियो
+nl:ZiherPDF is vastgelopen
+nn:ZiherPDF har krasja
+no:ZiherPDF krasjet
+pl:ZiherPDF uległ awarii
+pt:O ZiherPDF terminou
+ro:ZiherPDF s-a terminat incorect
+ru:Аварийное завершение работы ZiherPDF
+si:ZiherPDF අකර්මන්‍ය විය
+sk:ZiherPDF - zrútenie programu
+sl:ZiherPDF se je sesul
+sp-rs:Program ZiherPDF je krahirao
+sq:ZiherPDF ngeci
+sr-rs:Програм ZiherPDF је крахирао
+sv:ZiherPDF avslutades oväntat
 ta:சுமத்ராPDF செயலிழந்தது
-th:SumatraPDF ขัดข้อง
-tl:Nag-crash ang SumatraPDF
-tr:SumatraPDF çöktü
-tw:SumatraPDF 發生錯誤
-uk:SumatraPDF впав
+th:ZiherPDF ขัดข้อง
+tl:Nag-crash ang ZiherPDF
+tr:ZiherPDF çöktü
+tw:ZiherPDF 發生錯誤
+uk:ZiherPDF впав
 uz:SumatraPDFda nosozlik ro'y berdi
-vn:SumatraPDF đã ngưng hoạt đọng
-:SumatraPDF has been uninstalled.
-am:SumatraPDF-ը հեռացվել է:
+vn:ZiherPDF đã ngưng hoạt đọng
+:ZiherPDF has been uninstalled.
+am:ZiherPDF-ը հեռացվել է:
 ar: مستندات Sumatra المحمولة إلغاء تثبيت
-az:SumatraPDF silindi.
-bg:SumatraPDF е премахнат.
-br:SumatraPDF foi desinstalado.
-bs:SumatraPDF je deinstaliran.
-by:SumatraPDF быў знішчаны
-ca-xv:S'ha desinstal·lat el SumatraPDF.
-ca:S'ha desinstal·lat el SumatraPDF.
-cn:已卸载 SumatraPDF 。
-co:SumatraPDF hè statu disinstallatu.
-cy:Mae SumatraPDF wedi ei ddadosod.
-cz:SumatraPDF byl odinstalován.
-de:SumatraPDF wurde deinstalliert.
-dk:SumatraPDF er afinstalleret.
-el:Το SumatraPDF απεγκαταστάθηκε.
-es:Se ha desinstalado SumatraPDF.
-et:SumatraPDF on eemaldatud.
-eu:SumatraPDF kendu da.
-fa:SumatraPDF پاک شد.
-fi:SumatraPDF on poistettu.
-fr:SumatraPDF a été désinstallé.
-ga:Díshuiteáladh SumatraPDF.
-gl:Desintalouse SumatraPDF
-he:התקנת SumatraPDF הושלמה.
-hr:SumatraPDF je deinstaliran.
-hu:SumatraPDF eltávolítása befejeződött.
-id:SumatraPDF telah dihapus
-it:SumatraPDF è stato completamente disinstallato.
-ja:SumatraPDF がアンインストールされました。
+az:ZiherPDF silindi.
+bg:ZiherPDF е премахнат.
+br:ZiherPDF foi desinstalado.
+bs:ZiherPDF je deinstaliran.
+by:ZiherPDF быў знішчаны
+ca-xv:S'ha desinstal·lat el ZiherPDF.
+ca:S'ha desinstal·lat el ZiherPDF.
+cn:已卸载 ZiherPDF 。
+co:ZiherPDF hè statu disinstallatu.
+cy:Mae ZiherPDF wedi ei ddadosod.
+cz:ZiherPDF byl odinstalován.
+de:ZiherPDF wurde deinstalliert.
+dk:ZiherPDF er afinstalleret.
+el:Το ZiherPDF απεγκαταστάθηκε.
+es:Se ha desinstalado ZiherPDF.
+et:ZiherPDF on eemaldatud.
+eu:ZiherPDF kendu da.
+fa:ZiherPDF پاک شد.
+fi:ZiherPDF on poistettu.
+fr:ZiherPDF a été désinstallé.
+ga:Díshuiteáladh ZiherPDF.
+gl:Desintalouse ZiherPDF
+he:התקנת ZiherPDF הושלמה.
+hr:ZiherPDF je deinstaliran.
+hu:ZiherPDF eltávolítása befejeződött.
+id:ZiherPDF telah dihapus
+it:ZiherPDF è stato completamente disinstallato.
+ja:ZiherPDF がアンインストールされました。
 kr:SumatraPDF가 제거됐습니다.
-ku:.سڕایەوە SumatraPDF
-kw:SumatraPDF a veu anleys
-lt:SumatraPDF buvo pašalinta.
-lv:SumatraPDF ir atinstalēta.
-mk:SumatraPDF е избришан.
-my:SumatraPDF telah dibuang.
-ne:SumatraPDF अनस्थापना भयो.
-nl:SumatraPDF werd verwijderd.
-nn:SumatraPDF har blitt avinstallert.
-no:SumatraPDF har blitt avinstallert.
-pl:Program SumatraPDF został usunięty.
-pt:O SumatraPDF foi desinstalado.
-ro:SumatraPDF a fost dezinstalat.
-ru:SumatraPDF удалена.
-si:SumatraPDF ඉවත්කර ඇත
-sk:Program SumatraPDF bol odinštalovaný.
-sl:SumatraPDF je bil odstranjen.
-sp-rs:SumatraPDF deinstaliran
-sq:SumatraPDF u çinstalua
+ku:.سڕایەوە ZiherPDF
+kw:ZiherPDF a veu anleys
+lt:ZiherPDF buvo pašalinta.
+lv:ZiherPDF ir atinstalēta.
+mk:ZiherPDF е избришан.
+my:ZiherPDF telah dibuang.
+ne:ZiherPDF अनस्थापना भयो.
+nl:ZiherPDF werd verwijderd.
+nn:ZiherPDF har blitt avinstallert.
+no:ZiherPDF har blitt avinstallert.
+pl:Program ZiherPDF został usunięty.
+pt:O ZiherPDF foi desinstalado.
+ro:ZiherPDF a fost dezinstalat.
+ru:ZiherPDF удалена.
+si:ZiherPDF ඉවත්කර ඇත
+sk:Program ZiherPDF bol odinštalovaný.
+sl:ZiherPDF je bil odstranjen.
+sp-rs:ZiherPDF deinstaliran
+sq:ZiherPDF u çinstalua
 sr-rs:СуматраПДФ деинсталиран
-sv:SumatraPDF är nu borttaget.
+sv:ZiherPDF är nu borttaget.
 ta:சுமத்ராPDF நிறுவல் நீக்கப்பட்டது.
-th:ถอนการติดตั้ง SumatraPDF แล้ว
-tr:SumatraPDF kaldırıldı.
-tw:已解除安裝 SumatraPDF 。
-uk:SumatraPDF було успішно видалено.
-uz:SumatraPDF o'chirildi.
-vn:SumatraPDF đã được gỡ bỏ.
-:SumatraPDF installation not found.
-am:SumatraPDF-ը չի գտնվել:
+th:ถอนการติดตั้ง ZiherPDF แล้ว
+tr:ZiherPDF kaldırıldı.
+tw:已解除安裝 ZiherPDF 。
+uk:ZiherPDF було успішно видалено.
+uz:ZiherPDF o'chirildi.
+vn:ZiherPDF đã được gỡ bỏ.
+:ZiherPDF installation not found.
+am:ZiherPDF-ը չի գտնվել:
 ar:مستندات Sumatra المحمولة لم يتم العثور على تثبيت
-az:SumatraPDF quraşdırması tapılmadı.
-bg:Не е намерена инсталационен пакет на SumatraPDF
-br:A instalação do SumatraPDF não foi encontrada.
-bs:SumatraPDF instalacija nije pronađena.
-by:Усталёўшчык SumatraPDF не знойдзены.
-ca-xv:No s'ha trobat cap instal·lació del SumatraPDF.
-ca:No s'ha trobat cap instal·lació del SumatraPDF.
-cn:未找到 SumatraPDF 安装。
-co:Installazione di SumatraPDF micca trova.
-cy:Heb ganfod gosodiad SumatraPDF.
-cz:Instalace programu SumatraPDF nebyla nalezena.
-de:SumatraPDF-Installation nicht gefunden.
-dk:SumatraPDF-installation blev ikke fundet.
-el:Η εγκατάσταση του SumatraPDF δεν βρέθηκε.
-es:Instalación de SumatraPDF no encontrada.
-et:SumatraPDF paigaldust ei leitud.
-eu:SumatraPDF ezarpena ez da aurkitu.
-fa:نصب شده‌ی SumatraPDF پیدا نشد.
-fi:SumatraPDF-asennusta ei löytynyt.
-fr:Installation de SumatraPDF non trouvée
-ga:Níor aimsíodh suiteáil SumatraPDF.
-gl:Non se atopou ningunha instalación de SumatraPDF.
-he:התקנת SumatraPDF לא נמצאה.
-hr:SumatraPDF instalacija nije pronađena.
-hu:SumatraPDF telepítő nem található.
-id:Instalasi SumatraPDF tidak ditemukan.
-it:Installazione SumatraPDF non trovata.
+az:ZiherPDF quraşdırması tapılmadı.
+bg:Не е намерена инсталационен пакет на ZiherPDF
+br:A instalação do ZiherPDF não foi encontrada.
+bs:ZiherPDF instalacija nije pronađena.
+by:Усталёўшчык ZiherPDF не знойдзены.
+ca-xv:No s'ha trobat cap instal·lació del ZiherPDF.
+ca:No s'ha trobat cap instal·lació del ZiherPDF.
+cn:未找到 ZiherPDF 安装。
+co:Installazione di ZiherPDF micca trova.
+cy:Heb ganfod gosodiad ZiherPDF.
+cz:Instalace programu ZiherPDF nebyla nalezena.
+de:ZiherPDF-Installation nicht gefunden.
+dk:ZiherPDF-installation blev ikke fundet.
+el:Η εγκατάσταση του ZiherPDF δεν βρέθηκε.
+es:Instalación de ZiherPDF no encontrada.
+et:ZiherPDF paigaldust ei leitud.
+eu:ZiherPDF ezarpena ez da aurkitu.
+fa:نصب شده‌ی ZiherPDF پیدا نشد.
+fi:ZiherPDF-asennusta ei löytynyt.
+fr:Installation de ZiherPDF non trouvée
+ga:Níor aimsíodh suiteáil ZiherPDF.
+gl:Non se atopou ningunha instalación de ZiherPDF.
+he:התקנת ZiherPDF לא נמצאה.
+hr:ZiherPDF instalacija nije pronađena.
+hu:ZiherPDF telepítő nem található.
+id:Instalasi ZiherPDF tidak ditemukan.
+it:Installazione ZiherPDF non trovata.
 ja:SumatraPDFのインストール情報を見つけられません
-kr:SumatraPDF 설치 파일을 찾을 수 없습니다.
-ku:.نەدۆزرایەوە SumatraPDF دابەزێنەری
-kw:Ny yllir trovya leans SumatraPDF.
-lt:SumatraPDF įdiegimas nerastas.
-lv:SumatraPDF instalācija nav atrasta.
-mk:Не најдов инсталации на SumatraPDF.
-my:Pemasangan SumatraPDF tidak dijumpai.
-ne:SumatraPDF स्थापना फेला परेन.
-nl:SumatraPDF-installatie niet gevonden.
-nn:SumatraPDF-installeringa blei ikkje funnet.
-no:SumatraPDF installering ikke funnet.
-pl:Program SumatraPDF nie został znaleziony.
-pt:O SumatraPDF não foi encontrado.
-ro:Nu s-a gasit instalarea SumatraPDF.
-ru:Установка SumatraPDF не найдена.
-si:SumatraPDF ස්ථාපනය සොයාගත නොහැකිවිය.
-sk:Inštalácia programu SumatraPDF nebola nájdená.
-sl:SumatraPDF namestitve ni mogoče najti.
-sp-rs:SumatraPDF instalacija nije pronađena
-sq:Nuk u gjet SumatraPDF i instaluar.
+kr:ZiherPDF 설치 파일을 찾을 수 없습니다.
+ku:.نەدۆزرایەوە ZiherPDF دابەزێنەری
+kw:Ny yllir trovya leans ZiherPDF.
+lt:ZiherPDF įdiegimas nerastas.
+lv:ZiherPDF instalācija nav atrasta.
+mk:Не најдов инсталации на ZiherPDF.
+my:Pemasangan ZiherPDF tidak dijumpai.
+ne:ZiherPDF स्थापना फेला परेन.
+nl:ZiherPDF-installatie niet gevonden.
+nn:ZiherPDF-installeringa blei ikkje funnet.
+no:ZiherPDF installering ikke funnet.
+pl:Program ZiherPDF nie został znaleziony.
+pt:O ZiherPDF não foi encontrado.
+ro:Nu s-a gasit instalarea ZiherPDF.
+ru:Установка ZiherPDF не найдена.
+si:ZiherPDF ස්ථාපනය සොයාගත නොහැකිවිය.
+sk:Inštalácia programu ZiherPDF nebola nájdená.
+sl:ZiherPDF namestitve ni mogoče najti.
+sp-rs:ZiherPDF instalacija nije pronađena
+sq:Nuk u gjet ZiherPDF i instaluar.
 sr-rs:СуматраПДФ инсталација није пронађена
-sv:Kunde inte hitta SumatraPDF-installation.
+sv:Kunde inte hitta ZiherPDF-installation.
 ta:சுமத்ராPDF நிறுவல் கிடைக்கவில்லை.
-th:ไม่พบการติดตั้ง SumatraPDF
-tr:SumatraPDF kurulum dosyası bulunamadı.
-tw:未找到 SumatraPDF 安裝。
-uk:Встановлений SumatraPDF не було знайдено.
-uz:SumatraPDF o'rnatilganligi topilmadi.
-vn:Không tìm thấy gói cài đặt SumatraPDF.
-:SumatraPDF is your default PDF reader
-am:PDF ֆայլերը ասոցիացվել են SumatraPDF-ի հետ
+th:ไม่พบการติดตั้ง ZiherPDF
+tr:ZiherPDF kurulum dosyası bulunamadı.
+tw:未找到 ZiherPDF 安裝。
+uk:Встановлений ZiherPDF не було знайдено.
+uz:ZiherPDF o'rnatilganligi topilmadi.
+vn:Không tìm thấy gói cài đặt ZiherPDF.
+:ZiherPDF is your default PDF reader
+am:PDF ֆայլերը ասոցիացվել են ZiherPDF-ի հետ
 ar:المحمولة هو قارئ المستندات المحمولة الافتراضي Sumatra مستندات
-az:SumatraPDF PDF faylları ilə əlaqələndirilmişdir
-bg:SumatraPDF е вашият PDF четец по подразбиране
-br:O SumatraPDF é o seu leitor PDF padrão
-bs:SumatraPDF je vaš glavni čitač PDF fajlova
-by:SumatraPDF асацыявана з файламі PDF
-ca-xv:El SumatraPDF és el seu lector PDF predeterminat
-ca:El SumatraPDF és el vostre lector PDF per defecte
-cn:SumatraPDF 是默认 PDF 阅读器
-co:SumatraPDF hè u vostru lettore PDF predefinitu
-cy:SumatraPDF yw eich prif ddarllenydd PDF
-cz:SumatraPDF je výchozím PDF prohlížečem
-de:PDF-Dateien werden standardmäßig mit SumatraPDF geöffnet
-dk:SumatraPDF er din standardlæser til PDF-filer
-el:Το SumatraPDF είναι το προεπιλεγμένο πρόγραμμα PDF
-es:SumatraPDF es el lector PDF predeterminado
-et:SumatraPDF on vaikimisi PDF-lehitseja
-eu:SumatraPDF zure berezko PDF irakurlea da
-fa:SumatraPDF برنامه‌ی پیش‌فرض برای خواندن پرونده‌های PDF شماست
-fi:SumatraPDF on oletuslukijasi PDF-asiakirjoille
-fr:SumatraPDF est votre lecteur de PDF
-fy-nl:SumatraPDF is de standart PDF-lêzer
-ga:Is é SumatraPDF do léitheoir PDF réamhshocraithe
-gl:SumatraPDF é o seu lector de PDF por defecto
-he:SumatraPDF מוגדרת כתוכנת ברירת מחדל ל- PDF
+az:ZiherPDF PDF faylları ilə əlaqələndirilmişdir
+bg:ZiherPDF е вашият PDF четец по подразбиране
+br:O ZiherPDF é o seu leitor PDF padrão
+bs:ZiherPDF je vaš glavni čitač PDF fajlova
+by:ZiherPDF асацыявана з файламі PDF
+ca-xv:El ZiherPDF és el seu lector PDF predeterminat
+ca:El ZiherPDF és el vostre lector PDF per defecte
+cn:ZiherPDF 是默认 PDF 阅读器
+co:ZiherPDF hè u vostru lettore PDF predefinitu
+cy:ZiherPDF yw eich prif ddarllenydd PDF
+cz:ZiherPDF je výchozím PDF prohlížečem
+de:PDF-Dateien werden standardmäßig mit ZiherPDF geöffnet
+dk:ZiherPDF er din standardlæser til PDF-filer
+el:Το ZiherPDF είναι το προεπιλεγμένο πρόγραμμα PDF
+es:ZiherPDF es el lector PDF predeterminado
+et:ZiherPDF on vaikimisi PDF-lehitseja
+eu:ZiherPDF zure berezko PDF irakurlea da
+fa:ZiherPDF برنامه‌ی پیش‌فرض برای خواندن پرونده‌های PDF شماست
+fi:ZiherPDF on oletuslukijasi PDF-asiakirjoille
+fr:ZiherPDF est votre lecteur de PDF
+fy-nl:ZiherPDF is de standart PDF-lêzer
+ga:Is é ZiherPDF do léitheoir PDF réamhshocraithe
+gl:ZiherPDF é o seu lector de PDF por defecto
+he:ZiherPDF מוגדרת כתוכנת ברירת מחדל ל- PDF
 hi:Sumatra पीडीएफ आपका डिफ़ॉल्ट पीडीएफ रीडर है
-hr:SumatraPDF je vaš glavni glavni preglednik PDF datoteka
-hu:A SumatraPDF az alapértelmezett PDF-olvasó
-id:SumatraPDF adalah pembaca berkas PDF standar Anda
-it:SumatraPDF è il lettore PDF predefinito
-ja:SumatraPDF は規定の PDF リーダーです
-ka:SumatraPDF თქვენი ძირითადი PDF წამკითხველია
+hr:ZiherPDF je vaš glavni glavni preglednik PDF datoteka
+hu:A ZiherPDF az alapértelmezett PDF-olvasó
+id:ZiherPDF adalah pembaca berkas PDF standar Anda
+it:ZiherPDF è il lettore PDF predefinito
+ja:ZiherPDF は規定の PDF リーダーです
+ka:ZiherPDF თქვენი ძირითადი PDF წამკითხველია
 kr:SumatraPDF는 기본 PDF 리더입니다.
-ku:ە PDF خوێنەرەوەی سەرەکی فایلەکانی SumatraPDF
-kw:SumatraPDF yw dha bennredyer PDF
+ku:ە PDF خوێنەرەوەی سەرەکی فایلەکانی ZiherPDF
+kw:ZiherPDF yw dha bennredyer PDF
 lt:„SumatraPDF“ yra numatytoji PDF žiūryklė
-lv:SumatraPDF ir jūsu noklusējuma PDF lasītājs
-mk:SumatraPDF е Вашиот основен читач на PDF
-my:SumatraPDF ialah pembaca PDF utama anda
-ne:SumatraPDF तपाईको पूर्वनिर्धारित PDF पाठक हो
-nl:SumatraPDF is de standaard PDF-lezer
-nn:SumatraPDF er din standard PDF-lesar
-no:SumatraPDF er din standard PDF-leser
-pl:SumatraPDF jest domyślną przeglądarką PDF
-pt:O SumatraPDF é o leitor principal dos PDF
-ro:SumatraPDF este cititorul PDF implicit
-ru:SumatraPDF ассоциирована с файлами PDF
-si:SumatraPDF ඔබගේ ප්‍රධාන PDF කියවනයයි
-sk:SumatraPDF je váš predvolený prehliadač PDF súborov
-sl:SumatraPDF je vaš privzeti bralnik PDF
-sp-rs:SumatraPDF je vaš podrazumevani PDF čitač
-sq:SumatraPDF është lexuesi standard i PDF-ve
-sr-rs:SumatraPDF је ваш подразумевани PDF читач
-sv:SumatraPDF är din standardläsare för PDF
+lv:ZiherPDF ir jūsu noklusējuma PDF lasītājs
+mk:ZiherPDF е Вашиот основен читач на PDF
+my:ZiherPDF ialah pembaca PDF utama anda
+ne:ZiherPDF तपाईको पूर्वनिर्धारित PDF पाठक हो
+nl:ZiherPDF is de standaard PDF-lezer
+nn:ZiherPDF er din standard PDF-lesar
+no:ZiherPDF er din standard PDF-leser
+pl:ZiherPDF jest domyślną przeglądarką PDF
+pt:O ZiherPDF é o leitor principal dos PDF
+ro:ZiherPDF este cititorul PDF implicit
+ru:ZiherPDF ассоциирована с файлами PDF
+si:ZiherPDF ඔබගේ ප්‍රධාන PDF කියවනයයි
+sk:ZiherPDF je váš predvolený prehliadač PDF súborov
+sl:ZiherPDF je vaš privzeti bralnik PDF
+sp-rs:ZiherPDF je vaš podrazumevani PDF čitač
+sq:ZiherPDF është lexuesi standard i PDF-ve
+sr-rs:ZiherPDF је ваш подразумевани PDF читач
+sv:ZiherPDF är din standardläsare för PDF
 ta:சுமத்ராPDF உங்களின் முதன்மை PDF படிப்பி
-th:SumatraPDF เป็นโปรแกรมอ่าน PDF เริ่มต้นของคุณ
-tl:SumatraPDF ang iyong default na pambasa ng mga PDF file
-tr:SumatraPDF varsayılan PDF okuyucunuz.
-tw:SumatraPDF 已是你的預設 PDF 閱讀器
-uk:SumatraPDF ваш PDF переглядач по замовчуванню
-uz:SumatraPDF andoza PDF ko'rish vositasi
-vn:SumatraPDF là trình đọc PDF chính của bạn
-:SumatraPDF should now be your default PDF reader
-am:PDF ֆայլերը ասոցիացվեցին SumatraPDF-ի հետ
+th:ZiherPDF เป็นโปรแกรมอ่าน PDF เริ่มต้นของคุณ
+tl:ZiherPDF ang iyong default na pambasa ng mga PDF file
+tr:ZiherPDF varsayılan PDF okuyucunuz.
+tw:ZiherPDF 已是你的預設 PDF 閱讀器
+uk:ZiherPDF ваш PDF переглядач по замовчуванню
+uz:ZiherPDF andoza PDF ko'rish vositasi
+vn:ZiherPDF là trình đọc PDF chính của bạn
+:ZiherPDF should now be your default PDF reader
+am:PDF ֆայլերը ասոցիացվեցին ZiherPDF-ի հետ
 ar:  مستندات Sumatra المحمولة الان يجب ان تكون لديك قارئ مستندات محمولة افتراضي
-az:SumatraPDF artıq PDF faylları ilə əlaqələndirilmişdir
-bg:SumatraPDF вече трябва да е указана като подразбиращ се четец на/за PDF файлове
-br:O SumatraPDF deve ser agora seu leitor PDF padrão
-bs:SumatraPDF bi sad trebao biti vaš glavni čitač PDF fajlova
-by:Зараз SumatraPDF асацыявана з файламі PDF
-ca-xv:El SumatraPDF ha d'esser ara mateix el vostre lector PDF predeterminat
-ca:El SumatraPDF ha d'ésser ara mateix el vostre lector PDF predeterminat
-cn:现在 SumatraPDF 应该是你的默认 PDF 阅读器了
-co:Avà SumatraPDF duveria esse u vostru lettore PDF predefinitu
-cy:SumatraPDF dylai fod eich prif ddarllenydd PDF
-cz:SumatraPDF by měl být výchozím PDF prohlížečem
-de:PDF-Dateien sollten nun mit SumatraPDF geöffnet werden
-dk:SumatraPDF skulle nu være din standardlæser til PDF-filer
-el:Το SumatraPDF πρέπει να είναι τώρα συσχετισμένο με τα αρχεία PDF
-es:A partir de ahora SumatraPDF será el lector PDF predeterminado
-et:SumatraPDF peaks nüüd olema vaikimisi PDF-lehitseja
-eu:SumatraPDF orain zure berezko PDF irakurlea izan beharko litzake
-fa:SumatraPDF باید اکنون برنامه‌ی پیش‌فرض PDF خوان شما باشد
-fi:SumatraPDF:n pitäisi nyt olla oletuslukijasi PDF-asiakirjoille
-fr:SumatraPDF doit maintenant être votre lecteur de PDF par défaut
-fy-nl:SumatraPDF soe no de standert PDF-lêzer wêze moatte
-ga:Ba chóir go mbeadh SumatraPDF mar an léitheoir PDF réamhshocraithe agat
-gl:SumatraPDF será agora o seu lector de PDF por defecto
-he:SumatraPDF אמורה להיות עכשיו תוכנת ברירת מחדל ל- PDF.
-hi:SumatraPDF अब आपका डिफ़ॉल्ट पीडीएफ रीडर होना चाहिए
-hr:SumatraPDF bi sad trebao biti vaš glavni preglednik PDF datoteka
-hu:Mostantól a SumatraPDF az alapértelmezett PDF-olvasója
-id:SumatraPDF sekarang telah menjadi pembaca berkas PDF standar Anda
-it:Ora SumatraPDF dovrebbe essere il lettore PDF predefinito
-ja:SumatraPDF は規定の PDF リーダーになりました
-ka:ამიერიდან SumatraPDF თქვენი ძირითადი PDF წამკითხველია
+az:ZiherPDF artıq PDF faylları ilə əlaqələndirilmişdir
+bg:ZiherPDF вече трябва да е указана като подразбиращ се четец на/за PDF файлове
+br:O ZiherPDF deve ser agora seu leitor PDF padrão
+bs:ZiherPDF bi sad trebao biti vaš glavni čitač PDF fajlova
+by:Зараз ZiherPDF асацыявана з файламі PDF
+ca-xv:El ZiherPDF ha d'esser ara mateix el vostre lector PDF predeterminat
+ca:El ZiherPDF ha d'ésser ara mateix el vostre lector PDF predeterminat
+cn:现在 ZiherPDF 应该是你的默认 PDF 阅读器了
+co:Avà ZiherPDF duveria esse u vostru lettore PDF predefinitu
+cy:ZiherPDF dylai fod eich prif ddarllenydd PDF
+cz:ZiherPDF by měl být výchozím PDF prohlížečem
+de:PDF-Dateien sollten nun mit ZiherPDF geöffnet werden
+dk:ZiherPDF skulle nu være din standardlæser til PDF-filer
+el:Το ZiherPDF πρέπει να είναι τώρα συσχετισμένο με τα αρχεία PDF
+es:A partir de ahora ZiherPDF será el lector PDF predeterminado
+et:ZiherPDF peaks nüüd olema vaikimisi PDF-lehitseja
+eu:ZiherPDF orain zure berezko PDF irakurlea izan beharko litzake
+fa:ZiherPDF باید اکنون برنامه‌ی پیش‌فرض PDF خوان شما باشد
+fi:ZiherPDF:n pitäisi nyt olla oletuslukijasi PDF-asiakirjoille
+fr:ZiherPDF doit maintenant être votre lecteur de PDF par défaut
+fy-nl:ZiherPDF soe no de standert PDF-lêzer wêze moatte
+ga:Ba chóir go mbeadh ZiherPDF mar an léitheoir PDF réamhshocraithe agat
+gl:ZiherPDF será agora o seu lector de PDF por defecto
+he:ZiherPDF אמורה להיות עכשיו תוכנת ברירת מחדל ל- PDF.
+hi:ZiherPDF अब आपका डिफ़ॉल्ट पीडीएफ रीडर होना चाहिए
+hr:ZiherPDF bi sad trebao biti vaš glavni preglednik PDF datoteka
+hu:Mostantól a ZiherPDF az alapértelmezett PDF-olvasója
+id:ZiherPDF sekarang telah menjadi pembaca berkas PDF standar Anda
+it:Ora ZiherPDF dovrebbe essere il lettore PDF predefinito
+ja:ZiherPDF は規定の PDF リーダーになりました
+ka:ამიერიდან ZiherPDF თქვენი ძირითადი PDF წამკითხველია
 kr:SumatraPDF는 이제 기본 PDF 리더여야 합니다.
-ku:PDF ئێستا ئەبێت بە خوێنەرەوەی سەرەکی فایلەکانی SumatraPDF
-kw:Alemma rag y fydh SumatraPDF dha bennredyer PDF
+ku:PDF ئێستا ئەبێت بە خوێنەرەوەی سەرەکی فایلەکانی ZiherPDF
+kw:Alemma rag y fydh ZiherPDF dha bennredyer PDF
 lt:Dabar „SumatraPDF“ bus numatytoji PDF žiūryklė
-lv:SumatraPDF tagad būs jūsu noklusējuma PDF lasītājs
-mk:Сега SumatraPDF би требало да е Вашиот основен читач на PDF
-my:SumatraPDF kini harus menjadi pembaca utama PDF anda
-ne:SumatraPDF अब तपाईको पूर्वनिर्धारित PDF पाठक हुनुपर्छ
-nl:SumatraPDF zou nu de standaard PDF-lezer moeten zijn
-nn:SumatraPDF skulle no vere din standard PDF-lesar
-no:SumatraPDF burde nå være din standard PDF-leser
-pl:SumatraPDF powinien być teraz domyślną przeglądarką PDF
-pt:O SumatraPDF deve agora ser o leitor principal dos PDF
-ro:SumatraPDF ar trebui să fie acum cititorul PDF implicit
-ru:Теперь SumatraPDF ассоциирована с файлами PDF
-si:SumatraPDF මෙතැන් සිට ඔබගේ ප්‍රධාන  PDF කියවනයයි
-sk:SumatraPDF by teraz mala byť vaším predvoleným prehliadačom PDF súborov
-sl:SumatraPDF bi zdaj moral biti vaš privzeti bralnik PDF
-sp-rs:SumatraPDF je postavljen kao podrazumevani PDF čitač
-sq:SumatraPDF tani do të jetë lexuesi standard i PDF-ve
-sr-rs:SumatraPDF је постављен као подразумевани PDF читач
-sv:SumatraPDF bör nu vara din standardläsare för PDF
+lv:ZiherPDF tagad būs jūsu noklusējuma PDF lasītājs
+mk:Сега ZiherPDF би требало да е Вашиот основен читач на PDF
+my:ZiherPDF kini harus menjadi pembaca utama PDF anda
+ne:ZiherPDF अब तपाईको पूर्वनिर्धारित PDF पाठक हुनुपर्छ
+nl:ZiherPDF zou nu de standaard PDF-lezer moeten zijn
+nn:ZiherPDF skulle no vere din standard PDF-lesar
+no:ZiherPDF burde nå være din standard PDF-leser
+pl:ZiherPDF powinien być teraz domyślną przeglądarką PDF
+pt:O ZiherPDF deve agora ser o leitor principal dos PDF
+ro:ZiherPDF ar trebui să fie acum cititorul PDF implicit
+ru:Теперь ZiherPDF ассоциирована с файлами PDF
+si:ZiherPDF මෙතැන් සිට ඔබගේ ප්‍රධාන  PDF කියවනයයි
+sk:ZiherPDF by teraz mala byť vaším predvoleným prehliadačom PDF súborov
+sl:ZiherPDF bi zdaj moral biti vaš privzeti bralnik PDF
+sp-rs:ZiherPDF je postavljen kao podrazumevani PDF čitač
+sq:ZiherPDF tani do të jetë lexuesi standard i PDF-ve
+sr-rs:ZiherPDF је постављен као подразумевани PDF читач
+sv:ZiherPDF bör nu vara din standardläsare för PDF
 ta:சுமத்ராPDF இப்பொழுது உங்களின் முதன்மை PDF படிப்பி
-th:SumatraPDF ควรเป็นโปรแกรมอ่าน PDF เริ่มต้นของคุณแล้ว
-tl:SumatraPDF na dapat ang iyong default na pambasa ng mga PDF file
-tr:SumatraPDF artık varsayılan PDF okuyucunuzdur
-tw:SumatraPDF 已成為你的預設 PDF 閱讀器
-uk:SumatraPDF тепер буде вашим PDF переглядачем по замовчуванню
-uz:SumatraPDF endi andoza PDF ko'rish vositasi bo'ldi
-vn:SumatraPDF giờ là trình đọc PDF chính của bạn
-:Support SumatraPDF
-am:Աջակցել SumatraPDF-ին
-az:SumatraPDF-i dəstəklə
-cn:支持 SumatraPDF
-co:Sustene SumatraPDF
-el:Υποστηρίξτε το SumatraPDF
-kw:Skoodhya SumatraPDF
-nl:Steun SumatraPDF
-pl:Wesprzyj SumatraPDF
-ru:Поддержать SumatraPDF
-vn:Hỗ trợ SumatraPDF
+th:ZiherPDF ควรเป็นโปรแกรมอ่าน PDF เริ่มต้นของคุณแล้ว
+tl:ZiherPDF na dapat ang iyong default na pambasa ng mga PDF file
+tr:ZiherPDF artık varsayılan PDF okuyucunuzdur
+tw:ZiherPDF 已成為你的預設 PDF 閱讀器
+uk:ZiherPDF тепер буде вашим PDF переглядачем по замовчуванню
+uz:ZiherPDF endi andoza PDF ko'rish vositasi bo'ldi
+vn:ZiherPDF giờ là trình đọc PDF chính của bạn
+:Support ZiherPDF
+bs:Podrška ZiherPDF
+am:Աջակցել ZiherPDF-ին
+az:ZiherPDF-i dəstəklə
+cn:支持 ZiherPDF
+co:Sustene ZiherPDF
+el:Υποστηρίξτε το ZiherPDF
+kw:Skoodhya ZiherPDF
+nl:Steun ZiherPDF
+pl:Wesprzyj ZiherPDF
+ru:Поддержать ZiherPDF
+vn:Hỗ trợ ZiherPDF
 :Synchronization file cannot be opened
 am:Հնարավոր չէ բացել համաժամեցման ֆայլը
 ar:لايمكن فتح مزامنة الملف
@@ -17593,130 +17594,130 @@ kw:Meur ras a dhewis RA-MICRO PDF!
 nl:Dank u voor het kiezen van RA-MICRO PDF!
 pl:Dziękujemy za wybranie RA-MICRO PDF!
 ru:Спасибо, что выбрали RA-MICRO PDF!
-:Thank you for choosing SumatraPDF!
-am:Շնորհակալություն SumatraPDF-ը նախընտրելու համար:
+:Thank you for choosing ZiherPDF!
+am:Շնորհակալություն ZiherPDF-ը նախընտրելու համար:
 ar:نشكركم لاختياركم مستندات Sumatra المحمولة  
-az:SumatraPDF-i seçdiyiniz üçün təşəkkür edirik!
-bg:Благодаря че избрахте SumatraPDF!
-bn:SumatraPDF কে বেছে নেয়ার জন্য ধন্যবাদ।
-br:Obrigado por escolher o SumatraPDF!
-bs:Hvala Vam što ste izabrali SumatraPDF!
-by:Дзакуй за тое, што выбралі SumatraPDF!
-ca-xv:Gràcies per triar el SumatraPDF!
-ca:Gràcies per triar el SumatraPDF!
+az:ZiherPDF-i seçdiyiniz üçün təşəkkür edirik!
+bg:Благодаря че избрахте ZiherPDF!
+bn:ZiherPDF কে বেছে নেয়ার জন্য ধন্যবাদ।
+br:Obrigado por escolher o ZiherPDF!
+bs:Hvala Vam što ste izabrali ZiherPDF!
+by:Дзакуй за тое, што выбралі ZiherPDF!
+ca-xv:Gràcies per triar el ZiherPDF!
+ca:Gràcies per triar el ZiherPDF!
 cn:谢谢您选用 SumatraPDF！
-co:Vi ringraziemu d’avè sceltu SumatraPDF !
-cy:Diolch am ddefnyddio SumatraPDF!
-cz:Děkujeme, že jste si vybrali SumatraPDF!
-de:Vielen Dank dafür, dass Sie SumatraPDF verwenden!
-dk:Tak fordi du valgte SumatraPDF!
-el:Ευχαριστούμε που διαλέξατε το SumatraPDF!
-es:¡Gracias por elegir a SumatraPDF!
-et:Täname, et valisid SumatraPDF'i!
-eu:Mila esker SumatraPDF hautatzeagaitik!
-fa:به خاطر انتخاب SumatraPDF از شما متشکریم!
-fi:Kiitos, että valitsit SumatraPDF:n!
-fr:Merci d'avoir choisi SumatraPDF !
-ga:Go raibh maith agat as ucht SumatraPDF a roghnú!
-gl:Graciñas por escoller SumatraPDF!
-he:תודה על בחירתך ב- SumatraPDF.
+co:Vi ringraziemu d’avè sceltu ZiherPDF !
+cy:Diolch am ddefnyddio ZiherPDF!
+cz:Děkujeme, že jste si vybrali ZiherPDF!
+de:Vielen Dank dafür, dass Sie ZiherPDF verwenden!
+dk:Tak fordi du valgte ZiherPDF!
+el:Ευχαριστούμε που διαλέξατε το ZiherPDF!
+es:¡Gracias por elegir a ZiherPDF!
+et:Täname, et valisid ZiherPDF'i!
+eu:Mila esker ZiherPDF hautatzeagaitik!
+fa:به خاطر انتخاب ZiherPDF از شما متشکریم!
+fi:Kiitos, että valitsit ZiherPDF:n!
+fr:Merci d'avoir choisi ZiherPDF !
+ga:Go raibh maith agat as ucht ZiherPDF a roghnú!
+gl:Graciñas por escoller ZiherPDF!
+he:תודה על בחירתך ב- ZiherPDF.
 hi:sumatraPDF चुनने के लिए धन्यवाद !
-hr:Hvala Vam na odabiru SumatraPDF!
-hu:Köszönjük, hogy a SumatraPDF-et választotta!
-id:Terima kasih telah memilih SumatraPDF!
-it:Grazie per aver scelto SumatraPDF!
-ja:SumatraPDF を選んで頂きありがとうございます！
-ka:გმადლობთ, რომ აირჩიეთ SumatraPDF!
+hr:Hvala Vam na odabiru ZiherPDF!
+hu:Köszönjük, hogy a ZiherPDF-et választotta!
+id:Terima kasih telah memilih ZiherPDF!
+it:Grazie per aver scelto ZiherPDF!
+ja:ZiherPDF を選んで頂きありがとうございます！
+ka:გმადლობთ, რომ აირჩიეთ ZiherPDF!
 kr:SumatraPDF를 선택해 주셔서 고마워요!
-ku:سوپاس بۆ هەڵبژاردنی !SumatraPDF
-kw:Meur ras a dhewis SumatraPDF!
-lt:Ačiū, kad pasirinkote SumatraPDF!
-lv:Pateicamies par SumatraPDF izvēlēšanos!
-mk:Ви благодарам што го одбравте SumatraPDF!
-my:Terima kasih kerana memilih SumatraPDF!
-ne:SumatraPDF चयन गर्नुभएकोमा धन्यवाद !
-nl:Dank u om voor SumatraPDF te kiezen!
-nn:Takk for at du valde SumatraPDF!
-no:Takk for at du valgte SumatraPDF!
-pl:Dziękujemy za wybór SumatraPDF!
-pt:Obrigado por ter escolhido o SumatraPDF!
-ro:Va multumim pentru ca ati ales SumatraPDF!
-ru:Благодарим Вас за выбор SumatraPDF!
-si:SumatraPDF තෝරගැනීම පිලිබදව ස්තූතියි!
-sk:Dakujeme, že ste sa rozhodli pre SumatraPDF!
-sl:Hvala, ker ste izbrali SumatraPDF!
-sp-rs:Hvala Vam što ste izabrali SumatraPDF!
-sq:Faleminderit që zgjodhët SumatraPDF!
+ku:سوپاس بۆ هەڵبژاردنی !ZiherPDF
+kw:Meur ras a dhewis ZiherPDF!
+lt:Ačiū, kad pasirinkote ZiherPDF!
+lv:Pateicamies par ZiherPDF izvēlēšanos!
+mk:Ви благодарам што го одбравте ZiherPDF!
+my:Terima kasih kerana memilih ZiherPDF!
+ne:ZiherPDF चयन गर्नुभएकोमा धन्यवाद !
+nl:Dank u om voor ZiherPDF te kiezen!
+nn:Takk for at du valde ZiherPDF!
+no:Takk for at du valgte ZiherPDF!
+pl:Dziękujemy za wybór ZiherPDF!
+pt:Obrigado por ter escolhido o ZiherPDF!
+ro:Va multumim pentru ca ati ales ZiherPDF!
+ru:Благодарим Вас за выбор ZiherPDF!
+si:ZiherPDF තෝරගැනීම පිලිබදව ස්තූතියි!
+sk:Dakujeme, že ste sa rozhodli pre ZiherPDF!
+sl:Hvala, ker ste izbrali ZiherPDF!
+sp-rs:Hvala Vam što ste izabrali ZiherPDF!
+sq:Faleminderit që zgjodhët ZiherPDF!
 sr-rs:Хвала на избору СуматраПДФ
-sv:Tack för att du väljer SumatraPDF!
+sv:Tack för att du väljer ZiherPDF!
 ta:சுமத்ரா PDF தேர்வு செய்ததுக்கு நன்றி!
-th:ขอขอบคุณที่เลือกใช้ SumatraPDF!
-tr:SumatraPDF 'i seçtiğiniz için teşekkürler !
-tw:感謝選擇 SumatraPDF!
-uk:Дякуємо, що вибрали SumatraPDF!
-uz:SumatraPDF tanlaganingiz uchun tashakkur!
-vn:Cảm ơn vì đã chọn SumatraPDF!
-:Thank you! SumatraPDF has been installed.
-am:Շնորհակալություն: SumatraPDF-ը տեղադրվել է:
+th:ขอขอบคุณที่เลือกใช้ ZiherPDF!
+tr:ZiherPDF 'i seçtiğiniz için teşekkürler !
+tw:感謝選擇 ZiherPDF!
+uk:Дякуємо, що вибрали ZiherPDF!
+uz:ZiherPDF tanlaganingiz uchun tashakkur!
+vn:Cảm ơn vì đã chọn ZiherPDF!
+:Thank you! ZiherPDF has been installed.
+am:Շնորհակալություն: ZiherPDF-ը տեղադրվել է:
 ar:شكرا! تم تثبيت  مستندات Sumatra المحمولة  
-az:Təşəkkürlər! SumatraPDF quraşdırıldı.
-bg:Благодаря ви! SumatraPDF вече е инсталиран.
-br:Obrigado! O SumatraPDF foi instalado.
-bs:Hvala Vam! SumatraPDF je instaliran.
-by:Дзякуй! SumatraPDF усталяваны.
-ca-xv:Gràcies! S'ha instal·lat el SumatraPDF.
-ca:Gràcies! S'ha instal·lat el SumatraPDF.
-cn:SumatraPDF 安装完成。
-co:Vi ringraziemu ! SumatraPDF hè statu installatu.
-cy:Diolch yn fawr! Mae SumatraPDF wedi ei gosod
-cz:Děkujeme! Program SumatraPDF byl nainstalován.
-de:Vielen Dank! SumatraPDF wurde erfolgreich installiert.
-dk:Tak! SumatraPDF er installeret.
-el:Ευχαριστούμε! Το SumatraPDF εγκαταστάθηκε.
-es:¡Gracias! SumatraPDF ha sido instalado.
-et:Täname! SumatraPDF on paigaldatud.
-eu:Mila esker! SumatraPDF ezarri da.
-fa:با تشکر! SumatraPDF نصب شد.
-fi:Kiitos! SumatraPDF asennettiin.
-fr:Merci ! SumatraPDF a été installé.
-ga:Go raibh maith agat! Suiteáladh SumatraPDF.
-gl:Parabéns! Xa tes SumatraPDF instalado.
-he:התקנת SumatraPDF הושלמה.
-hr:Hvala Vam! SumatraPDF je instaliran.
-hu:Köszönjük! A SumatraPDF telepítése befejeződött.
-id:Terima kasih. SumatraPDF telah berhasil terinstal.
-it:Grazie! SumatraPDF installato correttamente.
+az:Təşəkkürlər! ZiherPDF quraşdırıldı.
+bg:Благодаря ви! ZiherPDF вече е инсталиран.
+br:Obrigado! O ZiherPDF foi instalado.
+bs:Hvala Vam! ZiherPDF je instaliran.
+by:Дзякуй! ZiherPDF усталяваны.
+ca-xv:Gràcies! S'ha instal·lat el ZiherPDF.
+ca:Gràcies! S'ha instal·lat el ZiherPDF.
+cn:ZiherPDF 安装完成。
+co:Vi ringraziemu ! ZiherPDF hè statu installatu.
+cy:Diolch yn fawr! Mae ZiherPDF wedi ei gosod
+cz:Děkujeme! Program ZiherPDF byl nainstalován.
+de:Vielen Dank! ZiherPDF wurde erfolgreich installiert.
+dk:Tak! ZiherPDF er installeret.
+el:Ευχαριστούμε! Το ZiherPDF εγκαταστάθηκε.
+es:¡Gracias! ZiherPDF ha sido instalado.
+et:Täname! ZiherPDF on paigaldatud.
+eu:Mila esker! ZiherPDF ezarri da.
+fa:با تشکر! ZiherPDF نصب شد.
+fi:Kiitos! ZiherPDF asennettiin.
+fr:Merci ! ZiherPDF a été installé.
+ga:Go raibh maith agat! Suiteáladh ZiherPDF.
+gl:Parabéns! Xa tes ZiherPDF instalado.
+he:התקנת ZiherPDF הושלמה.
+hr:Hvala Vam! ZiherPDF je instaliran.
+hu:Köszönjük! A ZiherPDF telepítése befejeződött.
+id:Terima kasih. ZiherPDF telah berhasil terinstal.
+it:Grazie! ZiherPDF installato correttamente.
 ja:ありがとう！SumatraPDF はインストールされました。
-ka:გმადლობთ! SumatraPDF დაინსტალირდა.
+ka:გმადლობთ! ZiherPDF დაინსტალირდა.
 kr:야호! SumatraPDF가 설치됐습니다.
-ku:سوپاس! SumatraPDF دابەزێنرا.
-kw:Meur ras! SumatraPDF a veu leys.
-lt:Ačiū! SumatraPDF buvo įdiegta.
-lv:Paldies! SumatraPDF ir instalēta.
-mk:Ви благодарам! SumatraPDF е успешно инсталиран.
-my:Terima kasih! SumatraPDF sudah dipasang pada komputer anda.
-ne:धन्यबाद! SumatraPDF इन्सटल गरिएको छ
-nl:Dank u! SumatraPDF is geinstalleerd.
-nn:Tusen takk! SumatraPDF har blitt installert.
-no:Takk! SumatraPDF har blitt installert.
-pl:Program SumatraPDF został zainstalowany.
-pt:O SumatraPDF foi instalado.
-ro:Multumim! SumatraPDF a fost dezinstalat.
-ru:Благодарим Вас! SumatraPDF успешно установлена.
-si:ස්තූතියි! Sumatra PDF ස්ථාපනය කර ඇත
-sk:Ďakujeme! SumatraPDF bol nainštalovaný.
-sl:Hvala! SumatraPDF je bil nameščen.
-sp-rs:Hvala Vam! SumatraPDF je uspešno instaliran.
-sq:Faleminderit! SumatraPDF u instalua.
+ku:سوپاس! ZiherPDF دابەزێنرا.
+kw:Meur ras! ZiherPDF a veu leys.
+lt:Ačiū! ZiherPDF buvo įdiegta.
+lv:Paldies! ZiherPDF ir instalēta.
+mk:Ви благодарам! ZiherPDF е успешно инсталиран.
+my:Terima kasih! ZiherPDF sudah dipasang pada komputer anda.
+ne:धन्यबाद! ZiherPDF इन्सटल गरिएको छ
+nl:Dank u! ZiherPDF is geinstalleerd.
+nn:Tusen takk! ZiherPDF har blitt installert.
+no:Takk! ZiherPDF har blitt installert.
+pl:Program ZiherPDF został zainstalowany.
+pt:O ZiherPDF foi instalado.
+ro:Multumim! ZiherPDF a fost dezinstalat.
+ru:Благодарим Вас! ZiherPDF успешно установлена.
+si:ස්තූතියි! Ziher PDF ස්ථාපනය කර ඇත
+sk:Ďakujeme! ZiherPDF bol nainštalovaný.
+sl:Hvala! ZiherPDF je bil nameščen.
+sp-rs:Hvala Vam! ZiherPDF je uspešno instaliran.
+sq:Faleminderit! ZiherPDF u instalua.
 sr-rs:СуматраПДФ инсталиран. Хвала!
-sv:Tack! SumatraPDF är nu installerat.
+sv:Tack! ZiherPDF är nu installerat.
 ta:நன்றி! சுமத்ரா PDF நிறுவப்பட்டு உள்ளது
-th:ขอบคุณ! ติดตั้ง SumatraPDF แล้ว
-tr:Teşekkürler! SumatraPDF bilgisayarınıza kuruldu
-tw:謝謝！ SumatraPDF 已安裝。
-uk:Дякуємо! SumatraPDF було успішно встановлено.
-uz:Tashakkur! SumatraPDF o'rnatildi.
-vn:Cảm ơn bạn! SumatraPDF đã được cài đặt.
+th:ขอบคุณ! ติดตั้ง ZiherPDF แล้ว
+tr:Teşekkürler! ZiherPDF bilgisayarınıza kuruldu
+tw:謝謝！ ZiherPDF 已安裝。
+uk:Дякуємо! ZiherPDF було успішно встановлено.
+uz:Tashakkur! ZiherPDF o'rnatildi.
+vn:Cảm ơn bạn! ZiherPDF đã được cài đặt.
 :The installer has been corrupted. Please download it again.\nSorry for the inconvenience!
 am:Ծրագրի տեղադրիչը վնասված է: Կրկին բեռնեք այն:\nՀայցում ենք Ձեր ներողամտությունը:
 ar:اسف للازعاج! \n . تم إتلاف المثبت. الرجاء تحميله مرة أخرى
@@ -17915,68 +17916,68 @@ nl:Onderstrepen
 pl:Podkreślenie
 ru:Подчёркивание
 vn:Gạch chân
-:Uninstall SumatraPDF
-am:Ջնջել SumatraPDF-ը
+:Uninstall ZiherPDF
+am:Ջնջել ZiherPDF-ը
 ar:المحمولة Sumatra  الغاء تثبيت مستندات
-az:SumatraPDF-i sil
-bg:Деинсталиране на SumatraPDF
-br:Desinstalar SumatraPDF
-bs:Deinstaliraj SumatraPDF
-by:Знішчыць SumatraPDF
-ca-xv:Desinstal·la el SumatraPDF
-ca:Desinstal·la el SumatraPDF
-cn:卸载 SumatraPDF
-co:Disinstallà SumatraPDF
-cy:Dadosod SumatraPDF
-cz:Odinstalovat SumatraPDF
-de:SumatraPDF deinstallieren
-dk:Afinstaller SumatraPDF
-el:Απεγκατάσταση SumatraPDF
-es:Desinstalar SumatraPDF
-et:Eemalda SumatraPDF
-eu:Kendu SumatraPDF
-fa:پاک کردن SumatraPDF
-fi:Poista SumatraPDF
-fr:Désinstaller SumatraPDF
-ga:Déan SumatraPDF a dhíshuiteáil
-gl:Desinstalar SumatraPDF
-he:הסר את SumatraPDF
-hr:Deinstaliraj SumatraPDF
-hu:SumatraPDF eltávolítása
-id:Uninstall SumatraPDF
-it:Disinstalla SumatraPDF
+az:ZiherPDF-i sil
+bg:Деинсталиране на ZiherPDF
+br:Desinstalar ZiherPDF
+bs:Deinstaliraj ZiherPDF
+by:Знішчыць ZiherPDF
+ca-xv:Desinstal·la el ZiherPDF
+ca:Desinstal·la el ZiherPDF
+cn:卸载 ZiherPDF
+co:Disinstallà ZiherPDF
+cy:Dadosod ZiherPDF
+cz:Odinstalovat ZiherPDF
+de:ZiherPDF deinstallieren
+dk:Afinstaller ZiherPDF
+el:Απεγκατάσταση ZiherPDF
+es:Desinstalar ZiherPDF
+et:Eemalda ZiherPDF
+eu:Kendu ZiherPDF
+fa:پاک کردن ZiherPDF
+fi:Poista ZiherPDF
+fr:Désinstaller ZiherPDF
+ga:Déan ZiherPDF a dhíshuiteáil
+gl:Desinstalar ZiherPDF
+he:הסר את ZiherPDF
+hr:Deinstaliraj ZiherPDF
+hu:ZiherPDF eltávolítása
+id:Uninstall ZiherPDF
+it:Disinstalla ZiherPDF
 ja:SumatraPDFをアンインストール
-ka:SumatraPDF-ის დეინსტალაცია
-kr:SumatraPDF 제거
-ku:سڕینەوەی SumatraPDF
-kw:Anlea SumatraPDF
-lt:Pašalinti SumatraPDF
-lv:Atinstalēt SumatraPDF
-mk:Избриши SumatraPDF
+ka:ZiherPDF-ის დეინსტალაცია
+kr:ZiherPDF 제거
+ku:سڕینەوەی ZiherPDF
+kw:Anlea ZiherPDF
+lt:Pašalinti ZiherPDF
+lv:Atinstalēt ZiherPDF
+mk:Избриши ZiherPDF
 ml:സുമാത്ര പി.ഡി.എഫ്.നീക്കം ചെയ്യുക.
-my:Membuang SumatraPDF
-ne:SumatraPDF अनस्थापना गर्नुहोस
-nl:Verwijder SumatraPDF
-nn:Avinstaller SumatraPDF
-no:Avinstaller SumatraPDF
-pl:Usuń SumatraPDF
-pt:Remover SumatraPDF
-ro:Dezinstalare SumatraPDF
-ru:Удалить SumatraPDF
-si:SumatraPDF ඉවත්කරන්න
-sk:Odinštalovanie SumatraPDF
-sl:Odstrani SumatraPDF
-sp-rs:Ukloni SumatraPDF
-sq:Çinstaloj SumatraPDF
+my:Membuang ZiherPDF
+ne:ZiherPDF अनस्थापना गर्नुहोस
+nl:Verwijder ZiherPDF
+nn:Avinstaller ZiherPDF
+no:Avinstaller ZiherPDF
+pl:Usuń ZiherPDF
+pt:Remover ZiherPDF
+ro:Dezinstalare ZiherPDF
+ru:Удалить ZiherPDF
+si:ZiherPDF ඉවත්කරන්න
+sk:Odinštalovanie ZiherPDF
+sl:Odstrani ZiherPDF
+sp-rs:Ukloni ZiherPDF
+sq:Çinstaloj ZiherPDF
 sr-rs:Деинсталирање СуматраПДФ
-sv:Avinstallera SumatraPDF
+sv:Avinstallera ZiherPDF
 ta:சுமத்ராPDFஐ நிறுவல் நீக்கு
-th:ถอนการติดตั้ง SumatraPDF
-tr:SumatraPDF'i kaldır
-tw:解除安裝 SumatraPDF
-uk:Видалити SumatraPDF
+th:ถอนการติดตั้ง ZiherPDF
+tr:ZiherPDF'i kaldır
+tw:解除安裝 ZiherPDF
+uk:Видалити ZiherPDF
 uz:SumatraPDFni o'chirish
-vn:Gỡ bỏ SumatraPDF
+vn:Gỡ bỏ ZiherPDF
 :Uninstallation failed
 am:Հնարավոր չեղավ հեռացնել ծրագիրը
 ar:فشل إلغاء التثبيت
@@ -18002,7 +18003,7 @@ fi:Poistaminen epäonnistui
 fr:Échec de la désinstallation
 ga:Theip air díshuiteáil
 gl:Fallou a desinstalación
-he:הסרת SumatraPDF נכשלה.
+he:הסרת ZiherPDF נכשלה.
 hr:Deinstalacija nije uspjela
 hu:Eltávolítás sikertelen
 id:Proses uninstall gagal.
@@ -18063,7 +18064,7 @@ fi:Poistaminen käynnissä...
 fr:Désinstallation en cours…
 ga:Díshuiteáil ar siúl...
 gl:Desinstalación en procreso...
-he:מסיר את SumatraPDF...
+he:מסיר את ZiherPDF...
 hr:Deinstaliranje...
 hu:Eltávolítás folyamatban...
 id:Proses uninstall sedang berlangsung...
@@ -18222,68 +18223,68 @@ tw:使用頁籤(&T):
 uk:Використовувати вкладки
 uz:&Ilovalarni qo'llash
 vn:Dùng &thẻ
-:Use SumatraPDF as the &default PDF reader
-am:Օգտ. SumatraPDF-ը որպես &PDF-ի հիմնական ծրագիր
+:Use ZiherPDF as the &default PDF reader
+am:Օգտ. ZiherPDF-ը որպես &PDF-ի հիմնական ծրագիր
 ar: المحمولة باسم& قارئ مستندات محمولة افتراضي Sumatra استخدم مستندات
-az:SumatraPDF &standart PDF oxuyucusu kimi istifadə olunsun
-bg:Използване на SumatraPDF като основен четец на PDF файлове
+az:ZiherPDF &standart PDF oxuyucusu kimi istifadə olunsun
+bg:Използване на ZiherPDF като основен четец на PDF файлове
 bn:ডিফল্ট পিডিএফ রিডার হিসাবে সুমাত্রা পিডিএফ ব্যবহার করুন।
-br:Usar o SumatraPDF como o leitor PDF pa&drão
-bs:Koristi SumatraPDF kao &izvorni PDF čitač
-by:Выкарыстаць SumatraPDF як &стандартны Чытальнік PDF
-ca-xv:Usa el SumatraPDF com a visor PDF &predeterminat
-ca:Usa el SumatraPDF com a visor PDF &predeterminat
-cn:使用 SumatraPDF 作为默认的 PDF 阅读器(&U)
-co:Impiegà SumatraPDF cum’è u lettore PDF predefinitu
-cy:Defnyddio SumatraPDF fel y darllennydd PDF &rhagosodedig
-cz:Použít SumatraPDF jako &výchozí PDF prohlížeč
-de:SumatraPDF als Standard&programm für PDF-Dokumente verwenden
-dk:Anvend SumatraPDF som &standardlæser for PDF-filer
-el:Χρησιμοποιήστε το SumatraPDF σαν το &default PDF reader
-es:Usar SumatraPDF como lector PDF pre&determinado
-et:Kasuta SumatraPDF programmi &vaikimisi PDF-lehitsejana.
+br:Usar o ZiherPDF como o leitor PDF pa&drão
+bs:Koristi ZiherPDF kao &izvorni PDF čitač
+by:Выкарыстаць ZiherPDF як &стандартны Чытальнік PDF
+ca-xv:Usa el ZiherPDF com a visor PDF &predeterminat
+ca:Usa el ZiherPDF com a visor PDF &predeterminat
+cn:使用 ZiherPDF 作为默认的 PDF 阅读器(&U)
+co:Impiegà ZiherPDF cum’è u lettore PDF predefinitu
+cy:Defnyddio ZiherPDF fel y darllennydd PDF &rhagosodedig
+cz:Použít ZiherPDF jako &výchozí PDF prohlížeč
+de:ZiherPDF als Standard&programm für PDF-Dokumente verwenden
+dk:Anvend ZiherPDF som &standardlæser for PDF-filer
+el:Χρησιμοποιήστε το ZiherPDF σαν το &default PDF reader
+es:Usar ZiherPDF como lector PDF pre&determinado
+et:Kasuta ZiherPDF programmi &vaikimisi PDF-lehitsejana.
 eu:Erabili SumatraP&DF berezko PDF irakurtzaile bezala
-fa:استفاده از SumatraPDF به عنوان پی‌دی‌اف خوان &پیشفرض
-fi:Käytä SumatraPDF:ää PDF-asiakirjojen oletuslukijana
-fr:Choisir SumatraPDF comme lecteur PDF par &défaut
-ga:Bain feidhm as SumatraPDF mar an léitheoir PDF réamhshocraithe
-gl:Emprega SumatraPDF como o lector de PDF por &defecto
-he:הגדר את SumatraPDF כתוכנת ברירת מחדל לקובצי PDF
-hr:Koristi SumatraPDF kao zadani PDF preglednik
-hu:SumatraPDF használata alapértelmezett PDF olvasóként
-id:Gunakan SumatraPDF sebagai pembaca PDF standar.
-it:Usa SumatraPDF come lettore PDF pre&definito
-ja:SumatraPDF を PDF ファイルの既定のアプリケーションにしますか?(&d)
-ka:SumatraPDF-ის &ნაგულისხმევ PDF-ის წამკითხველად გაყენება
+fa:استفاده از ZiherPDF به عنوان پی‌دی‌اف خوان &پیشفرض
+fi:Käytä ZiherPDF:ää PDF-asiakirjojen oletuslukijana
+fr:Choisir ZiherPDF comme lecteur PDF par &défaut
+ga:Bain feidhm as ZiherPDF mar an léitheoir PDF réamhshocraithe
+gl:Emprega ZiherPDF como o lector de PDF por &defecto
+he:הגדר את ZiherPDF כתוכנת ברירת מחדל לקובצי PDF
+hr:Koristi ZiherPDF kao zadani PDF preglednik
+hu:ZiherPDF használata alapértelmezett PDF olvasóként
+id:Gunakan ZiherPDF sebagai pembaca PDF standar.
+it:Usa ZiherPDF come lettore PDF pre&definito
+ja:ZiherPDF を PDF ファイルの既定のアプリケーションにしますか?(&d)
+ka:ZiherPDF-ის &ნაგულისხმევ PDF-ის წამკითხველად გაყენება
 kr:SumatraPDF를 기본 PDF 리더로 사용(&D)
-ku:وەکو خوێنەرەوەی &سەرەکی PDF SumatraPDF بەکارهێنانی
-kw:Usya SumatraPDF avel redyer PDF a dhefowt
-lt:Naudoti SumatraPDF kaip &numatytąją PDF peržiūros programą
-lv:Izmantot SumatraPDF kā &noklusējuma PDF lasītāju
-mk:Користи го SumatraPDF како &основен читач на PDF
-my:Jadikan SumatraPDF sebagai aplikasi utama pembaca PDF anda
-ne:SumatraPDF पूर्वनिर्धारित PDF पाठकको रूपमा प्रयोग गर्नुहोस
-nl:Gebruik SumatraPDF als &standaard PDF lezer
-nn:Bruk SumatraPDF som standard PDF-lesar
-no:Bruk SumatraPDF som &standard PDF-leser
-pl:Używaj SumatraPDF jako &domyślnej przeglądarki PDF
-pt:Utilizar o SumatraPDF como leitor pa&drão de PDF
-ro:Folosiți SumatraPDF ca cititor implicit pentru fișiere P&DF
-ru:Использовать SumatraPDF для просмотра PDF
-si:SumatraPDF ප්‍රධාන PDF කියවනය ලෙස භාවිත කරන්න
-sk:Použi SumatraPDF ako &predvolený PDF prehliadač
-sl:Uporabi SumatraPDF kot privzeti P&DF prikazovalnik
-sp-rs:Koristi SumatraPDF kao glavni PDF čitač
-sq:Përdor SumatraPDF si lexuesin &standard të PDF-ve
+ku:وەکو خوێنەرەوەی &سەرەکی PDF ZiherPDF بەکارهێنانی
+kw:Usya ZiherPDF avel redyer PDF a dhefowt
+lt:Naudoti ZiherPDF kaip &numatytąją PDF peržiūros programą
+lv:Izmantot ZiherPDF kā &noklusējuma PDF lasītāju
+mk:Користи го ZiherPDF како &основен читач на PDF
+my:Jadikan ZiherPDF sebagai aplikasi utama pembaca PDF anda
+ne:ZiherPDF पूर्वनिर्धारित PDF पाठकको रूपमा प्रयोग गर्नुहोस
+nl:Gebruik ZiherPDF als &standaard PDF lezer
+nn:Bruk ZiherPDF som standard PDF-lesar
+no:Bruk ZiherPDF som &standard PDF-leser
+pl:Używaj ZiherPDF jako &domyślnej przeglądarki PDF
+pt:Utilizar o ZiherPDF como leitor pa&drão de PDF
+ro:Folosiți ZiherPDF ca cititor implicit pentru fișiere P&DF
+ru:Использовать ZiherPDF для просмотра PDF
+si:ZiherPDF ප්‍රධාන PDF කියවනය ලෙස භාවිත කරන්න
+sk:Použi ZiherPDF ako &predvolený PDF prehliadač
+sl:Uporabi ZiherPDF kot privzeti P&DF prikazovalnik
+sp-rs:Koristi ZiherPDF kao glavni PDF čitač
+sq:Përdor ZiherPDF si lexuesin &standard të PDF-ve
 sr-rs:СуматраПДФ је &подразумевани прегледач
-sv:Använd SumatraPDF som standardläsare för PDF
+sv:Använd ZiherPDF som standardläsare för PDF
 ta:சுமத்ரா PDFஐ முன்னிருப்பக பயன்படுத்து
-th:ใช้ SumatraPDF เป็นโปรแกรมอ่าน PDF เริ่มต้น
-tr:SumatraPDF varsayılan PDF okuyucum olsun
-tw:使用 SumatraPDF 作為預設的 PDF 閱讀器(&U)
-uk:Використовувати SumatraPDF як переглядач для PDF за замовчуванням
-uz:SumatraPDF &andoza PDF o'qish vositasi sifatida ishlatish
-vn:Đặt SumatraPDF là trình đọc PDF mặc định
+th:ใช้ ZiherPDF เป็นโปรแกรมอ่าน PDF เริ่มต้น
+tr:ZiherPDF varsayılan PDF okuyucum olsun
+tw:使用 ZiherPDF 作為預設的 PDF 閱讀器(&U)
+uk:Використовувати ZiherPDF як переглядач для PDF за замовчуванням
+uz:ZiherPDF &andoza PDF o'qish vositasi sifatida ishlatish
+vn:Đặt ZiherPDF là trình đọc PDF mặc định
 :View
 af:Vertoon
 am:Տեսք
@@ -18362,7 +18363,7 @@ ar:&زيارة موقع البرنامج
 az:Proqramın &vebsaytına keç
 bg:Посетете &уебсайта
 bn:&আমাদের ওয়েবসাইট ভ্রমণ করুন
-br:&Visitar a página do SumatraPDF
+br:&Visitar a página do ZiherPDF
 bs:&Posjeti web stranicu
 by:Наведаць сайт
 ca-xv:Visiteu el lloc &web
@@ -18371,7 +18372,7 @@ cn:访问网站(&W)
 co:&Visità u situ web
 cy:&Ymweld â'r Wefan
 cz:Navštívit &webovou stránku
-de:SumatraPDF im &Internet
+de:ZiherPDF im &Internet
 dk:Besøg &internetside
 el:&Ιστοσελίδα προγράμματος
 es:Visitar sitio &Web
@@ -18414,7 +18415,7 @@ sk:&Navštíviť webovú stránku
 sl:Ob&išči domačo stran
 sn:&Shanyira dande-mtande
 sp-rs:Poseti veb-sajt
-sq:SumatraPDF në &internet
+sq:ZiherPDF në &internet
 sr-rs:Посети веб-сајт
 sv:Besök webbplats
 ta:வலைத்தளம் செல்
