@@ -1,0 +1,2 @@
+MainPackage=C:\dev\ZiherPDF\ZiherPDFPackage\bin\x64\Release\Upload\ZiherPDFPackage_3.3.2.0_x64.msix
+SymbolPackage=C:\dev\ZiherPDF\ZiherPDFPackage\bin\x64\Release\Upload\ZiherPDFPackage_3.3.2.0\ZiherPDFPackage_3.3.2.0_x64.appxsym
