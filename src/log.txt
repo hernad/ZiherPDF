@@ -1,5 +1,41 @@
 A daily log of changes and commentary. An experiment of sorts.
 
+2020-07-26 Sun
+
+Started on converting tab code into TabCtrl.
+Luckily can do it step-by-step.
+
+refactoring old code. Changed some settings from wstr to str.
+change DisplayMode to enum class.
+
+2020-07-25 Sat
+
+fixed https://github.com/sumatrapdfreader/sumatrapdf/issues/1286
+'i' would show page number only temporarily (persistently with SHIFT)
+and only in full screen.
+Make it work always and toggle the info.
+It could be improved (no close button, don't dismiss with ESC like
+other notification windows, no flickering of notification window).
+
+fixed https://github.com/sumatrapdfreader/sumatrapdf/issues/1711
+(and https://github.com/sumatrapdfreader/sumatrapdf/issues/1454 most likely).
+When the cache of rendered pages is full, we free a page. If we happened to
+free a page from the document in the current tab, it would lead to free / re-rerender
+cycle and flickering.
+The fix is to make sure we only free from other tabs.
+Not perfect (if it's a visible tab in a different window, we'll probably flicker).
+The right approach would be to make the cache expand in FreeIfFull()
+if we can't find invisible page to drop (e.g. by using linked list
+to store cache entries or by having e.g. 256 over-flow entries).
+
+fixed https://github.com/sumatrapdfreader/sumatrapdf/issues/1712
+Lots of debugging but the root cause was simple: notifications window
+is a child of canvas window. it was flickering because a paint of
+canvas would paint over notification window.
+Fixed by telling canvas window to clip children.
+We should make it more flexible and more efficient to add stuff to be
+drawn on canvas.
+
 2020-07-10 Fri
 
 handle pdf_annot_author() throwing (fixes #1673)

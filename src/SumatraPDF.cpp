@@ -30,6 +30,7 @@
 #include "wingui/FrameRateWnd.h"
 #include "wingui/TooltipCtrl.h"
 #include "wingui/DropDownCtrl.h"
+#include "wingui/TabsCtrl.h"
 
 #include "Annotation.h"
 #include "EngineBase.h"
@@ -359,7 +360,7 @@ static bool IsWindowInfoHwnd(WindowInfo* win, HWND hwnd, HWND parent) {
         return true;
     }
     // tab bar
-    if (parent == win->hwndTabBar) {
+    if (parent == win->tabsCtrl->hwnd) {
         return true;
     }
     // caption buttons, tab bar
@@ -623,7 +624,7 @@ static void UpdateWindowRtlLayout(WindowInfo* win) {
     SendMessageW(win->hwndFrame, WM_DWMCOMPOSITIONCHANGED, 0, 0);
     RelayoutCaption(win);
     // TODO: make tab bar RTL aware
-    // SetRtl(win->hwndTabBar, isRTL);
+    // SetRtl(win->tabsCtrl->hwnd, isRTL);
 
     win->notifications->Relayout();
 
@@ -1119,7 +1120,7 @@ static void LoadDocIntoCurrentTab(const LoadArgs& args, Controller* ctrl, Displa
 
     if (state) {
         ss.page = state->pageNo;
-        displayMode = prefs::conv::ToDisplayMode(state->displayMode, DM_AUTOMATIC);
+        displayMode = DisplayModeFromString(state->displayMode, DisplayMode::Automatic);
         showAsFullScreen = WIN_STATE_FULLSCREEN == state->windowState;
         if (state->windowState == WIN_STATE_NORMAL) {
             showType = SW_NORMAL;
@@ -1187,7 +1188,7 @@ static void LoadDocIntoCurrentTab(const LoadArgs& args, Controller* ctrl, Displa
 
     if (state) {
         CrashIf(!win->IsDocLoaded());
-        zoomVirtual = prefs::conv::ToZoom(state->zoom, ZOOM_FIT_PAGE);
+        zoomVirtual = ZoomFromString(state->zoom, ZOOM_FIT_PAGE);
         if (win->ctrl->ValidPageNo(ss.page)) {
             if (ZOOM_FIT_CONTENT != zoomVirtual) {
                 ss.x = state->scrollPos.x;
@@ -1438,7 +1439,7 @@ static WindowInfo* CreateWindowInfo() {
     // screen's edge when maximized (cf. Fitts' law) and there are
     // no additional adjustments needed when (un)maximizing
     clsName = CANVAS_CLASS_NAME;
-    style = WS_CHILD | WS_HSCROLL | WS_VSCROLL;
+    style = WS_CHILD | WS_HSCROLL | WS_VSCROLL | WS_CLIPCHILDREN;
     /* position and size determined in OnSize */
     win->hwndCanvas = CreateWindowExW(0, clsName, nullptr, style, 0, 0, 0, 0, hwndFrame, nullptr, h, nullptr);
     if (!win->hwndCanvas) {
@@ -1871,11 +1872,20 @@ static void UpdatePageInfoHelper(WindowInfo* win, NotificationWnd* wnd, int page
         pageInfo.Set(str::Format(L"%s %s (%d / %d)", _TR("Page:"), label.Get(), pageNo, win->ctrl->PageCount()));
     }
     if (!wnd) {
-        int options = IsShiftPressed() ? NOS_PERSIST : NOS_DEFAULT;
+        int options = NOS_PERSIST;
         win->ShowNotification(pageInfo, options, NG_PAGE_INFO_HELPER);
     } else {
         wnd->UpdateMessage(pageInfo);
     }
+}
+
+static void TogglePageInfoHelper(WindowInfo* win) {
+    NotificationWnd* wnd = win->notifications->GetForGroup(NG_PAGE_INFO_HELPER);
+    if (wnd) {
+        win->notifications->RemoveForGroup(NG_PAGE_INFO_HELPER);
+        return;
+    }
+    UpdatePageInfoHelper(win, nullptr, -1);
 }
 
 enum class MeasurementUnit { pt, mm, in };
@@ -2835,7 +2845,7 @@ static void OnMenuSaveBookmark(WindowInfo* win) {
     if (win->AsFixed()) {
         ss = win->AsFixed()->GetScrollState();
     }
-    const WCHAR* viewMode = prefs::conv::FromDisplayMode(ctrl->GetDisplayMode());
+    const char* viewModeStr = DisplayModeToString(ctrl->GetDisplayMode());
     AutoFreeWstr ZoomVirtual(str::Format(L"%.2f", ctrl->GetZoomVirtual()));
     if (ZOOM_FIT_PAGE == ctrl->GetZoomVirtual()) {
         ZoomVirtual.SetCopy(L"fitpage");
@@ -2846,8 +2856,9 @@ static void OnMenuSaveBookmark(WindowInfo* win) {
     }
 
     AutoFreeWstr exePath = GetExePath();
+    AutoFreeWstr viewMode = strconv::Utf8ToWstr(viewModeStr);
     AutoFreeWstr args = str::Format(L"\"%s\" -page %d -view \"%s\" -zoom %s -scroll %d,%d", ctrl->FilePath(), ss.page,
-                                    viewMode, ZoomVirtual.Get(), (int)ss.x, (int)ss.y);
+                                    viewMode.Get(), ZoomVirtual.Get(), (int)ss.x, (int)ss.y);
     AutoFreeWstr label = ctrl->GetPageLabel(ss.page);
     const WCHAR* srcFileName = path::GetBaseNameNoFree(ctrl->FilePath());
     AutoFreeWstr desc = str::Format(_TR("Bookmark shortcut to page %s of %s"), label.Get(), srcFileName);
@@ -3160,7 +3171,7 @@ static void RelayoutFrame(WindowInfo* win, bool updateToolbars = true, int sideb
         } else if (win->tabsVisible) {
             int tabHeight = GetTabbarHeight(win->hwndFrame);
             if (updateToolbars) {
-                dh.SetWindowPos(win->hwndTabBar, nullptr, rc.x, rc.y, rc.dx, tabHeight, SWP_NOZORDER);
+                dh.SetWindowPos(win->tabsCtrl->hwnd, nullptr, rc.x, rc.y, rc.dx, tabHeight, SWP_NOZORDER);
             }
             // TODO: show tab bar also for About window (or hide the toolbar so that it doesn't jump around)
             if (!win->IsAboutWindow()) {
@@ -3355,17 +3366,17 @@ static void OnMenuViewContinuous(WindowInfo* win) {
 
     DisplayMode newMode = win->ctrl->GetDisplayMode();
     switch (newMode) {
-        case DM_SINGLE_PAGE:
-        case DM_CONTINUOUS:
-            newMode = IsContinuous(newMode) ? DM_SINGLE_PAGE : DM_CONTINUOUS;
+        case DisplayMode::SinglePage:
+        case DisplayMode::Continuous:
+            newMode = IsContinuous(newMode) ? DisplayMode::SinglePage : DisplayMode::Continuous;
             break;
-        case DM_FACING:
-        case DM_CONTINUOUS_FACING:
-            newMode = IsContinuous(newMode) ? DM_FACING : DM_CONTINUOUS_FACING;
+        case DisplayMode::Facing:
+        case DisplayMode::ContinuousFacing:
+            newMode = IsContinuous(newMode) ? DisplayMode::Facing : DisplayMode::ContinuousFacing;
             break;
-        case DM_BOOK_VIEW:
-        case DM_CONTINUOUS_BOOK_VIEW:
-            newMode = IsContinuous(newMode) ? DM_BOOK_VIEW : DM_CONTINUOUS_BOOK_VIEW;
+        case DisplayMode::BookView:
+        case DisplayMode::ContinuousBookView:
+            newMode = IsContinuous(newMode) ? DisplayMode::BookView : DisplayMode::ContinuousBookView;
             break;
     }
     SwitchToDisplayMode(win, newMode);
@@ -3390,7 +3401,7 @@ static void ChangeZoomLevel(WindowInfo* win, float newZoom, bool pagesContinuous
 
     float zoom = win->ctrl->GetZoomVirtual();
     DisplayMode mode = win->ctrl->GetDisplayMode();
-    DisplayMode newMode = pagesContinuously ? DM_CONTINUOUS : DM_SINGLE_PAGE;
+    DisplayMode newMode = pagesContinuously ? DisplayMode::Continuous : DisplayMode::SinglePage;
 
     if (mode != newMode || zoom != newZoom) {
         float prevZoom = win->currentTab->prevZoomVirtual;
@@ -3497,7 +3508,7 @@ void EnterFullScreen(WindowInfo* win, bool presentation) {
 
     SetMenu(win->hwndFrame, nullptr);
     ShowWindow(win->hwndReBar, SW_HIDE);
-    ShowWindow(win->hwndTabBar, SW_HIDE);
+    win->tabsCtrl->SetIsVisible(false);
     ShowWindow(win->hwndCaption, SW_HIDE);
 
     SetWindowLong(win->hwndFrame, GWL_STYLE, ws);
@@ -3543,7 +3554,7 @@ void ExitFullScreen(WindowInfo* win) {
         ShowWindow(win->hwndCaption, SW_SHOW);
     }
     if (win->tabsVisible) {
-        ShowWindow(win->hwndTabBar, SW_SHOW);
+        win->tabsCtrl->SetIsVisible(true);
     }
     if (gGlobalPrefs->showToolbar && !win->AsEbook()) {
         ShowWindow(win->hwndReBar, SW_SHOW);
@@ -3847,13 +3858,13 @@ static void OnFrameKeyB(WindowInfo* win) {
             return;
         }
 
-        DisplayMode newMode = DM_BOOK_VIEW;
+        DisplayMode newMode = DisplayMode::BookView;
         if (IsBookView(ctrl->GetDisplayMode())) {
-            newMode = DM_FACING;
+            newMode = DisplayMode::Facing;
         }
         SwitchToDisplayMode(win, newMode, true);
 
-        if (forward && currPage >= ctrl->CurrentPageNo() && (currPage > 1 || newMode == DM_BOOK_VIEW)) {
+        if (forward && currPage >= ctrl->CurrentPageNo() && (currPage > 1 || newMode == DisplayMode::BookView)) {
             ctrl->GoToNextPage();
         } else if (!forward && currPage <= ctrl->CurrentPageNo()) {
             win->ctrl->GoToPrevPage();
@@ -4055,9 +4066,8 @@ static void FrameOnChar(WindowInfo* win, WPARAM key, LPARAM info = 0) {
         case 'i':
             // experimental "page info" tip: make figuring out current page and
             // total pages count a one-key action (unless they're already visible)
-            if (win->AsFixed() &&
-                (!gGlobalPrefs->showToolbar || win->isFullScreen || PM_ENABLED == win->presentation)) {
-                UpdatePageInfoHelper(win);
+            if (win->AsFixed()) {
+                TogglePageInfoHelper(win);
             }
             break;
         case 'm':
@@ -4386,15 +4396,15 @@ static LRESULT FrameOnCommand(WindowInfo* win, HWND hwnd, UINT msg, WPARAM wp, L
             break;
 
         case CmdViewSinglePage:
-            SwitchToDisplayMode(win, DM_SINGLE_PAGE, true);
+            SwitchToDisplayMode(win, DisplayMode::SinglePage, true);
             break;
 
         case CmdViewFacing:
-            SwitchToDisplayMode(win, DM_FACING, true);
+            SwitchToDisplayMode(win, DisplayMode::Facing, true);
             break;
 
         case CmdViewBook:
-            SwitchToDisplayMode(win, DM_BOOK_VIEW, true);
+            SwitchToDisplayMode(win, DisplayMode::BookView, true);
             break;
 
         case CmdViewContinuous:

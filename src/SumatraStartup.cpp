@@ -231,12 +231,13 @@ static void OpenUsingDde(HWND targetWnd, const WCHAR* filePath, Flags& i, bool i
     } else if (i.pageNumber > 0 && isFirstWin) {
         cmd.AppendFmt(L"[GotoPage(\"%s\", %d)]", fullpath, i.pageNumber);
     }
-    if ((i.startView != DM_AUTOMATIC || i.startZoom != INVALID_ZOOM ||
+    if ((i.startView != DisplayMode::Automatic || i.startZoom != INVALID_ZOOM ||
          i.startScroll.x != -1 && i.startScroll.y != -1) &&
         isFirstWin) {
-        const WCHAR* viewMode = prefs::conv::FromDisplayMode(i.startView);
-        cmd.AppendFmt(L"[SetView(\"%s\", \"%s\", %.2f, %d, %d)]", fullpath, viewMode, i.startZoom, i.startScroll.x,
-                      i.startScroll.y);
+        const char* viewModeStr = DisplayModeToString(i.startView);
+        AutoFreeWstr viewMode = strconv::Utf8ToWstr(viewModeStr);
+        cmd.AppendFmt(L"[SetView(\"%s\", \"%s\", %.2f, %d, %d)]", fullpath, viewMode.Get(), i.startZoom,
+                      i.startScroll.x, i.startScroll.y);
     }
     if (i.forwardSearchOrigin && i.forwardSearchLine) {
         AutoFreeWstr sourcePath(path::Normalize(i.forwardSearchOrigin));
@@ -283,7 +284,7 @@ static WindowInfo* LoadOnStartup(const WCHAR* filePath, const Flags& i, bool isF
         }
         EnterFullScreen(win, i.enterPresentation);
     }
-    if (i.startView != DM_AUTOMATIC) {
+    if (i.startView != DisplayMode::Automatic) {
         SwitchToDisplayMode(win, i.startView);
     }
     if (i.startZoom != INVALID_ZOOM) {
@@ -320,15 +321,15 @@ static void RestoreTabOnStartup(WindowInfo* win, TabState* state) {
     tab->tocState = *state->tocState;
     SetSidebarVisibility(win, state->showToc, gGlobalPrefs->showFavorites);
 
-    DisplayMode displayMode = prefs::conv::ToDisplayMode(state->displayMode, DM_AUTOMATIC);
-    if (displayMode != DM_AUTOMATIC) {
+    DisplayMode displayMode = DisplayModeFromString(state->displayMode, DisplayMode::Automatic);
+    if (displayMode != DisplayMode::Automatic) {
         SwitchToDisplayMode(win, displayMode);
     }
     // TODO: make EbookController::GoToPage not crash
     if (!tab->AsEbook()) {
         tab->ctrl->GoToPage(state->pageNo, true);
     }
-    float zoom = prefs::conv::ToZoom(state->zoom, INVALID_ZOOM);
+    float zoom = ZoomFromString(state->zoom, INVALID_ZOOM);
     if (zoom != INVALID_ZOOM) {
         if (tab->AsFixed()) {
             tab->AsFixed()->Relayout(zoom, state->rotation);
@@ -372,11 +373,11 @@ static bool SetupPluginMode(Flags& i) {
     gGlobalPrefs->escToExit = false;
     // never show the sidebar by default
     gGlobalPrefs->showToc = false;
-    if (DM_AUTOMATIC == gGlobalPrefs->defaultDisplayModeEnum) {
+    if (DisplayMode::Automatic == gGlobalPrefs->defaultDisplayModeEnum) {
         // if the user hasn't changed the default display mode,
         // display documents as single page/continuous/fit width
         // (similar to Adobe Reader, Google Chrome and how browsers display HTML)
-        gGlobalPrefs->defaultDisplayModeEnum = DM_CONTINUOUS;
+        gGlobalPrefs->defaultDisplayModeEnum = DisplayMode::Continuous;
         gGlobalPrefs->defaultZoomFloat = ZOOM_FIT_WIDTH;
     }
     // use fixed page UI for all document types (so that the context menu always
@@ -821,6 +822,9 @@ int APIENTRY WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance,
         retCode = TestLice(hInstance, nCmdShow);
         goto Exit;
     }
+
+    // TODO: maybe add cmd-line switch to enable debug logging
+    gEnableDbgLog = gIsDebugBuild || gIsDailyBuild || gIsPreReleaseBuild;
 
     if (gIsDebugBuild || gIsPreReleaseBuild) {
         if (i.tester) {

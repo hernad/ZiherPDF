@@ -7,7 +7,7 @@
 
 namespace trans {
 
-#define LANGS_COUNT   59
+#define LANGS_COUNT   60
 #define STRINGS_COUNT 335
 
 const char *gOriginalStrings[STRINGS_COUNT] = {
@@ -1425,7 +1425,7 @@ const char * gTranslations_az =
   "T\303\266r\311\231m\311\231 element \311\231lav\311\231 et\0"\
   "%s. s\311\231hif\311\231ni se\303\247ilmi\305\237l\311\231r\311\231 \311\231lav\311\231 et\0"\
   "%s. s\311\231hif\311\231ni se\303\247ilmi\305\237l\311\231r\311\231 \311\231lav\311\231 et\tCtrl+B\0"\
-  "%s. s\311\231hif\311\231ni bu (ist\311\231nil\311\231n) adla se\303\247ilmi\305\237l\311\231r\311\231 \311\231lav\311\231 et:\0"\
+  "%s. s\311\231hif\311\231ni bu (ixtiyari) adla se\303\247ilmi\305\237l\311\231r\311\231 \311\231lav\311\231 et:\0"\
   "Eynis\311\231viyy\311\231li element \311\231lav\311\231 et\0"\
   "Se\303\247ilmi\305\237l\311\231r\311\231 \311\231lav\311\231 et\0"\
   "\306\217lav\311\231\0"\
@@ -1539,14 +1539,14 @@ const char * gTranslations_az =
   "Kitab formatlan\304\261r... %d s\311\231h.\0"\
   "M\311\231tn %s. s\311\231hif\311\231d\311\231 tap\304\261ld\304\261\0"\
   "M\311\231tn %s. s\311\231hif\311\231d\311\231 (t\311\231krar) tap\304\261ld\304\261\0"\
-  "S\311\231rb\311\231st m\311\231tn\0"\
+  "\304\260xtiyari m\311\231tn\0"\
   "\306\217n \303\247ox oxunanlar\0"\
   "\0"\
   "S\311\231hif\311\231y\311\231 ke\303\247\0"\
   "&Se\303\247iml\311\231ri gizl\311\231t\0"\
   "\306\217n \303\247ox oxunanlar\304\261 gizl\311\231t\0"\
   "Se\303\247\0"\
-  "T\311\231krar axtar\304\261\305\237 \303\274\303\247\303\274n F3 d\303\274ym\311\231sin\311\231 bas\304\261n\0"\
+  "M\311\231sl\311\231h\311\231t: T\311\231krar axtar\304\261\305\237 \303\274\303\247\303\274n F3 d\303\274ym\311\231sin\311\231 bas\304\261n\0"\
   "\305\236\311\231kil fayllar\304\261 (*.%s)\0"\
   "\305\236\311\231kill\311\231r\0"\
   "M\303\274r\311\231kk\311\231b\0"\
@@ -1634,7 +1634,7 @@ const char * gTranslations_az =
   "SumatraPDF-in qura\305\237d\304\261r\304\261laca\304\237\304\261 qovlu\304\237u se\303\247in:\0"\
   "Se\303\247m\311\231:\0"\
   "&E-po\303\247tla g\303\266nd\311\231r...\0"\
-  "T\311\231rs axtar\304\261\305\237 komandas\304\261n\304\261 t\311\231yin etm\311\231k\0"\
+  "T\311\231rs axtar\304\261\305\237 komandas\304\261n\304\261 t\311\231yin et\0"\
   "\306\217l&f\311\231cinl\311\231ri g\303\266st\311\231r\tF12\0"\
   "&Se\303\247ilmi\305\237l\311\231ri g\303\266st\311\231r\0"\
   "S\311\231hif\311\231l\311\231ri &ard\304\261c\304\261l g\303\266st\311\231r\0"\
@@ -1651,10 +1651,10 @@ const char * gTranslations_az =
   "S\304\261rala\0"\
   "%s m\311\231nb\311\231 fayl\304\261n\304\261n sinxronla\305\237d\304\261rma m\303\266vqeyi yoxdur\0"\
   "Kvadrat\0"\
-  "Tilda\0"\
-  "\0"\
+  "Dal\304\237al\304\261 x\311\231tt\0"\
+  "M\303\266h\303\274r\0"\
   "SumatraPDF-i i\305\237\311\231 sal\0"\
-  "\0"\
+  "\303\234std\311\231n x\311\231tt\0"\
   "M\303\266vzu:\0"\
   "SumatraPDF qura\305\237d\304\261r\304\261c\304\261s\304\261 %s\0"\
   "SumatraPDF deinstalyatoru %s\0"\
@@ -1694,7 +1694,7 @@ const char * gTranslations_az =
   "Miqyas\0"\
   "B\303\266y\303\274t\0"\
   "Ki\303\247ilt\0"\
-  "Miqyas\0"\
+  "Miqyas \311\231msal\304\261\0"\
   "[D\311\231yi\305\237iklikl\311\231r m\303\274\311\231yy\311\231n edildi; yenil\311\231nm\311\231] %s\0"\
   "m\311\231tnin kopyalanmas\304\261\0"\
   "s\311\231n\311\231din \303\247ap olunmas\304\261\0";
@@ -4394,6 +4394,343 @@ const char * gTranslations_tw =
   "[\345\267\262\345\201\265\346\270\254\350\256\212\346\233\264\357\274\214\346\255\243\345\234\250\346\233\264\346\226\260] %s\0"\
   "\346\255\243\345\234\250\350\244\207\350\243\275\346\226\207\345\255\227\0"\
   "\346\255\243\345\234\250\345\210\227\345\215\260\346\226\207\344\273\266\0";
+
+const char * gTranslations_kw = 
+  "Ny gevir leans %s.\0"\
+  "&A-dro dhe...\0"\
+  "&Braster gwir\tCtrl+1\0"\
+  "Settyansow &avonsys...\0"\
+  "Pub folen dewisys\0"\
+  "War-lergh\tAlt+<-\0"\
+  "&Gwel-lyver\tCtrl+8\0"\
+  "&Degea\tCtrl+W\0"\
+  "&Kopia Dewis\0"\
+  "Dasskrifa Dewis\tCtrl+C\0"\
+  "&Na wovyn orthiv arta\0"\
+  "Folennow &parow hepken\0"\
+  "&A-dal\tCtrl+7\0"\
+  "&Restren\0"\
+  "&Kavos pyth:\0"\
+  "Kynsa Folen\tHome\0"\
+  "&Desedha folennow dhe arenebedh pryntyadow\0"\
+  "&Mos dhe\0"\
+  "&Mos dhe folen:\0"\
+  "&Gweres\0"\
+  "Diwettha folen\tEnd\0"\
+  "&Brasheans:\0"\
+  "&Kowethlyver\0"\
+  "An &Keth kas\0"\
+  "Nessa Folen\t->\0"\
+  "&Na\0"\
+  "&Na, meur ras\0"\
+  "Folennow &dibarow hepken\0"\
+  "&Ygeri Skriven\0"\
+  "&Ygor...\tCtrl+O\0"\
+  "&Dewisyow\0"\
+  "&Etholyow...\0"\
+  "&Ger-tremena:\0"\
+  "&Pynna Skriven\0"\
+  "Folen kyns\t<-\0"\
+  "&Pryntya...\0"\
+  "&Pryntya\tCtrl+P\0"\
+  "&Pryntya... (neghys)\0"\
+  "&Perthi kov a'n ger tremena rag an skriven ma\0"\
+  "Gwitha an etholy&ow ma rag pub restren\0"\
+  "&Removya A Istori\0"\
+  "&Gwitha Avel...\0"\
+  "&Gwitha avel...\tCtrl+S\0"\
+  "&Settyansow\0"\
+  "&Lehe folennow dhe arenebedh pryntyadow (mars yw res)\0"\
+  "&Folen Unnik\tCtrl+6\0"\
+  "&Tremena an versyon ma\0"\
+  "&Thema\0"\
+  "&Usya braster folen wreydhek\0"\
+  "&Gweles\0"\
+  "&Fenester\0"\
+  "&Ya\0"\
+  "&Zoum\0"\
+  "(a %d)\0"\
+  "(%s folen)\0"\
+  "A-dro dhe SumatraPDF\0"\
+  "Keworra Tra Drudh\0"\
+  "Keworra PDF avel flogh\0"\
+  "Keworra PDF avel hwor\0"\
+  "Keworra flogh\0"\
+  "Keworra folen %s dhe daklow drudh\0"\
+  "Keworra folen %s dhe daklow drudh\tCtrl+B\0"\
+  "Keworra folen %s dhe daklow drudh gans hanow (dewisel):\0"\
+  "Keworra hwor\0"\
+  "Keworra dhe daklow drudh\0"\
+  "Avonsys\0"\
+  "Pub restren\0"\
+  "Pub skriven skoodhys\0"\
+  "Notenyans\0"\
+  "Towlen:\0"\
+  "Os ta sur bos hwans dhis anlea %s?\0"\
+  "Os ta sur bos hwans dhis anlea SumatraPDF?\0"\
+  "Keskelmi orth restrennow PDF?\0"\
+  "Stagell: %s\0"\
+  "Awtour:\0"\
+  "Awtomatek\0"\
+  "Checkya rag nowythyansow yn awtomatek\0"\
+  "Gwel-lyver\0"\
+  "Folennotya Skochfordhow\0"\
+  "Folennotya skochfordhow dhe folen %s a %s\0"\
+  "Folennotennow\0"\
+  "Baytys\0"\
+  "Skrivennow CHM\0"\
+  "Ny yllir junya dhe'n kesrosweyth (gwall %#x).\0"\
+  "Hedhi\0"\
+  "Ny yllir pryntya an restren ma\0"\
+  "Ny yllir dalleth arhadow gorthhwilas.  Check an linen arhadow y'n settyansow mar pleg.\0"\
+  "To byghan\0"\
+  "Chanjya yeth (Change Language)\0"\
+  "&Checkya rag versyon nowyth\0"\
+  "Kylgh\0"\
+  "Degea\0"\
+  "Byghanhe Oll\0"\
+  "Liw\0"\
+  "Bondys Delinys\0"\
+  "Kesplegadewder\0"\
+  "Heb aswa\0"\
+  "Gwel-lyver heb aswa\0"\
+  "A-dal heb aswa\0"\
+  "Keworra treylyans\0"\
+  "Kopia &Skeusen\0"\
+  "Kopia Trigva &Kevren\0"\
+  "Kopia Ka&mpol\0"\
+  "Ny yllir kopia an tekst (ow kopia avel skeusen hepken)\0"\
+  "Gwirpryntyans:\0"\
+  "Ny yllir kavos gnasow an pryntyer\0"\
+  "Ny yllir gwruthyl an arayel leans\0"\
+  "Ny yllys darbari pryntyer\0"\
+  "Ny yllir lea ragweler PDF\0"\
+  "Ny yllir lea sythel hwilas PDF\0"\
+  "Ny yllir removya arayel leans\0"\
+  "Ny yllys rendra folen\0"\
+  "Ny yllir anlea ragweler PDF\0"\
+  "Ny yllir anlea sythel hwilas Sumatra\0"\
+  "Ny yllir lea ebilyans peurel\0"\
+  "Ny yllir skrifa %s dhe'n disk\0"\
+  "Gwruthyl Notenyans\0"\
+  "Gwrys:\0"\
+  "Restren a-lemmyn\0"\
+  "Le resor:\0"\
+  "&Zoum arbennik...\tCtrl+Y\0"\
+  "Tewl\0"\
+  "Tewlla\0"\
+  "&Delinyans savonek:\0"\
+  "&Zoum savonek:\0"\
+  "Ny yll an pennredyer PDF bos chanjyes yn modh porthadow\0"\
+  "Kumyasow Neghys:\0"\
+  "Skrivennow DjVu\0"\
+  "Gnasow Skriven\0"\
+  "Iskarga\0"\
+  "&Degea\tCtrl+Q\0"\
+  "Kwytya Skrin-leun\0"\
+  "E-lyvrow EPUB\0"\
+  "Golegi\0"\
+  "Golegi notenyans\0"\
+  "Golegi Folennotennow\0"\
+  "Ri ger-tremena\0"\
+  "Ri ger-tremena rag %s\0"\
+  "Enter an linen-gorhemmyn dhe'y elwel pan wre'ta klyck dewblek war an skriven PDF:\0"\
+  "Gwall karga %s\0"\
+  "Lesa Oll\0"\
+  "Esperthi Folennotennow\0"\
+  "T&aklow drudh\0"\
+  "Yn-rag\tAlt+->\0"\
+  "Skrin Leun\tCtrl+Shift+L\0"\
+  "A-dal\0"\
+  "Dilea alwedhow kovskrifva anleell\0"\
+  "Kovskrifa avel towlen dhefowt gans Win 10 a fyllis\0"\
+  "Dashenwel an restren a fyllis!\0"\
+  "Gwithyans restren a fyllis\0"\
+  "Skrifa kedhlow ystynnyans restren ynstynnys dhe'n govskrifva a fyllis\0"\
+  "Skrifa an kedhlow anleans dhe'n govskrifva a fyllis!\0"\
+  "Gwel Wias Skav\0"\
+  "Taklow drudh\0"\
+  "Skrivennow FictionBook\0"\
+  "Ny gevir restren %s\0"\
+  "Stagel Restren\0"\
+  "Braster Restren:\0"\
+  "Restren:\0"\
+  "Kavos...\tCtrl+F\0"\
+  "Kavos\0"\
+  "Kavos Nessa\0"\
+  "Kavos Kyns\0"\
+  "Kavos:\0"\
+  "Desedha &Dalgh\tCtrl+3\0"\
+  "Desedha &Folen\tCtrl+0\0"\
+  "&Desedha Les\tCtrl+2\0"\
+  "Desedha Dalgh\0"\
+  "Desedha Folen\0"\
+  "Desedha Les\0"\
+  "Desedha Les ha Diskwedhes Folennow Heb Aswa\0"\
+  "Desedha Folen Unnik\0"\
+  "Fontys:\0"\
+  "Ow furvasa an lyver... %d folen\0"\
+  "Tekst kevys war folen %s\0"\
+  "Y hevir tekst orth folen %s (arta)\0"\
+  "Tekst Rydh\0"\
+  "Redys yn Fenowgh\0"\
+  "\0"\
+  "Mos dhe folen\0"\
+  "Kudha Settyans&ow\0"\
+  "Kudha redys yn fenowgh\0"\
+  "Golowboyntya\0"\
+  "Hynt: Devnydhya alhwedhen F3 rag daskavos\0"\
+  "Restrennow skeusen (*.%s)\0"\
+  "Skeusennow\0"\
+  "Ynk\0"\
+  "Lea SumatraPDF\0"\
+  "Lea SumatraPDF yn &restren:\0"\
+  "Ynstallyans fyllys!\0"\
+  "Ow lea...\0"\
+  "\0"\
+  "Gasa Windows Desktop Search dhe &hwilas skrivennow PDF\0"\
+  "Gasa Windows dhe dhiskwedhes &ragwelyow a skrivennow PDF\0"\
+  "Golow\0"\
+  "Linen\0"\
+  "\0"\
+  "Gul SumatraPDF towlen savonek rag restrennow PDF?\0"\
+  "Gwra SumatraPDF ow fennredyer PDF\0"\
+  "Modh Man&ga\0"\
+  "An keth kas\0"\
+  "Restrennow Mobi\0"\
+  "Chanjys:\0"\
+  "&Fenester nowydh\tCtrl+N\0"\
+  "Folennotennow Nowydh\0"\
+  "Versyon nowyth %s yw parys. Iskarga versyon nowyth?\0"\
+  "Nessa Folen\0"\
+  "Ny veu keyvys par vyth\0"\
+  "Ny veu kevys sywyans vyth a-dro dhe linen %u y'n restren %s\0"\
+  "Ny veu kevys restren gettermynegi vyth\0"\
+  "Ny veu kevys derivadow kettermynegi y'n le ma\0"\
+  "Niver a Folennow:\0"\
+  "Da lowr\0"\
+  "Ygeri\0"\
+  "Ygeri yn PDF-XChange\0"\
+  "Ygeri PDF Neythys\0"\
+  "Ygeri restren...\0"\
+  "Ygeri yn %s\0"\
+  "Ygeri yn &Adobe Reader\0"\
+  "Ygeri yn &Foxit Reader\0"\
+  "Ygeri yn Microsoft HTML Help\0"\
+  "Ygeri yn Microsoft XPS-Viewer\0"\
+  "&Gnasow\0"\
+  "&Gnasow\tCtrl+D\0"\
+  "Restren PDF\0"\
+  "Gwellheans PDF\0"\
+  "Askorrer PDF:\0"\
+  "Versyon PDF:\0"\
+  "Restrennow PDF\0"\
+  "Folen...\tCtrl+G\0"\
+  "Folen %s\0"\
+  "Braster Folen:\0"\
+  "Nyns eus folen %u\0"\
+  "Skeylyans an folen\0"\
+  "Folen:\0"\
+  "Skrivennow PalmDoc\0"\
+  "Gwra degea %s dhe besya, mar pleg!\0"\
+  "Gortos, mar pleg - ow rendra...\0"\
+  "Lieslinen\0"\
+  "Liestuek\0"\
+  "Skrivennow Postscript\0"\
+  "Pr&esentyans\tF5\0"\
+  "Folen kyns\0"\
+  "Pryntya\0"\
+  "Res pryntya\0"\
+  "Nyns eus pryntyer gans an hanow na\0"\
+  "Ow pryntya...\0"\
+  "Ow pryntya hwath. Astel ha kwytya?\0"\
+  "Ow pryntya hwath. Astel ha dastalleth?\0"\
+  "Ow pryntya folen %d a %d...\0"\
+  "Kaletter ow pryntya\0"\
+  "Dashe&nwel...\tF2\0"\
+  "Redaktya\0"\
+  "Kovhe restrennow ygerys\0"\
+  "Removya Tra\0"\
+  "Removya a daklow drudh\0"\
+  "Removya folen %s a daklow drudh\0"\
+  "Dashenwel Dhe\0"\
+  "Treylya a-gledh\tCtrl+Shift+-\0"\
+  "Treylya a-dhyhow\tCtrl+Shift++\0"\
+  "Gwitha Notennow\0"\
+  "Gwitha avel\0"\
+  "Gwitha Restren Neythys...\0"\
+  "Gwitha S&kochfordh\tCtrl+Shift+S\0"\
+  "Ow hwilas %d a %d...\0"\
+  "Dewis &Oll\0"\
+  "Dewis &Oll|tCtrl+A\0"\
+  "Dewis dalgh gans Ctrl+boton-logosen kledh\0"\
+  "Dewis an restren le may fynnydh lea SumatraPDF:\0"\
+  "Dewis:\0"\
+  "Danvon der &e-bost...\0"\
+  "Settya linen-arhadow gorthhwilas\0"\
+  "Diskwedhes &Folennotennow\tF12\0"\
+  "Diskwedhes &Taklow Drudh\0"\
+  "Diskwedhes folennow heb aswa\0"\
+  "Diskwedhes &Skrolvarrys\0"\
+  "Diskwedhes toulvar\0"\
+  "Diskwedhes Folen&notennow\tF12\0"\
+  "Diskwedhes Taklow Drudh\0"\
+  "Diskwedhes Skr&olvarrys\0"\
+  "Diskwedhes redys yn fenowgh\0"\
+  "Diskwedhes yn &restren\0"\
+  "Diskwedhes &amalvar an lyververkyow mars eus onan\0"\
+  "Unn folen hepken\0"\
+  "Drog yw genen, ny dalvia dhe henna hwarvos!\n\nGwra gweskel 'Hedhi', mars eus hwans dhis agan gweres dhe ewnhe skila an droglam.\0"\
+  "Digemyska Gans\0"\
+  "Nyns eus poynt kettermynegi vyth y'n restren %s\0"\
+  "Pedrek\0"\
+  "Igam-ogam\0"\
+  "Stampa\0"\
+  "Dalleth SumatraPDF\0"\
+  "Treuslinya\0"\
+  "Testen:\0"\
+  "Leell %s SumatraPDF\0"\
+  "Anleell %s SumatraPDF\0"\
+  "Etholyow SumatraPDF\0"\
+  "Nowedhi SumatraPDF\0"\
+  "SumatraPDF a hedhas distowgh\0"\
+  "SumatraPDF a veu anleys\0"\
+  "Ny yllir trovya leans SumatraPDF.\0"\
+  "SumatraPDF yw dha bennredyer PDF\0"\
+  "Alemma rag y fydh SumatraPDF dha bennredyer PDF\0"\
+  "Skoodhya SumatraPDF\0"\
+  "Ny yllir ygeri an restren gettermynegi\0"\
+  "Tagg (meur kynsa)\0"\
+  "Tagg (byghan kynsa)\0"\
+  "PDF Taggys\0"\
+  "Tekst\0"\
+  "Restrennow tekst\0"\
+  "Meur ras a dhewis RA-MICRO PDF!\0"\
+  "Meur ras a dhewis SumatraPDF!\0"\
+  "Meur ras! SumatraPDF a veu leys.\0"\
+  "An leans re beu legrys, Gwra y iskarga arta.\nDrog yw genen a'n ankombrynsi!\0"\
+  "An skriven ma a us nasyow anskoodhys (%s) hag yth yw possybyl na wra hi rendra yn ta\0"\
+  "Titel:\0"\
+  "Islinya\0"\
+  "Anlea SumatraPDF\0"\
+  "Anleans a fyllis\0"\
+  "Anleans ow pos gwrys...\0"\
+  "Restren-bennfenten anaswonnys (%s)\0"\
+  "Usya &tabbys\0"\
+  "Usya SumatraPDF avel redyer PDF a dhefowt\0"\
+  "Gwel\0"\
+  "&Mos dhe'n wiasva\0"\
+  "Gwarnyans\0"\
+  "Skrivennow XPS\0"\
+  "Yma'n versyon nowyttha genes.\0"\
+  "Yma versyon %s genes\0"\
+  "Zoumya\0"\
+  "Zoumya a-bervedh\0"\
+  "Zoumya dhe-ves\0"\
+  "Faktor-zoum\0"\
+  "[Nowythyansow kevys; owth arnowytha] %s\0"\
+  "ow kopia tekst\0"\
+  "ow pryntya skriven\0";
 
 const char * gTranslations_co = 
   "Installazione di %s micca trova.\0"\
@@ -14977,8 +15314,8 @@ const char * gTranslations_ru =
   "&\320\222\321\213\320\271\321\202\320\270 \320\270\320\267 \320\277\320\276\320\273\320\275\320\276\321\215\320\272\321\200\320\260\320\275\320\275\320\276\320\263\320\276 \321\200\320\265\320\266\320\270\320\274\320\260\0"\
   "\320\224\320\276\320\272\321\203\320\274\320\265\320\275\321\202\321\213 EPUB\0"\
   "\320\230\320\267\320\274\320\265\320\275\320\270\321\202\321\214\0"\
-  "\320\240\320\265\320\264\320\260\320\272\321\202\320\270\321\200\320\276\320\262\320\260\321\202\321\214 \320\260\320\275\320\275\320\276\321\202\320\260\321\206\320\270\320\270\0"\
-  "\320\255\320\272\321\201\320\277\320\276\321\200\321\202 \320\267\320\260\320\272\320\273\320\260\320\264\320\276\320\272\0"\
+  "\320\230\320\267\320\274\320\265\320\275\320\270\321\202\321\214 \320\260\320\275\320\275\320\276\321\202\320\260\321\206\320\270\320\270\0"\
+  "\320\230\320\267\320\274\320\265\320\275\320\270\321\202\321\214 \320\267\320\260\320\272\320\273\320\260\320\264\320\272\320\270\0"\
   "\320\222\320\262\320\265\320\264\320\270\321\202\320\265 \320\277\320\260\321\200\320\276\320\273\321\214\0"\
   "\320\222\320\262\320\265\320\264\320\270\321\202\320\265 \320\277\320\260\321\200\320\276\320\273\321\214 \320\264\320\273\321\217 %s\0"\
   "\320\222\320\262\320\265\320\264\320\270\321\202\320\265 \320\272\320\276\320\274\320\260\320\275\320\264\320\275\321\203\321\216 \321\201\321\202\321\200\320\276\320\272\321\203, \320\262\321\213\320\267\321\213\320\262\320\260\320\265\320\274\321\203\321\216 \320\277\321\200\320\270 \320\264\320\262\320\276\320\271\320\275\320\276\320\274 \321\211\320\265\320\273\321\207\320\272\320\265 \320\275\320\260 PDF-\320\264\320\276\320\272\321\203\320\274\320\265\320\275\321\202\320\265:\0"\
@@ -15025,11 +15362,11 @@ const char * gTranslations_ru =
   "\320\237\320\265\321\200\320\265\320\271\321\202\320\270 \320\275\320\260 \321\201\321\202\321\200\320\260\320\275\320\270\321\206\321\203\0"\
   "\320\241\320\272\321\200\321\213\321\202\321\214 \320\277\320\260\321\200\320\260\320\274\320\265\321\202\321\200\321\213\0"\
   "\320\241\320\272\321\200\321\213\321\202\321\214 \321\207\320\260\321\201\321\202\320\276 \320\270\321\201\320\277\320\276\320\273\321\214\320\267\321\203\320\265\320\274\321\213\320\265 \320\264\320\276\320\272\321\203\320\274\320\265\320\275\321\202\321\213\0"\
-  "\320\222\321\213\320\264\320\265\320\273\320\270\321\202\321\214\0"\
+  "\320\222\321\213\320\264\320\265\320\273\320\265\320\275\320\270\320\265\0"\
   "\320\224\320\273\321\217 \320\277\320\276\320\262\321\202\320\276\321\200\320\275\320\276\320\263\320\276 \320\277\320\276\320\270\321\201\320\272\320\260 \320\275\320\260\320\266\320\274\320\270\321\202\320\265 <F3>\0"\
   "\320\244\320\260\320\271\320\273\321\213 \320\270\320\267\320\276\320\261\321\200\320\260\320\266\320\265\320\275\320\270\320\271 (*.%s)\0"\
   "\320\230\320\267\320\276\320\261\321\200\320\260\320\266\320\265\320\275\320\270\321\217\0"\
-  "\0"\
+  "\320\247\320\265\321\200\320\275\320\270\320\273\320\260\0"\
   "\320\235\320\260\321\207\320\260\321\202\321\214 \321\203\321\201\321\202\320\260\320\275\320\276\320\262\320\272\321\203\0"\
   "\320\243\321\201\321\202\320\260\320\275\320\276\320\262\320\270\321\202\321\214 SumatraPDF \320\262 &\320\277\320\260\320\277\320\272\321\203:\0"\
   "\320\243\321\201\321\202\320\260\320\275\320\276\320\262\320\272\320\260 \320\275\320\265 \321\203\320\264\320\260\320\273\320\260\321\201\321\214!\0"\
@@ -15132,9 +15469,9 @@ const char * gTranslations_ru =
   "\320\235\320\265\321\202 \321\202\320\276\321\207\320\272\320\270 \321\201\320\270\320\275\321\205\321\200\320\276\320\275\320\270\320\267\320\260\321\206\320\270\320\270 \320\262 \320\270\321\201\321\205\320\276\320\264\320\275\320\276\320\274 \321\204\320\260\320\271\320\273\320\265 %s\0"\
   "\320\232\320\262\320\260\320\264\321\200\320\260\321\202\0"\
   "\320\222\320\276\320\273\320\275\320\270\321\201\321\202\320\260\321\217 \320\273\320\270\320\275\320\270\321\217\0"\
-  "\0"\
+  "\320\237\320\265\321\207\320\260\321\202\321\214\0"\
   "\320\237\321\203\321\201\320\272 SumatraPDF\0"\
-  "\320\237\320\265\321\200\320\265\321\207\320\265\321\200\320\272\320\275\321\203\321\202\321\214\0"\
+  "\320\237\320\265\321\200\320\265\321\207\321\221\321\200\320\272\320\270\320\262\320\260\320\275\320\270\320\265\0"\
   "\320\242\320\265\320\274\320\260:\0"\
   "\320\230\320\275\321\201\321\202\320\260\320\273\320\273\321\217\321\202\320\276\321\200 SumatraPDF %s\0"\
   "\320\224\320\265\320\270\320\275\321\201\321\202\320\260\320\273\320\273\321\217\321\202\320\276\321\200 SumatraPDF %s\0"\
@@ -15147,8 +15484,8 @@ const char * gTranslations_ru =
   "\320\242\320\265\320\277\320\265\321\200\321\214 SumatraPDF \320\260\321\201\321\201\320\276\321\206\320\270\320\270\321\200\320\276\320\262\320\260\320\275\320\260 \321\201 \321\204\320\260\320\271\320\273\320\260\320\274\320\270 PDF\0"\
   "\320\237\320\276\320\264\320\264\320\265\321\200\320\266\320\260\321\202\321\214 SumatraPDF\0"\
   "\320\235\320\265 \321\203\320\264\320\260\320\273\320\276\321\201\321\214 \320\276\321\202\320\272\321\200\321\213\321\202\321\214 \321\204\320\260\320\271\320\273 \321\201 \320\270\320\275\321\204\320\276\321\200\320\274\320\260\321\206\320\270\320\265\320\271 \320\264\320\273\321\217 \321\201\320\270\320\275\321\205\321\200\320\276\320\275\320\270\320\267\320\260\321\206\320\270\320\270\0"\
-  "\0"\
-  "\0"\
+  "\320\240\320\260\320\267\320\274\320\265\321\202\320\272\320\260 (\321\201\320\275\320\260\321\207\320\260\320\273\320\260 \320\261\320\276\320\273\321\214\321\210\320\270\320\265)\0"\
+  "\320\240\320\260\320\267\320\274\320\265\321\202\320\272\320\260 (\321\201\320\275\320\260\321\207\320\260\320\273\320\260 \320\274\320\260\320\273\320\265\320\275\321\214\320\272\320\270\320\265)\0"\
   "\320\240\320\260\320\267\320\274\320\265\321\207\320\265\320\275\320\275\321\213\320\271 PDF\0"\
   "\320\242\320\265\320\272\321\201\321\202\0"\
   "\320\242\320\265\320\272\321\201\321\202\320\276\320\262\321\213\320\265 \320\264\320\276\320\272\321\203\320\274\320\265\320\275\321\202\321\213\0"\
@@ -15158,7 +15495,7 @@ const char * gTranslations_ru =
   "\320\230\320\275\321\201\321\202\320\260\320\273\320\273\321\217\321\202\320\276\321\200 \320\270\321\201\320\277\320\276\321\200\321\207\320\265\320\275. \320\237\320\276\320\266\320\260\320\273\321\203\320\271\321\201\321\202\320\260, \320\267\320\260\320\263\321\200\321\203\320\267\320\270\321\202\320\265 \320\265\320\263\320\276 \320\277\320\276\320\262\321\202\320\276\321\200\320\275\320\276.\n\320\230\320\267\320\262\320\270\320\275\320\270\321\202\320\265 \320\267\320\260 \320\275\320\265\321\203\320\264\320\276\320\261\321\201\321\202\320\262\320\260!\0"\
   "\320\255\321\202\320\276\321\202 \320\264\320\276\320\272\321\203\320\274\320\265\320\275\321\202 \320\270\321\201\320\277\320\276\320\273\321\214\320\267\321\203\320\265\321\202 \320\275\320\265\320\277\320\276\320\264\320\264\320\265\321\200\320\266\320\270\320\262\320\260\320\265\320\274\321\213\320\265 \321\204\321\203\320\275\320\272\321\206\320\270\320\270 (%s) \320\270 \320\274\320\276\320\266\320\265\321\202 \320\276\321\202\320\276\320\261\321\200\320\260\320\266\320\260\321\202\321\214\321\201\321\217 \321\201 \320\276\321\210\320\270\320\261\320\272\320\260\320\274\320\270\0"\
   "\320\235\320\260\320\267\320\262\320\260\320\275\320\270\320\265:\0"\
-  "\320\237\320\276\320\264\321\207\320\265\321\200\320\272\320\275\321\203\321\202\321\214\0"\
+  "\320\237\320\276\320\264\321\207\321\221\321\200\320\272\320\270\320\262\320\260\320\275\320\270\320\265\0"\
   "\320\243\320\264\320\260\320\273\320\270\321\202\321\214 SumatraPDF\0"\
   "\320\243\320\264\320\260\320\273\320\265\320\275\320\270\320\265 \320\275\320\265 \321\203\320\264\320\260\320\273\320\276\321\201\321\214\0"\
   "\320\237\321\200\320\276\320\270\321\201\321\205\320\276\320\264\320\270\321\202 \321\203\320\264\320\260\320\273\320\265\320\275\320\270\320\265...\0"\
@@ -19224,7 +19561,7 @@ const char * gTranslations_uz =
   "hujjatni chop etish\0";
 
 const char * gTranslations_vn = 
-  "\0"\
+  "Kh\303\264ng t\303\254m th\341\272\245y b\341\272\243n c\303\240i \304\221\341\272\267t \304\221\341\272\267t %s.\0"\
   "Gi\341\273\233i thi\341\273\207u\0"\
   "K\303\255ch th\306\260\341\273\233&c th\341\272\255t\tCtrl+1\0"\
   "T\303\271y ch\341\273\215n &n\303\242ng cao...\0"\
@@ -19285,7 +19622,7 @@ const char * gTranslations_vn =
   "\0"\
   "\0"\
   "Th\303\252m trang %s v\303\240o \306\257a th\303\255ch\0"\
-  "\0"\
+  "Th\303\252m trang %s v\303\240o m\341\273\245c \306\260a th\303\255ch\tCtrl+B\0"\
   "Th\303\252m trang %s v\303\240o \306\257a th\303\255ch v\341\273\233i t\303\252n (t\303\271y ch\341\273\215n):\0"\
   "\0"\
   "Th\303\252m v\303\240o \306\257a th\303\255ch\0"\
@@ -19294,7 +19631,7 @@ const char * gTranslations_vn =
   "T\341\272\245t c\341\272\243 c\303\241c \304\221\341\273\213nh d\341\272\241ng \304\221\306\260\341\273\243c h\341\273\227 tr\341\273\243\0"\
   "\0"\
   "\341\273\250ng d\341\273\245ng:\0"\
-  "\0"\
+  "B\341\272\241n c\303\263 ch\341\272\257c ch\341\272\257n mu\341\273\221n g\341\273\241 c\303\240i \304\221\341\272\267t %s?\0"\
   "B\341\272\241n c\303\263 ch\341\272\257c mu\341\273\221n g\341\273\241 b\341\273\217 SumatraPDF kh\303\264ng?\0"\
   "Li\303\252n k\341\272\277t v\341\273\233i t\341\272\255p tin PDF?\0"\
   "\304\220\303\255nh k\303\250m: %s\0"\
@@ -19317,7 +19654,7 @@ const char * gTranslations_vn =
   "\0"\
   "\304\220\303\263ng l\341\272\241i\0"\
   "\0"\
-  "\0"\
+  "T\303\264 m\303\240u\0"\
   "Truy\341\273\207n tranh comic\0"\
   "T\303\255nh t\306\260\306\241ng th\303\255ch\0"\
   "Li\303\252n ti\341\272\277p\0"\
@@ -19337,7 +19674,7 @@ const char * gTranslations_vn =
   "Kh\303\264ng th\341\273\203 g\341\273\241 b\341\273\217 th\306\260 m\341\273\245c c\303\240i \304\221\341\272\267t\0"\
   "Kh\303\264ng hi\341\273\207n \304\221\306\260\341\273\243c trang\0"\
   "Kh\303\264ng th\341\273\203 g\341\273\241 c\303\240i \304\221\341\272\267t b\341\273\231 xem tru\341\273\233c PDF\0"\
-  "\0"\
+  "Kh\303\264ng th\341\273\203 g\341\273\241 c\303\240i \304\221\341\272\267t b\341\273\231 l\341\273\215c t\303\254m ki\341\272\277m Sumatra\0"\
   "Kh\303\264ng th\341\273\203 g\341\273\241 c\303\240i \304\221\341\272\267t Plugin tr\303\254nh duy\341\273\207t\0"\
   "Kh\303\264ng th\341\273\203 ghi %s v\303\240o \304\221\304\251a\0"\
   "\0"\
@@ -19355,11 +19692,11 @@ const char * gTranslations_vn =
   "Thu\341\273\231c t\303\255nh t\341\272\255p tin\0"\
   "T\341\272\243i xu\341\273\221ng\0"\
   "Th&o\303\241t\tCtrl+Q\0"\
-  "\0"\
+  "Tho\303\241t kh\341\273\217i ch\341\272\277 \304\221\341\273\231 To\303\240n m\303\240n h\303\254nh\0"\
   "T\341\272\255p tin EPUB\0"\
   "\0"\
   "\0"\
-  "\0"\
+  "S\341\273\255a D\341\272\245u trang\0"\
   "Nh\341\272\255p m\341\272\255t kh\341\272\251u\0"\
   "Nh\341\272\255p m\341\272\255t kh\341\272\251u cho %s\0"\
   "Nh\341\272\255p d\303\262ng l\341\273\207nh g\341\273\215i khi b\341\272\241n nh\341\272\245p \304\221\303\272p v\303\240o t\341\272\255p tin PDF:\0"\
@@ -19380,7 +19717,7 @@ const char * gTranslations_vn =
   "\306\257a th\303\255ch\0"\
   "T\341\272\255p tin FictionBook\0"\
   "Kh\303\264ng t\303\254m th\341\272\245y t\341\272\255p tin %s\0"\
-  "\0"\
+  "T\341\273\207p \304\221\303\255nh k\303\250m\0"\
   "K\303\255ch th\306\260\341\273\233c:\0"\
   "T\341\272\255p tin:\0"\
   "T\303\254m ki\341\272\277m...\tCtrl+F\0"\
@@ -19427,8 +19764,8 @@ const char * gTranslations_vn =
   "Ph\303\242n bi\341\273\207t HOA-th\306\260\341\273\235ng\0"\
   "T\341\272\255p tin Mobi\0"\
   "Ng\303\240y ch\341\273\211nh s\341\273\255a\0"\
-  "\0"\
-  "\0"\
+  "M\341\273\237 c\341\273\255a s\341\273\225 m\341\273\233i\tCtrl+N\0"\
+  "Th\303\252m D\341\272\245u trang m\341\273\233i\0"\
   "\304\220\303\243 c\303\263 phi\303\252n b\341\272\243n m\341\273\233i %s. T\341\272\243i v\341\273\201 phi\303\252n b\341\272\243n m\341\273\233i?\0"\
   "Trang sau\0"\
   "Kh\303\264ng t\303\254m th\341\272\245y\0"\
@@ -19497,9 +19834,9 @@ const char * gTranslations_vn =
   "G\341\273\255i qua &email...\0"\
   "\304\220\341\272\267t d\303\262ng l\341\273\207nh t\303\254m ki\341\272\277m ng\306\260\341\273\243c\0"\
   "\0"\
-  "\0"\
+  "Hi\341\273\207n m\341\273\245c \306\257a th\303\255ch\0"\
   "Xem trang li\303\252n ti\341\272\277p\0"\
-  "\0"\
+  "Hi\341\273\207n &Thanh cu\341\273\231n\0"\
   "Hi\341\273\207n thanh c\303\264ng c\341\273\245\0"\
   "\0"\
   "Hi\341\273\207n \306\257a th\303\255ch\0"\
@@ -19509,13 +19846,13 @@ const char * gTranslations_vn =
   "Hi\341\273\207n ch\341\273\211 d\341\272\245u s\303\241ch n\341\272\277u c\303\263\0"\
   "Trang \304\221\306\241n\0"\
   "Xin l\341\273\227i, \304\221i\341\273\201u \304\221\303\263 kh\303\264ng n\303\252n x\341\272\243y ra!\n\nVui l\303\262ng b\341\272\245m 'Cancel', n\341\272\277u b\341\272\241n mu\341\273\221n gi\303\272p ch\303\272ng t\303\264i s\341\273\255a ch\341\273\257a l\303\275 do c\341\273\247a tr\306\260\341\273\235ng h\341\273\243p l\341\273\227i n\303\240y.\0"\
-  "\0"\
+  "S\341\272\257p x\341\272\277p theo\0"\
   "T\341\272\255p tin ngu\341\273\223n %s kh\303\264ng c\303\263 \304\221i\341\273\203m \304\221\341\273\223ng b\341\273\231\0"\
   "\0"\
   "\0"\
   "\0"\
   "M\341\273\237 SumatraPDF\0"\
-  "\0"\
+  "G\341\272\241ch ngang t\341\273\253\0"\
   "Ch\341\273\247 \304\221\341\273\201:\0"\
   "B\341\273\231 c\303\240i \304\221\341\272\267t %s SumatraPDF\0"\
   "B\341\273\231 g\341\273\241 c\303\240i \304\221\341\272\267t %s SumatraPDF\0"\
@@ -19526,7 +19863,7 @@ const char * gTranslations_vn =
   "Kh\303\264ng t\303\254m th\341\272\245y g\303\263i c\303\240i \304\221\341\272\267t SumatraPDF.\0"\
   "SumatraPDF l\303\240 tr\303\254nh \304\221\341\273\215c PDF ch\303\255nh c\341\273\247a b\341\272\241n\0"\
   "SumatraPDF gi\341\273\235 l\303\240 tr\303\254nh \304\221\341\273\215c PDF ch\303\255nh c\341\273\247a b\341\272\241n\0"\
-  "\0"\
+  "H\341\273\227 tr\341\273\243 SumatraPDF\0"\
   "Kh\303\264ng m\341\273\237 \304\221\306\260\341\273\243c t\341\272\255p tin \304\221\341\273\223ng b\341\273\231\0"\
   "\0"\
   "\0"\
@@ -19539,7 +19876,7 @@ const char * gTranslations_vn =
   "Tr\303\254nh c\303\240i \304\221\341\272\267t \304\221\303\243 b\341\273\213 l\341\273\227i. Xin vui l\303\262ng t\341\272\243i v\341\273\201 l\341\272\247n n\341\273\257a.\nR\341\272\245t ti\341\272\277c v\341\273\201 s\341\273\261 b\341\272\245t ti\341\273\207n n\303\240y!\0"\
   "T\303\240i li\341\273\207u n\303\240y c\303\263 v\303\240i t\303\255nh n\304\203ng kh\303\264ng \304\221\306\260\341\273\243c h\341\273\227 tr\341\273\243 (%s) v\303\240 kh\303\264ng \304\221\306\260\341\273\243c d\341\273\261ng ch\303\255nh x\303\241c\0"\
   "T\341\273\261a \304\221\341\273\201\0"\
-  "\0"\
+  "G\341\272\241ch ch\303\242n\0"\
   "G\341\273\241 b\341\273\217 SumatraPDF\0"\
   "Kh\303\264ng g\341\273\241 b\341\273\217 \304\221\306\260\341\273\243c\0"\
   "\304\220ang g\341\273\241 b\341\273\217...\0"\
@@ -19912,6 +20249,7 @@ static const char *gTranslations[LANGS_COUNT] = {
   gTranslations_ca_xv, 
   gTranslations_cn, 
   gTranslations_tw, 
+  gTranslations_kw, 
   gTranslations_co, 
   gTranslations_hr, 
   gTranslations_cz, 
@@ -19976,6 +20314,7 @@ const char *gLangCodes =   "en\0" \
   "ca-xv\0" \
   "cn\0" \
   "tw\0" \
+  "kw\0" \
   "co\0" \
   "hr\0" \
   "cz\0" \
@@ -20036,6 +20375,7 @@ const char *gLangNames =   "English\0" \
   "Catalan-Valencian (Catal\303\240-Valenci\303\240)\0" \
   "Chinese Simplified (\347\256\200\344\275\223\344\270\255\346\226\207)\0" \
   "Chinese Traditional (\347\271\201\351\253\224\344\270\255\346\226\207)\0" \
+  "Cornish (Kernewek)\0" \
   "Corsican (Corsu)\0" \
   "Croatian (Hrvatski)\0" \
   "Czech (\304\214e\305\241tina)\0" \
@@ -20108,6 +20448,7 @@ const LANGID gLangIds[LANGS_COUNT] = {
   (LANGID)-1,
   MAKELANGID(LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED),
   MAKELANGID(LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL),
+  (LANGID)-1,
   _LANGID(LANG_CORSICAN),
   _LANGID(LANG_CROATIAN),
   _LANGID(LANG_CZECH),
@@ -20159,7 +20500,7 @@ const LANGID gLangIds[LANGS_COUNT] = {
 
 bool IsLangRtl(int idx)
 {
-  return (2 == idx) || (24 == idx) || (31 == idx) || (39 == idx);
+  return (2 == idx) || (25 == idx) || (32 == idx) || (40 == idx);
 }
 
 int gLangsCount = LANGS_COUNT;

@@ -578,7 +578,7 @@ void EbookController::StartLayouting(int startReparseIdxArg, DisplayMode display
     currPageReparseIdx = startReparseIdxArg;
     // displayMode could be any value if alternate UI was used, we have to limit it to
     // either DM_SINGLE_PAGE or DM_FACING
-    if (DM_AUTOMATIC == displayMode) {
+    if (DisplayMode::Automatic == displayMode) {
         displayMode = gGlobalPrefs->defaultDisplayModeEnum;
     }
 
@@ -896,7 +896,7 @@ void EbookController::GetDisplayState(DisplayState* ds) {
     // DisplayState settings can also be used for EngineEbook;
     // we get reasonable defaults from DisplayState's constructor anyway
     ds->reparseIdx = currPageReparseIdx;
-    str::ReplacePtr(&ds->displayMode, prefs::conv::FromDisplayMode(GetDisplayMode()));
+    str::ReplacePtr(&ds->displayMode, DisplayModeToString(GetDisplayMode()));
 }
 
 void EbookController::SetViewPortSize(Size size) {

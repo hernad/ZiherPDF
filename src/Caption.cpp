@@ -5,6 +5,11 @@
 #include "utils/WinDynCalls.h"
 #include "utils/WinUtil.h"
 
+#include "wingui/WinGui.h"
+#include "wingui/Layout.h"
+#include "wingui/Window.h"
+#include "wingui/TabsCtrl.h"
+
 #include "DisplayMode.h"
 #include "SettingsStructs.h"
 #include "AppColors.h"
@@ -476,7 +481,7 @@ void RelayoutCaption(WindowInfo* win) {
 
     rc.x += tabHeight;
     rc.dx -= tabHeight;
-    dh.SetWindowPos(win->hwndTabBar, nullptr, rc.x, rc.y, rc.dx, tabHeight, SWP_NOZORDER);
+    dh.SetWindowPos(win->tabsCtrl->hwnd, nullptr, rc.x, rc.y, rc.dx, tabHeight, SWP_NOZORDER);
     dh.End();
 }
 
@@ -603,6 +608,9 @@ void PaintParentBackground(HWND hwnd, HDC hdc) {
     SetViewportOrgEx(hdc, -pt.x, -pt.y, &pt);
     SendMessageW(parent, WM_ERASEBKGND, (WPARAM)hdc, 0);
     SetViewportOrgEx(hdc, pt.x, pt.y, nullptr);
+
+    // TODO: needed to force repaint of tab area after closing a window
+    InvalidateRect(parent, nullptr, TRUE);
 }
 
 static void PaintCaptionBackground(HDC hdc, WindowInfo* win, bool useDoubleBuffer) {

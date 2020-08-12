@@ -280,7 +280,7 @@ function libjpeg_turbo_files()
     })
     files {"ext/libjpeg-turbo/simd/jsimd_i386.c"}
 
-  filter {'platforms:x64 or x64_ramicro'}
+  filter {'platforms:x64 or x64_asan or x64_ramicro'}
     files_in_dir("ext/libjpeg-turbo/simd", {
       "jfsseflt-64.asm", "jccolss2-64.asm", "jdcolss2-64.asm", "jcgrass2-64.asm",
     	"jcsamss2-64.asm", "jdsamss2-64.asm", "jdmerss2-64.asm", "jcqnts2i-64.asm",
@@ -408,6 +408,7 @@ function sumatrapdf_files()
     "Commands.*",
     "CrashHandler.*",
     "DisplayModel.*",
+    "DisplayMode.*",
     "Doc.*",
     "EbookController.*",
     "EbookControls.*",
@@ -589,7 +590,7 @@ function mupdf_files()
 
   files { "ext/mupdf_load_system_font.c" }
 
-  filter {"platforms:x64 or x64_ramicro"}
+  filter {"platforms:x64 or x64_asan or x64_ramicro"}
     files {
       "mupdf/fonts_64.asm",
     }
@@ -914,6 +915,7 @@ function test_util_files()
     --"AppTools.*",
     --"StressTesting.*",
     "AppUtil.*",
+    "DisplayMode.*",
     "Flags.*",
     "SumatraConfig.*",
     "SettingsStructs.*",

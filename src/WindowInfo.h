@@ -10,6 +10,7 @@ struct FrameRateWnd;
 struct LabelWithCloseWnd;
 struct SplitterCtrl;
 struct CaptionInfo;
+struct TabsCtrl2;
 
 struct IPageElement;
 struct PageDestination;
@@ -131,7 +132,7 @@ struct WindowInfo {
     // horizontal splitter for resizing favorites and bookmars parts
     SplitterCtrl* favSplitter{nullptr};
 
-    HWND hwndTabBar{nullptr};
+    TabsCtrl2* tabsCtrl{nullptr};
     bool tabsVisible{false};
     bool tabsInTitlebar{false};
     // keeps the sequence of tab selection. This is needed for restoration
@@ -240,7 +241,7 @@ struct WindowInfo {
 
     void ShowToolTip(const WCHAR* text, Rect& rc, bool multiline = false);
     void HideToolTip();
-    NotificationWnd* ShowNotification(const WCHAR* msg, int options = NOS_DEFAULT,
+    NotificationWnd* ShowNotification(const WCHAR* msg, int options = NOS_WITH_TIMEOUT,
                                       NotificationGroupId groupId = NG_RESPONSE_TO_ACTION);
 
     bool CreateUIAProvider();

@@ -251,7 +251,8 @@ bool IsBenchPagesInfo(const WCHAR* s) {
 
 // -view [continuous][singlepage|facing|bookview]
 static void ParseViewMode(DisplayMode* mode, const WCHAR* txt) {
-    *mode = prefs::conv::ToDisplayMode(txt, DM_AUTOMATIC);
+    AutoFreeStr s = strconv::WstrToUtf8(txt);
+    *mode = DisplayModeFromString(s.Get(), DisplayMode::Automatic);
 }
 
 static const char* zoomValues =
