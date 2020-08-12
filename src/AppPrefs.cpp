@@ -11,7 +11,6 @@
 
 #include "Annotation.h"
 #include "EngineBase.h"
-#include "EngineEbook.h"
 
 #include "SumatraConfig.h"
 #include "DisplayMode.h"
@@ -61,7 +60,7 @@ const WCHAR* GetSettingsFileNameNoFree() {
     if (gIsRaMicroBuild) {
         return L"RAMicroPDF-settings.txt";
     }
-    return L"SumatraPDF-settings.txt";
+    return L"ZiherPDF-settings.txt";
 }
 
 WCHAR* GetSettingsPath() {
@@ -128,7 +127,6 @@ bool Load() {
 
     // TODO: verify that all states have a non-nullptr file path?
     gFileHistory.UpdateStatesSource(gprefs->fileStates);
-    SetDefaultEbookFont(gprefs->ebookUI.fontName, gprefs->ebookUI.fontSize);
 
     if (!file::Exists(path.Get())) {
         Save();
@@ -165,9 +163,9 @@ static void RememberSessionState() {
                 tab->ctrl->GetDisplayState(ds);
             }
             // TODO: pageNo should be good enough, as canvas size is restored as well
-            if (tab->AsEbook() && tab->ctrl) {
-                ds->pageNo = tab->ctrl->CurrentPageNo();
-            }
+            //if (tab->AsEbook() && tab->ctrl) {
+            //    ds->pageNo = tab->ctrl->CurrentPageNo();
+            //}
             ds->showToc = tab->showToc;
             *ds->tocState = tab->tocState;
             data->tabStates->Append(NewTabState(ds));

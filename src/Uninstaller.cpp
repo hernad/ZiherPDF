@@ -216,7 +216,7 @@ const char* gInstalledFiles[] = {
     "UnRar64.dll",
     // other files we might generate
     "sumatrapdfprefs.dat",
-    "SumatraPDF-settings.txt",
+    "ZiherPDF-settings.txt",
 };
 // clang-format on
 #endif
@@ -654,7 +654,7 @@ int RunUninstaller(Flags* cli) {
         log("Previewer is installed\n");
     }
 
-    gDefaultMsg = _TR("Are you sure you want to uninstall SumatraPDF?");
+    gDefaultMsg = _TR("Are you sure you want to uninstall ZiherPDF?");
 
     // unregister search filter and previewer to reduce
     // possibility of blocking

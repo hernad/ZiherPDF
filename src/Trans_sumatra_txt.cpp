@@ -150,7 +150,7 @@ const char *gOriginalStrings[STRINGS_COUNT] = {
   "Enter password",
   "Enter password for %s",
   "Enter the command-line to invoke when you double-click on the PDF document:",
-  "Error loading %s",
+  "Error loading[3] %s",
   "Expand All",
   "Export Bookmarks",
   "F&avorites",

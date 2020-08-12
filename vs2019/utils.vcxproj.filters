@@ -12,9 +12,6 @@
     <ClInclude Include="..\src\utils\ApiHook.h">
       <Filter>utils</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\utils\Archive.h">
-      <Filter>utils</Filter>
-    </ClInclude>
     <ClInclude Include="..\src\utils\BaseUtil.h">
       <Filter>utils</Filter>
     </ClInclude>
@@ -97,9 +94,6 @@
       <Filter>utils</Filter>
     </ClInclude>
     <ClInclude Include="..\src\utils\LogDbg.h">
-      <Filter>utils</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\utils\LzmaSimpleArchive.h">
       <Filter>utils</Filter>
     </ClInclude>
     <ClInclude Include="..\src\utils\PEB.h">
@@ -236,9 +230,6 @@
     <ClCompile Include="..\src\utils\ApiHook.cpp">
       <Filter>utils</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\utils\Archive.cpp">
-      <Filter>utils</Filter>
-    </ClCompile>
     <ClCompile Include="..\src\utils\BaseUtil.cpp">
       <Filter>utils</Filter>
     </ClCompile>
@@ -318,9 +309,6 @@
       <Filter>utils</Filter>
     </ClCompile>
     <ClCompile Include="..\src\utils\LogDbg.cpp">
-      <Filter>utils</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\utils\LzmaSimpleArchive.cpp">
       <Filter>utils</Filter>
     </ClCompile>
     <ClCompile Include="..\src\utils\RegistryPaths.cpp">

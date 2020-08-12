@@ -25,10 +25,8 @@
 
 #include "Annotation.h"
 #include "EngineBase.h"
-#include "EbookBase.h"
 #include "MobiDoc.h"
 #include "HtmlFormatter.h"
-#include "EbookFormatter.h"
 
 // if true, we'll save html content of a mobi ebook as well
 // as pretty-printed html to MOBI_SAVE_DIR. The name will be
@@ -112,111 +110,9 @@ static void BenchMD5() {
     free(data);
 }
 
-static void MobiSaveHtml(const WCHAR* filePathBase, MobiDoc* mb) {
-    CrashAlwaysIf(!gSaveHtml);
 
-    AutoFreeWstr outFile(str::Join(filePathBase, L"_pp.html"));
 
-    std::span<u8> htmlData = mb->GetHtmlData();
 
-    std::span<u8> ppHtml = PrettyPrintHtml(htmlData);
-    file::WriteFile(outFile.Get(), ppHtml);
-
-    outFile.Set(str::Join(filePathBase, L".html"));
-    file::WriteFile(outFile.Get(), htmlData);
-}
-
-static void MobiSaveImage(const WCHAR* filePathBase, size_t imgNo, ImageData* img) {
-    // it's valid to not have image data at a given index
-    if (!img || !img->data) {
-        return;
-    }
-    const WCHAR* ext = GfxFileExtFromData(img->AsSpan());
-    CrashAlwaysIf(!ext);
-    AutoFreeWstr fileName(str::Format(L"%s_img_%d%s", filePathBase, imgNo, ext));
-    file::WriteFile(fileName.Get(), img->AsSpan());
-}
-
-static void MobiSaveImages(const WCHAR* filePathBase, MobiDoc* mb) {
-    for (size_t i = 0; i < mb->imagesCount; i++) {
-        MobiSaveImage(filePathBase, i, mb->GetImage(i + 1));
-    }
-}
-
-// This loads and layouts a given mobi file. Used for profiling layout process.
-static void MobiLayout(MobiDoc* mobiDoc) {
-    PoolAllocator textAllocator;
-
-    HtmlFormatterArgs args;
-    args.pageDx = 640;
-    args.pageDy = 480;
-    args.SetFontName(L"Tahoma");
-    args.fontSize = 12;
-    args.htmlStr = mobiDoc->GetHtmlData();
-    args.textAllocator = &textAllocator;
-
-    MobiFormatter mf(&args, mobiDoc);
-    Vec<HtmlPage*>* pages = mf.FormatAllPages();
-    DeleteVecMembers<HtmlPage*>(*pages);
-    delete pages;
-}
-
-static void MobiTestFile(const WCHAR* filePath) {
-    wprintf(L"Testing file '%s'\n", filePath);
-    MobiDoc* mobiDoc = MobiDoc::CreateFromFile(filePath);
-    if (!mobiDoc) {
-        printf(" error: failed to parse the file\n");
-        return;
-    }
-
-    if (gLayout) {
-        auto t = TimeGet();
-        MobiLayout(mobiDoc);
-        wprintf(L"Spent %.2f ms laying out %s\n", TimeSinceInMs(t), filePath);
-    }
-
-    if (gSaveHtml || gSaveImages) {
-        // Given the name of the name of source mobi file "${srcdir}/${file}.mobi"
-        // construct a base name for extracted html/image files in the form
-        // "${MOBI_SAVE_DIR}/${file}" i.e. change dir to MOBI_SAVE_DIR and
-        // remove the file extension
-        const WCHAR* dir = MOBI_SAVE_DIR;
-        dir::CreateAll(dir);
-        AutoFreeWstr fileName(str::Dup(path::GetBaseNameNoFree(filePath)));
-        AutoFreeWstr filePathBase(path::Join(dir, fileName));
-        WCHAR* ext = (WCHAR*)str::FindCharLast(filePathBase.Get(), '.');
-        *ext = 0;
-
-        if (gSaveHtml) {
-            MobiSaveHtml(filePathBase, mobiDoc);
-        }
-        if (gSaveImages) {
-            MobiSaveImages(filePathBase, mobiDoc);
-        }
-    }
-
-    delete mobiDoc;
-}
-
-static void MobiTestDir(WCHAR* dir) {
-    wprintf(L"Testing mobi files in '%s'\n", dir);
-    DirIter di(dir, true);
-    for (const WCHAR* path = di.First(); path; path = di.Next()) {
-        Kind kind = GuessFileTypeFromName(path);
-        if (kind == kindFileMobi) {
-            MobiTestFile(path);
-        }
-    }
-}
-
-static void MobiTest(WCHAR* dirOrFile) {
-    Kind kind = GuessFileTypeFromName(dirOrFile);
-    if (file::Exists(dirOrFile) && kind == kindFileMobi) {
-        MobiTestFile(dirOrFile);
-    } else if (path::IsDirectory(dirOrFile)) {
-        MobiTestDir(dirOrFile);
-    }
-}
 
 // we assume this is called from main sumatradirectory, e.g. as:
 // ./obj-dbg/tester.exe, so we use the known files
@@ -290,9 +186,7 @@ int TesterMain() {
         return Usage();
     }
 
-    if (mobiTest) {
-        MobiTest(dirOrFile);
-    }
+ 
 
     mui::Destroy();
     system("pause");

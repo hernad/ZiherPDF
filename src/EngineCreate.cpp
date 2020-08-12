@@ -12,8 +12,6 @@
 #include "Annotation.h"
 #include "EngineBase.h"
 #include "EngineDjVu.h"
-#include "EngineEbook.h"
-#include "EngineImages.h"
 #include "EnginePdf.h"
 #include "EnginePs.h"
 #include "EngineXps.h"
@@ -34,13 +32,9 @@ bool IsSupportedFileType(Kind kind, bool enableEngineEbooks) {
         return true;
     } else if (IsDjVuEngineSupportedFileType(kind)) {
         return true;
-    } else if (IsImageEngineSupportedFileType(kind)) {
-        return true;
     } else if (kind == kindFileDir) {
         // TODO: more complex
         return false;
-    } else if (IsCbxEngineSupportedFileType(kind)) {
-        return true;
     } else if (IsPsEngineSupportedFileType(kind)) {
         return true;
     } else if (gEnableMupdfEngine && IsMupdfEngineSupportedFileType(kind)) {
@@ -81,8 +75,6 @@ static EngineBase* CreateEngineForKind(Kind kind, const WCHAR* path, PasswordUI*
         engine = CreateXpsEngineFromFile(path);
     } else if (IsDjVuEngineSupportedFileType(kind)) {
         engine = CreateDjVuEngineFromFile(path);
-    } else if (IsImageEngineSupportedFileType(kind)) {
-        engine = CreateImageEngineFromFile(path);
     } else if (kind == kindFileDir) {
         if (IsXpsDirectory(path)) {
             engine = CreateXpsEngineFromFile(path);
@@ -97,36 +89,16 @@ static EngineBase* CreateEngineForKind(Kind kind, const WCHAR* path, PasswordUI*
         if (!engine && gIsRaMicroBuild) {
             engine = CreateEngineMultiFromFile(path, pwdUI);
         }
-        if (!engine) {
-            engine = CreateImageDirEngineFromFile(path);
-        }
-    } else if (IsCbxEngineSupportedFileType(kind)) {
-        engine = CreateCbxEngineFromFile(path);
+        //if (!engine) {
+        //    engine = CreateImageDirEngineFromFile(path);
+        //}
     } else if (IsPsEngineSupportedFileType(kind)) {
         engine = CreatePsEngineFromFile(path);
-    } else if (enableChmEngine && (kind == kindFileChm)) {
-        engine = CreateChmEngineFromFile(path);
     } else if (gEnableMupdfEngine && kind == kindFileEpub) {
         engine = CreateEngineMupdfFromFile(path);
     }
 
-    if (!enableEngineEbooks) {
-        return engine;
-    }
-
-    if (kind == kindFileEpub) {
-        engine = CreateEpubEngineFromFile(path);
-    } else if (kind == kindFileFb2) {
-        engine = CreateFb2EngineFromFile(path);
-    } else if (kind == kindFileMobi) {
-        engine = CreateMobiEngineFromFile(path);
-    } else if (kind == kindFilePalmDoc) {
-        engine = CreatePdbEngineFromFile(path);
-    } else if (kind == kindFileHTML) {
-        engine = CreatePdbEngineFromFile(path);
-    } else if (kind == kindFileTxt) {
-        engine = CreateTxtEngineFromFile(path);
-    }
+        
     return engine;
 }
 

@@ -67,7 +67,7 @@
 #include "Tabs.h"
 #include "Translations.h"
 #include "uia/Provider.h"
-#include "StressTesting.h"
+//#include "StressTesting.h"
 #include "Version.h"
 #include "Tests.h"
 #include "Menu.h"
@@ -325,9 +325,9 @@ static void RestoreTabOnStartup(WindowInfo* win, TabState* state) {
         SwitchToDisplayMode(win, displayMode);
     }
     // TODO: make EbookController::GoToPage not crash
-    if (!tab->AsEbook()) {
+    //if (!tab->AsEbook()) {
         tab->ctrl->GoToPage(state->pageNo, true);
-    }
+    //}
     float zoom = prefs::conv::ToZoom(state->zoom, INVALID_ZOOM);
     if (zoom != INVALID_ZOOM) {
         if (tab->AsFixed()) {
@@ -368,8 +368,8 @@ static bool SetupPluginMode(Flags& i) {
     gGlobalPrefs->useTabs = false;
     // always display the toolbar when embedded (as there's no menubar in that case)
     gGlobalPrefs->showToolbar = true;
-    // never allow esc as a shortcut to quit
-    gGlobalPrefs->escToExit = false;
+    // ZiherPDF: allow esc as a shortcut to quit
+    gGlobalPrefs->escToExit = true;
     // never show the sidebar by default
     gGlobalPrefs->showToc = false;
     if (DM_AUTOMATIC == gGlobalPrefs->defaultDisplayModeEnum) {
@@ -660,10 +660,10 @@ static void ShowInstallerHelp() {
 }
 
 // in Installer.cpp
-extern int RunInstaller(Flags*);
-extern void ShowInstallerHelp();
+//extern int RunInstaller(Flags*);
+//extern void ShowInstallerHelp();
 // in Uninstaller.cpp
-extern int RunUninstaller(Flags*);
+//extern int RunUninstaller(Flags*);
 
 // In release builds, we want to do fast exit and leave cleaning up (freeing memory) to the os.
 // In debug and in release asan builds, we want to cleanup ourselves in order to see leaks.
@@ -693,6 +693,7 @@ extern bool ExtractFiles(lzma::SimpleArchive* archive, const WCHAR* destDir);
 extern bool CopySelfToDir(const WCHAR* destDir);
 
 static void ExtractInstallerFiles() {
+    /*
     auto [data, size, res] = LockDataResource(1);
     if (data == nullptr) {
         ShowNotValidInstallerError();
@@ -709,6 +710,7 @@ static void ExtractInstallerFiles() {
     if (ExtractFiles(&archive, dir.data)) {
         CopySelfToDir(dir);
     }
+    */
 }
 
 #if 0
@@ -827,10 +829,10 @@ int APIENTRY WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance,
             extern int TesterMain(); // in Tester.cpp
             return TesterMain();
         }
-        if (i.regress) {
-            extern int RegressMain(); // in Regress.cpp
-            return RegressMain();
-        }
+        //if (i.regress) {
+        //    extern int RegressMain(); // in Regress.cpp
+        //    return RegressMain();
+        //}
     }
 
     if (i.ramicro) {
@@ -861,14 +863,16 @@ int APIENTRY WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance,
             ShowNotValidInstallerError();
             return 1;
         }
-        retCode = RunInstaller(&i);
+        //retCode = RunInstaller(&i);
+        retCode = 0;
         // exit immediately. for some reason exit handlers try to
         // pull in libmupdf.dll which we don't have access to in the installer
         ::ExitProcess(retCode);
     }
 
     if (i.uninstall) {
-        retCode = RunUninstaller(&i);
+        // retCode = RunUninstaller(&i);
+        retCode = 0;
         ::ExitProcess(retCode);
     }
 
@@ -920,12 +924,12 @@ int APIENTRY WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance,
         AssociateExeWithPdfExtension();
     }
 
-    if (i.pathsToBenchmark.size() > 0) {
-        BenchFileOrDir(i.pathsToBenchmark);
-        if (i.showConsole) {
-            system("pause");
-        }
-    }
+    //if (i.pathsToBenchmark.size() > 0) {
+        //BenchFileOrDir(i.pathsToBenchmark);
+    //    if (i.showConsole) {
+    //        system("pause");
+    //    }
+    //}
 
     if (i.exitImmediately) {
         goto Exit;
@@ -966,9 +970,10 @@ int APIENTRY WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance,
 
     HANDLE hMutex = nullptr;
     HWND hPrevWnd = nullptr;
-    if (i.printDialog || i.stressTestPath || gPluginMode) {
+    //if (i.printDialog || i.stressTestPath || gPluginMode) {
         // TODO: pass print request through to previous instance?
-    } else if (i.reuseDdeInstance) {
+    //} else
+    if (i.reuseDdeInstance) {
         hPrevWnd = FindWindow(FRAME_CLASS_NAME, nullptr);
     } else if (gGlobalPrefs->reuseInstance || gGlobalPrefs->useTabs) {
         hPrevWnd = FindPrevInstWindow(&hMutex);
@@ -1090,6 +1095,7 @@ int APIENTRY WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance,
         RegisterForPdfExtentions(win->hwndFrame);
     }
 
+    /*
     if (i.stressTestPath) {
         // don't save file history and preference changes
         RestrictPolicies(Perm_SavePreferences);
@@ -1097,6 +1103,7 @@ int APIENTRY WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance,
         StartStressTest(&i, win);
         fastExit = true;
     }
+    */
 
     if (gGlobalPrefs->checkForUpdates) {
         UpdateCheckAsync(win, true);

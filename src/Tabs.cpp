@@ -730,13 +730,13 @@ void SaveCurrentTabInfo(WindowInfo* win) {
 
 void UpdateCurrentTabBgColor(WindowInfo* win) {
     TabPainter* tab = (TabPainter*)GetWindowLongPtr(win->hwndTabBar, GWLP_USERDATA);
-    if (win->AsEbook()) {
-        COLORREF txtCol;
-        GetEbookUiColors(txtCol, tab->currBgCol);
-    } else {
+    //if (win->AsEbook()) {
+    //    COLORREF txtCol;
+    //    GetEbookUiColors(txtCol, tab->currBgCol);
+    //} else {
         // TODO: match either the toolbar (if shown) or background
         tab->currBgCol = DEFAULT_CURRENT_BG_COL;
-    }
+    //}
     RepaintNow(win->hwndTabBar);
 }
 

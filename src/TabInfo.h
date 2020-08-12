@@ -51,8 +51,7 @@ struct TabInfo {
     EngineBase* GetEngine() const;
     Kind GetEngineType() const;
 
-    ChmModel* AsChm() const;
-    EbookController* AsEbook() const;
+    // EbookController* AsEbook() const;
 
     const WCHAR* GetTabTitle() const;
     bool IsDocLoaded() const;

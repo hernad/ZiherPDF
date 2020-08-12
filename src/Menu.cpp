@@ -81,10 +81,7 @@ void MenuUpdateDisplayMode(WindowInfo* win) {
     CheckMenuRadioItem(win->menu, CmdViewLayoutFirst, CmdViewLayoutLast, id, MF_BYCOMMAND);
     win::menu::SetChecked(win->menu, CmdViewContinuous, IsContinuous(displayMode));
 
-    if (win->currentTab && win->currentTab->GetEngineType() == kindEngineComicBooks) {
-        bool mangaMode = win->AsFixed()->GetDisplayR2L();
-        win::menu::SetChecked(win->menu, CmdViewMangaMode, mangaMode);
-    }
+   
 }
 
 // clang-format off
@@ -928,28 +925,22 @@ void OnMenuZoom(WindowInfo* win, int menuId) {
 }
 
 void OnMenuCustomZoom(WindowInfo* win) {
-    if (!win->IsDocLoaded() || win->AsEbook()) {
+    if (!win->IsDocLoaded() ) { // || win->AsEbook()) {
         return;
     }
 
     float zoom = win->ctrl->GetZoomVirtual();
-    if (!Dialog_CustomZoom(win->hwndFrame, win->AsChm(), &zoom)) {
-        return;
-    }
     ZoomToSelection(win, zoom);
 }
 
 static void RebuildFileMenu(TabInfo* tab, HMENU menu) {
     int filter = 0;
-    if (tab && tab->AsChm()) {
-        filter |= MF_NOT_FOR_CHM;
-    }
-    if (tab && tab->AsEbook()) {
-        filter |= MF_NOT_FOR_EBOOK_UI;
-    }
-    if (!tab || tab->GetEngineType() != kindEngineComicBooks) {
+    //if (tab && tab->AsEbook()) {
+    //    filter |= MF_NOT_FOR_EBOOK_UI;
+    //}
+    //if (!tab || tab->GetEngineType() != kindEngineComicBooks) {
         filter |= MF_CBX_ONLY;
-    }
+    //}
 
     win::menu::Empty(menu);
     HMENU m = BuildMenuFromMenuDef(menuDefFile, menu, filter);
@@ -1270,14 +1261,12 @@ HMENU BuildMenu(WindowInfo* win) {
     HMENU mainMenu = CreateMenu();
 
     int filter = 0;
-    if (win->AsChm()) {
-        filter |= MF_NOT_FOR_CHM;
-    } else if (win->AsEbook()) {
-        filter |= MF_NOT_FOR_EBOOK_UI;
-    }
-    if (!tab || tab->GetEngineType() != kindEngineComicBooks) {
+    //if (win->AsEbook()) {
+    //    filter |= MF_NOT_FOR_EBOOK_UI;
+    //}
+    //if (!tab || tab->GetEngineType() != kindEngineComicBooks) {
         filter |= MF_CBX_ONLY;
-    }
+    //}
 
     HMENU m = CreateMenu();
     RebuildFileMenu(tab, m);
@@ -1286,13 +1275,13 @@ HMENU BuildMenu(WindowInfo* win) {
     AppendMenu(mainMenu, MF_POPUP | MF_STRING, (UINT_PTR)m, _TR("&View"));
     m = BuildMenuFromMenuDef(menuDefGoTo, CreateMenu(), filter);
     AppendMenu(mainMenu, MF_POPUP | MF_STRING, (UINT_PTR)m, _TR("&Go To"));
-    if (!win->AsEbook()) {
+    //if (!win->AsEbook()) {
         m = BuildMenuFromMenuDef(menuDefZoom, CreateMenu(), filter);
         AppendMenu(mainMenu, MF_POPUP | MF_STRING, (UINT_PTR)m, _TR("&Zoom"));
-    }
+    //}
 
     // TODO: implement Favorites for ebooks
-    if (HasPermission(Perm_SavePreferences) && !win->AsEbook()) {
+    if (HasPermission(Perm_SavePreferences)) { //&& !win->AsEbook()) {
         // I think it makes sense to disable favorites in restricted mode
         // because they wouldn't be persisted, anyway
         m = BuildMenuFromMenuDef(menuDefFavorites, CreateMenu());

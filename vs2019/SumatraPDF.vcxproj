@@ -716,13 +716,10 @@
     <ClInclude Include="..\src\AppUtil.h" />
     <ClInclude Include="..\src\Canvas.h" />
     <ClInclude Include="..\src\Caption.h" />
-    <ClInclude Include="..\src\ChmModel.h" />
     <ClInclude Include="..\src\Commands.h" />
     <ClInclude Include="..\src\CrashHandler.h" />
     <ClInclude Include="..\src\DisplayModel.h" />
     <ClInclude Include="..\src\Doc.h" />
-    <ClInclude Include="..\src\EbookController.h" />
-    <ClInclude Include="..\src\EbookControls.h" />
     <ClInclude Include="..\src\EditAnnotations.h" />
     <ClInclude Include="..\src\ExternalViewers.h" />
     <ClInclude Include="..\src\Favorites.h" />
@@ -731,7 +728,6 @@
     <ClInclude Include="..\src\Flags.h" />
     <ClInclude Include="..\src\GetDocumentOutlines.h" />
     <ClInclude Include="..\src\GlobalPrefs.h" />
-    <ClInclude Include="..\src\Installer.h" />
     <ClInclude Include="..\src\Menu.h" />
     <ClInclude Include="..\src\MuiEbookPageDef.h" />
     <ClInclude Include="..\src\Notifications.h" />
@@ -745,7 +741,6 @@
     <ClInclude Include="..\src\SearchAndDDE.h" />
     <ClInclude Include="..\src\Selection.h" />
     <ClInclude Include="..\src\SettingsStructs.h" />
-    <ClInclude Include="..\src\StressTesting.h" />
     <ClInclude Include="..\src\SumatraAbout.h" />
     <ClInclude Include="..\src\SumatraDialogs.h" />
     <ClInclude Include="..\src\SumatraPDF.h" />
@@ -798,12 +793,9 @@
     <ClCompile Include="..\src\Canvas.cpp" />
     <ClCompile Include="..\src\CanvasAboutUI.cpp" />
     <ClCompile Include="..\src\Caption.cpp" />
-    <ClCompile Include="..\src\ChmModel.cpp" />
     <ClCompile Include="..\src\CrashHandler.cpp" />
     <ClCompile Include="..\src\DisplayModel.cpp" />
     <ClCompile Include="..\src\Doc.cpp" />
-    <ClCompile Include="..\src\EbookController.cpp" />
-    <ClCompile Include="..\src\EbookControls.cpp" />
     <ClCompile Include="..\src\EditAnnotations.cpp" />
     <ClCompile Include="..\src\ExternalViewers.cpp" />
     <ClCompile Include="..\src\Favorites.cpp" />
@@ -813,7 +805,6 @@
     <ClCompile Include="..\src\GetDocumentOutlines.cpp" />
     <ClCompile Include="..\src\GlobalPrefs.cpp" />
     <ClCompile Include="..\src\InstUninstCommon.cpp" />
-    <ClCompile Include="..\src\Installer.cpp" />
     <ClCompile Include="..\src\Menu.cpp" />
     <ClCompile Include="..\src\MuiEbookPageDef.cpp" />
     <ClCompile Include="..\src\Notifications.cpp" />
@@ -826,7 +817,6 @@
     <ClCompile Include="..\src\SearchAndDDE.cpp" />
     <ClCompile Include="..\src\Selection.cpp" />
     <ClCompile Include="..\src\SettingsStructs.cpp" />
-    <ClCompile Include="..\src\StressTesting.cpp" />
     <ClCompile Include="..\src\SumatraAbout.cpp" />
     <ClCompile Include="..\src\SumatraConfig.cpp" />
     <ClCompile Include="..\src\SumatraDialogs.cpp" />
@@ -847,7 +837,6 @@
     <ClCompile Include="..\src\Toolbar.cpp" />
     <ClCompile Include="..\src\Trans_sumatra_txt.cpp" />
     <ClCompile Include="..\src\Translations.cpp" />
-    <ClCompile Include="..\src\Uninstaller.cpp" />
     <ClCompile Include="..\src\WindowInfo.cpp" />
     <ClCompile Include="..\src\mui\Mui.cpp" />
     <ClCompile Include="..\src\mui\MuiBase.cpp" />
@@ -864,7 +853,6 @@
     <ClCompile Include="..\src\mui\MuiScrollBar.cpp" />
     <ClCompile Include="..\src\mui\SvgPath.cpp" />
     <ClCompile Include="..\src\mui\TextRender.cpp" />
-    <ClCompile Include="..\src\regress\Regress.cpp" />
     <ClCompile Include="..\src\testcode\TestApp.cpp" />
     <ClCompile Include="..\src\testcode\TestLayout.cpp" />
     <ClCompile Include="..\src\testcode\TestLice.cpp" />
@@ -884,7 +872,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="engines.vcxproj">
-      <Project>{CE5B946A-3A3B-1306-4353-9EDCAFB17967}</Project>
+      <Project>{ce5b946a-3a3b-1306-4353-9edcafb17967}</Project>
     </ProjectReference>
     <ProjectReference Include="libdjvu.vcxproj">
       <Project>{B5F26479-21D2-E314-2AEA-6EEB96484A76}</Project>
@@ -895,14 +883,8 @@
     <ProjectReference Include="mupdf.vcxproj">
       <Project>{2181F50F-8D95-1DC1-5617-C120C2EA19F2}</Project>
     </ProjectReference>
-    <ProjectReference Include="unarrlib.vcxproj">
-      <Project>{C45AE373-B027-3E7F-D940-2C27C56C730D}</Project>
-    </ProjectReference>
     <ProjectReference Include="utils.vcxproj">
       <Project>{169C8510-82B0-ADC1-4B32-5121B705AAF2}</Project>
-    </ProjectReference>
-    <ProjectReference Include="unrar.vcxproj">
-      <Project>{AD768210-198B-AAC1-E20C-4E214EE0A6F2}</Project>
     </ProjectReference>
     <ProjectReference Include="wdl.vcxproj">
       <Project>{6CBA880B-D8C3-887C-613F-9F7CCD47947C}</Project>

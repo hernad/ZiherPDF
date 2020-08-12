@@ -48,9 +48,6 @@
     <ClInclude Include="..\src\Caption.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\ChmModel.h">
-      <Filter>src</Filter>
-    </ClInclude>
     <ClInclude Include="..\src\Commands.h">
       <Filter>src</Filter>
     </ClInclude>
@@ -61,12 +58,6 @@
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="..\src\Doc.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\EbookController.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\EbookControls.h">
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="..\src\EditAnnotations.h">
@@ -91,9 +82,6 @@
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="..\src\GlobalPrefs.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\Installer.h">
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="..\src\Menu.h">
@@ -133,9 +121,6 @@
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="..\src\SettingsStructs.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\StressTesting.h">
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="..\src\SumatraAbout.h">
@@ -290,9 +275,6 @@
     <ClCompile Include="..\src\Caption.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\ChmModel.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
     <ClCompile Include="..\src\CrashHandler.cpp">
       <Filter>src</Filter>
     </ClCompile>
@@ -300,12 +282,6 @@
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="..\src\Doc.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\EbookController.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\EbookControls.cpp">
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="..\src\EditAnnotations.cpp">
@@ -333,9 +309,6 @@
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="..\src\InstUninstCommon.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\Installer.cpp">
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="..\src\Menu.cpp">
@@ -372,9 +345,6 @@
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="..\src\SettingsStructs.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\StressTesting.cpp">
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="..\src\SumatraAbout.cpp">
@@ -437,9 +407,6 @@
     <ClCompile Include="..\src\Translations.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\Uninstaller.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
     <ClCompile Include="..\src\WindowInfo.cpp">
       <Filter>src</Filter>
     </ClCompile>
@@ -487,9 +454,6 @@
     </ClCompile>
     <ClCompile Include="..\src\mui\TextRender.cpp">
       <Filter>src\mui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\regress\Regress.cpp">
-      <Filter>src\regress</Filter>
     </ClCompile>
     <ClCompile Include="..\src\testcode\TestApp.cpp">
       <Filter>src\testcode</Filter>

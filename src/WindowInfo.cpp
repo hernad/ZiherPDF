@@ -28,9 +28,7 @@
 #include "Controller.h"
 #include "GlobalPrefs.h"
 #include "AppColors.h"
-#include "ChmModel.h"
 #include "DisplayModel.h"
-#include "EbookController.h"
 #include "ProgressUpdateUI.h"
 #include "TextSelection.h"
 #include "TextSearch.h"
@@ -43,7 +41,7 @@
 #include "Commands.h"
 #include "Caption.h"
 #include "Selection.h"
-#include "StressTesting.h"
+//#include "StressTesting.h"
 #include "Translations.h"
 #include "uia/Provider.h"
 
@@ -69,7 +67,7 @@ void CreateMovePatternLazy(WindowInfo* win) {
 }
 
 WindowInfo::~WindowInfo() {
-    FinishStressTest(this);
+    //FinishStressTest(this);
 
     CrashIf(tabs.size() > 0);
     CrashIf(ctrl);
@@ -134,12 +132,10 @@ bool WindowInfo::IsDocLoaded() const {
 DisplayModel* WindowInfo::AsFixed() const {
     return ctrl ? ctrl->AsFixed() : nullptr;
 }
-ChmModel* WindowInfo::AsChm() const {
-    return ctrl ? ctrl->AsChm() : nullptr;
-}
-EbookController* WindowInfo::AsEbook() const {
-    return ctrl ? ctrl->AsEbook() : nullptr;
-}
+
+//EbookController* WindowInfo::AsEbook() const {
+//    return ctrl ? ctrl->AsEbook() : nullptr;
+//}
 
 // Notify both display model and double-buffer (if they exist)
 // about a potential change of available canvas size
@@ -186,9 +182,6 @@ Size WindowInfo::GetViewPortSize() {
 
 void WindowInfo::RedrawAll(bool update) {
     InvalidateRect(this->hwndCanvas, nullptr, false);
-    if (this->AsEbook()) {
-        this->AsEbook()->RequestRepaint();
-    }
     if (update) {
         UpdateWindow(this->hwndCanvas);
     }
@@ -196,9 +189,6 @@ void WindowInfo::RedrawAll(bool update) {
 
 void WindowInfo::RedrawAllIncludingNonClient(bool update) {
     InvalidateRect(this->hwndCanvas, nullptr, false);
-    if (this->AsEbook()) {
-        this->AsEbook()->RequestRepaint();
-    }
     if (update) {
         RedrawWindow(this->hwndCanvas, NULL, NULL, RDW_FRAME | RDW_INVALIDATE);
     }
@@ -453,7 +443,7 @@ void LinkHandler::LaunchFile(const WCHAR* path, PageDestination* link) {
         // consider bad UI and thus simply don't)
         bool ok = OpenFileExternally(fullPath);
         if (!ok) {
-            AutoFreeWstr msg(str::Format(_TR("Error loading %s"), fullPath.Get()));
+            AutoFreeWstr msg(str::Format(_TR("Error loading[4] %s"), fullPath.Get()));
             owner->ShowNotification(msg, NOS_HIGHLIGHT);
         }
         return;
@@ -562,6 +552,7 @@ void UpdateTreeCtrlColors(WindowInfo* win) {
     COLORREF splitterCol = GetSysColor(COLOR_BTNFACE);
     bool flatTreeWnd = false;
 
+    /*
     if (win->AsEbook()) {
         labelBgCol = GetAppColor(AppColor::DocumentBg, true);
         labelTxtCol = GetAppColor(AppColor::DocumentText, true);
@@ -572,6 +563,7 @@ void UpdateTreeCtrlColors(WindowInfo* win) {
         splitterCol = AdjustLightness2(labelBgCol, sign * factor);
         flatTreeWnd = true;
     }
+    */
 
     {
         auto tocTreeCtrl = win->tocTreeCtrl;

@@ -1,5 +1,6 @@
 <h1 align="center">Sponsors &amp; Backers</h1>
 
+ZiherPDF based on SumatraPDF. 
 SumatraPDF is a free, open source project. Consider supporting it so that I can improve it in the future:
 
 - [become a backer or sponsor on Patreon](https://www.patreon.com/sumatrapdf).

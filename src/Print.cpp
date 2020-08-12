@@ -18,7 +18,6 @@
 #include "SettingsStructs.h"
 #include "Controller.h"
 #include "GlobalPrefs.h"
-#include "ChmModel.h"
 #include "DisplayModel.h"
 #include "ProgressUpdateUI.h"
 #include "TextSelection.h"
@@ -514,17 +513,10 @@ void OnMenuPrint(WindowInfo* win, bool waitForCompletion) {
         return;
     }
 
-    if (win->AsChm()) {
-        // the Print dialog allows access to the file system, so fall back
-        // to printing the entire document without dialog if that isn't desired
-        bool showUI = HasPermission(Perm_DiskAccess);
-        win->AsChm()->PrintCurrentPage(showUI);
-        return;
-    }
-    if (win->AsEbook()) {
+    //if (win->AsEbook()) {
         // TODO: use EngineEbook for printing?
-        return;
-    }
+    //    return;
+    //}
 
     CrashIf(!win->AsFixed());
     if (!win->AsFixed()) {

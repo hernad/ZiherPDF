@@ -46,12 +46,12 @@ struct Flags {
     bool inNewWindow = false;
 
     // stress-testing related
-    WCHAR* stressTestPath = nullptr;
+    //WCHAR* stressTestPath = nullptr;
     // nullptr is equivalent to "*" (i.e. all files)
-    WCHAR* stressTestFilter = nullptr;
-    WCHAR* stressTestRanges = nullptr;
-    int stressTestCycles = 1;
-    int stressParallelCount = 1;
+    //WCHAR* stressTestFilter = nullptr;
+    //WCHAR* stressTestRanges = nullptr;
+    //int stressTestCycles = 1;
+    //int stressParallelCount = 1;
     bool stressRandomizeFiles = false;
 
     // related to testing

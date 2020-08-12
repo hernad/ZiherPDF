@@ -65,18 +65,9 @@ Kind kindFileTxt = "fileTxt";
     V(".ps.gz\0", kindFilePS)       \
     V(".eps\0", kindFilePS)         \
     V(".vbkm\0", kindFileVbkm)      \
-    V(".fb2\0", kindFileFb2)        \
-    V(".fb2z\0", kindFileFb2)       \
-    V(".zfb2\0", kindFileFb2)       \
-    V(".fb2.zip\0", kindFileFb2)    \
-    V(".cbz\0", kindFileCbz)        \
-    V(".cbr\0", kindFileCbr)        \
-    V(".cb7\0", kindFileCb7)        \
-    V(".cbt\0", kindFileCbt)        \
     V(".pdf\0", kindFilePDF)        \
     V(".xps\0", kindFileXps)        \
     V(".oxps\0", kindFileXps)       \
-    V(".chm\0", kindFileChm)        \
     V(".png\0", kindFilePng)        \
     V(".jpg\0", kindFileJpeg)       \
     V(".jpeg\0", kindFileJpeg)      \
@@ -89,12 +80,6 @@ Kind kindFileTxt = "fileTxt";
     V(".hdp\0", kindFileHdp)        \
     V(".wdp\0", kindFileWdp)        \
     V(".webp\0", kindFileWebp)      \
-    V(".epub\0", kindFileEpub)      \
-    V(".mobi\0", kindFileMobi)      \
-    V(".prc\0", kindFileMobi)       \
-    V(".azw\0", kindFileMobi)       \
-    V(".azw1\0", kindFileMobi)      \
-    V(".azw3\0", kindFileMobi)      \
     V(".pdb\0", kindFilePalmDoc)    \
     V(".html\0", kindFileHTML)      \
     V(".htm\0", kindFileHTML)       \
@@ -141,8 +126,8 @@ static void VerifyExtsMatch() {
     if (gDidVerifyExtsMatch) {
         return;
     }
-    CrashAlwaysIf(kindFileEpub != GetKindByFileExt(L"foo.epub"));
-    CrashAlwaysIf(kindFileJp2 != GetKindByFileExt(L"foo.JP2"));
+    //CrashAlwaysIf(kindFileEpub != GetKindByFileExt(L"foo.epub"));
+    //CrashAlwaysIf(kindFileJp2 != GetKindByFileExt(L"foo.JP2"));
     gDidVerifyExtsMatch = true;
 }
 
@@ -157,15 +142,9 @@ bool KindInArray(Kind* kinds, int nKinds, Kind kind) {
 }
 
 #define FILE_SIGS(V)                                    \
-    V(0, "Rar!\x1A\x07\x00", kindFileRar)               \
-    V(0, "Rar!\x1A\x07\x01\x00", kindFileRar)           \
     V(0, "7z\xBC\xAF\x27\x1C", kindFile7Z)              \
     V(0, "PK\x03\x04", kindFileZip)                     \
-    V(0, "ITSF", kindFileChm)                           \
     V(0x3c, "BOOKMOBI", kindFileMobi)                   \
-    V(0x3c, "TEXtREAd", kindFilePalmDoc)                \
-    V(0x3c, "TEXtTlDc", kindFilePalmDoc)                \
-    V(0x3c, "DataPlkr", kindFilePalmDoc)                \
     V(0, "\x89PNG\x0D\x0A\x1A\x0A", kindFilePng)        \
     V(0, "\xFF\xD8", kindFileJpeg)                      \
     V(0, "GIF87a", kindFileGif)                         \
@@ -274,49 +253,21 @@ Kind GuessFileTypeFromContent(std::span<u8> d) {
     return nullptr;
 }
 
-static bool IsEpubFile(const WCHAR* path) {
-    AutoDelete<MultiFormatArchive> archive = OpenZipArchive(path, true);
-    if (!archive.Get()) {
-        return false;
-    }
-    AutoFree mimetype(archive->GetFileDataByName("mimetype"));
-    if (!mimetype.data) {
-        return false;
-    }
-    char* d = mimetype.data;
-    // trailing whitespace is allowed for the mimetype file
-    for (size_t i = mimetype.size(); i > 0; i--) {
-        if (!str::IsWs(d[i - 1])) {
-            break;
-        }
-        d[i - 1] = '\0';
-    }
-    // a proper EPUB document has a "mimetype" file with content
-    // "application/epub+zip" as the first entry in its ZIP structure
-    /* cf. http://forums.fofou.org/sumatrapdf/topic?id=2599331
-    if (!str::Eq(zip.GetFileName(0), L"mimetype"))
-        return false; */
-    if (str::Eq(mimetype.data, "application/epub+zip")) {
-        return true;
-    }
-    // also open renamed .ibooks files
-    // cf. http://en.wikipedia.org/wiki/IBooks#Formats
-    return str::Eq(mimetype.data, "application/x-ibooks+zip");
-}
+
 
 // check if a given file is a likely a .zip archive containing XPS
 // document
 static bool IsXpsArchive(const WCHAR* path) {
-    MultiFormatArchive* archive = OpenZipArchive(path, true);
-    if (!archive) {
+    //MultiFormatArchive* archive = OpenZipArchive(path, true);
+    //if (!archive) {
         return false;
-    }
+    //}
 
-    bool res = archive->GetFileId("_rels/.rels") != (size_t)-1 ||
-               archive->GetFileId("_rels/.rels/[0].piece") != (size_t)-1 ||
-               archive->GetFileId("_rels/.rels/[0].last.piece") != (size_t)-1;
-    delete archive;
-    return res;
+    //bool res = archive->GetFileId("_rels/.rels") != (size_t)-1 ||
+    //           archive->GetFileId("_rels/.rels/[0].piece") != (size_t)-1 ||
+    //           archive->GetFileId("_rels/.rels/[0].last.piece") != (size_t)-1;
+    //delete archive;
+    //return res;
 }
 
 // detect file type based on file content
@@ -342,9 +293,6 @@ Kind GuessFileTypeFromContent(const WCHAR* path) {
     if (res == kindFileZip) {
         if (IsXpsArchive(path)) {
             res = kindFileXps;
-        }
-        if (IsEpubFile(path)) {
-            res = kindFileEpub;
         }
     }
     return res;

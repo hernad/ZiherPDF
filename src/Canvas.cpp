@@ -28,7 +28,6 @@
 #include "SettingsStructs.h"
 #include "Controller.h"
 #include "DisplayModel.h"
-#include "EbookController.h"
 #include "Theme.h"
 #include "GlobalPrefs.h"
 #include "RenderCache.h"
@@ -1403,12 +1402,9 @@ static NO_INLINE LRESULT CanvasOnMouseWheelEbook(WindowInfo* win, UINT msg, WPAR
     return 0;
 }
 
+/*
 static LRESULT WndProcCanvasEbookUI(WindowInfo* win, HWND hwnd, UINT msg, WPARAM wp, LPARAM lp) {
-    bool wasHandled;
-    LRESULT res = win->AsEbook()->HandleMessage(msg, wp, lp, wasHandled);
-    if (wasHandled) {
-        return res;
-    }
+    
 
     switch (msg) {
         case WM_SETCURSOR:
@@ -1427,6 +1423,7 @@ static LRESULT WndProcCanvasEbookUI(WindowInfo* win, HWND hwnd, UINT msg, WPARAM
             return DefWindowProc(hwnd, msg, wp, lp);
     }
 }
+*/
 
 ///// methods needed for FixedPageUI canvases with loading error /////
 
@@ -1440,7 +1437,7 @@ static void OnPaintError(WindowInfo* win) {
     ScopedGdiObj<HBRUSH> bgBrush(CreateSolidBrush(bgCol));
     FillRect(hdc, &ps.rcPaint, bgBrush);
     // TODO: should this be "Error opening %s"?
-    AutoFreeWstr msg(str::Format(_TR("Error loading %s"), win->currentTab->filePath.Get()));
+    AutoFreeWstr msg(str::Format(_TR("Error loading[1] %s"), win->currentTab->filePath.Get()));
     DrawCenteredText(hdc, ClientRect(win->hwndCanvas), msg, IsUIRightToLeft());
     SelectObject(hdc, hPrevFont);
 
@@ -1534,11 +1531,7 @@ static void OnTimer(WindowInfo* win, HWND hwnd, WPARAM timerId) {
 
         case EBOOK_LAYOUT_TIMER_ID:
             KillTimer(hwnd, EBOOK_LAYOUT_TIMER_ID);
-            for (TabInfo* tab : win->tabs) {
-                if (tab->AsEbook()) {
-                    tab->AsEbook()->TriggerLayout();
-                }
-            }
+            
             break;
     }
 }
@@ -1638,13 +1631,10 @@ LRESULT CALLBACK WndProcCanvas(HWND hwnd, UINT msg, WPARAM wp, LPARAM lp) {
                 return WndProcCanvasFixedPageUI(win, hwnd, msg, wp, lp);
             }
 
-            if (win->AsChm()) {
-                return WndProcCanvasChmUI(win, hwnd, msg, wp, lp);
-            }
 
-            if (win->AsEbook()) {
-                return WndProcCanvasEbookUI(win, hwnd, msg, wp, lp);
-            }
+            //if (win->AsEbook()) {
+            //    return WndProcCanvasEbookUI(win, hwnd, msg, wp, lp);
+            //}
 
             if (win->IsAboutWindow()) {
                 return WndProcCanvasAbout(win, hwnd, msg, wp, lp);

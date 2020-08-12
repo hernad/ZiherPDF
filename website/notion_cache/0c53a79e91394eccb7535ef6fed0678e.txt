@@ -458,7 +458,7 @@ Response:+76511
                 " : set custom directory where we'll store "
               ],
               [
-                "SumatraPDF-settings.txt",
+                "ZiherPDF-settings.txt",
                 [
                   [
                     "c"

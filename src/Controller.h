@@ -2,10 +2,8 @@
    License: GPLv3 */
 
 struct Controller;
-struct ChmModel;
 struct DisplayModel;
-struct EbookController;
-struct EbookFormattingData;
+
 
 typedef std::function<void(RenderedBitmap*)> onBitmapRenderedCb;
 
@@ -32,7 +30,7 @@ struct ControllerCallback {
     // tell the UI to let the user save the provided data to a file
     virtual void SaveDownload(const WCHAR* url, std::span<u8> data) = 0;
     // EbookController //
-    virtual void HandleLayoutedPages(EbookController* ctrl, EbookFormattingData* data) = 0;
+    // virtual void HandleLayoutedPages(EbookController* ctrl, EbookFormattingData* data) = 0;
     virtual void RequestDelayedLayout(int delay) = 0;
 };
 
@@ -129,10 +127,6 @@ struct Controller {
     virtual DisplayModel* AsFixed() {
         return nullptr;
     }
-    virtual ChmModel* AsChm() {
-        return nullptr;
-    }
-    virtual EbookController* AsEbook() {
-        return nullptr;
-    }
+
+ 
 };

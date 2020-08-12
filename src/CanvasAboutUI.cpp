@@ -27,7 +27,6 @@
 #include "SettingsStructs.h"
 #include "Controller.h"
 #include "DisplayModel.h"
-#include "EbookController.h"
 #include "Theme.h"
 #include "GlobalPrefs.h"
 #include "RenderCache.h"

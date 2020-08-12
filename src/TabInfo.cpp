@@ -16,7 +16,6 @@
 #include "SettingsStructs.h"
 #include "Controller.h"
 #include "GlobalPrefs.h"
-#include "ChmModel.h"
 #include "DisplayModel.h"
 #include "ProgressUpdateUI.h"
 #include "Notifications.h"
@@ -36,9 +35,6 @@ TabInfo::TabInfo(WindowInfo* win, const WCHAR* filePath) {
 
 TabInfo::~TabInfo() {
     FileWatcherUnsubscribe(watcher);
-    if (AsChm()) {
-        AsChm()->RemoveParentHwnd();
-    }
     DeleteVecMembers(altBookmarks);
     delete selectionOnPage;
     delete ctrl;
@@ -54,13 +50,10 @@ DisplayModel* TabInfo::AsFixed() const {
     return ctrl ? ctrl->AsFixed() : nullptr;
 }
 
-ChmModel* TabInfo::AsChm() const {
-    return ctrl ? ctrl->AsChm() : nullptr;
-}
 
-EbookController* TabInfo::AsEbook() const {
-    return ctrl ? ctrl->AsEbook() : nullptr;
-}
+//EbookController* TabInfo::AsEbook() const {
+//    return ctrl ? ctrl->AsEbook() : nullptr;
+//}
 
 Kind TabInfo::GetEngineType() const {
     if (ctrl && ctrl->AsFixed()) {

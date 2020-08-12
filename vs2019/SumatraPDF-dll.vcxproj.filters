@@ -93,9 +93,6 @@
     <ClInclude Include="..\src\GlobalPrefs.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\Installer.h">
-      <Filter>src</Filter>
-    </ClInclude>
     <ClInclude Include="..\src\Menu.h">
       <Filter>src</Filter>
     </ClInclude>
@@ -133,9 +130,6 @@
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="..\src\SettingsStructs.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\StressTesting.h">
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="..\src\SumatraAbout.h">
@@ -335,9 +329,6 @@
     <ClCompile Include="..\src\InstUninstCommon.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\Installer.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
     <ClCompile Include="..\src\Menu.cpp">
       <Filter>src</Filter>
     </ClCompile>
@@ -375,9 +366,6 @@
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="..\src\SettingsStructs.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\StressTesting.cpp">
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="..\src\SumatraAbout.cpp">
@@ -438,9 +426,6 @@
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="..\src\Translations.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\Uninstaller.cpp">
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="..\src\WindowInfo.cpp">

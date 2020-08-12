@@ -74,7 +74,7 @@ body {
 
 <p>You can change the look and behavior of
 <a href="http://www.sumatrapdfreader.org/">SumatraPDF</a>
-by editing the file <code>SumatraPDF-settings.txt</code>. The file is stored in
+by editing the file <code>ZiherPDF-settings.txt</code>. The file is stored in
 <code>%LOCALAPPDATA%\SumatraPDF</code> directory for the installed version or in the
 same directory as <code>SumatraPDF.exe</code> executable for the portable version.</p>
 

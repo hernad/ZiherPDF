@@ -4,7 +4,7 @@
 struct DoubleBuffer;
 struct LinkHandler;
 struct Notifications;
-struct StressTest;
+// struct StressTest;
 class SumatraUIAutomationProvider;
 struct FrameRateWnd;
 struct LabelWithCloseWnd;
@@ -16,9 +16,8 @@ struct PageDestination;
 struct TocItem;
 struct Controller;
 struct ControllerCallback;
-struct ChmModel;
 struct DisplayModel;
-struct EbookController;
+// struct EbookController;
 struct TabInfo;
 
 struct TreeCtrl;
@@ -83,8 +82,7 @@ struct WindowInfo {
     bool IsDocLoaded() const;
 
     DisplayModel* AsFixed() const;
-    ChmModel* AsChm() const;
-    EbookController* AsEbook() const;
+    // EbookController* AsEbook() const;
 
     // TODO: use currentTab->ctrl instead
     Controller* ctrl{nullptr}; // owned by currentTab
@@ -218,7 +216,7 @@ struct WindowInfo {
         int hideStep{0}; // value used to gradually hide the markers
     } fwdSearchMark;
 
-    StressTest* stressTest{nullptr};
+    // StressTest* stressTest{nullptr};
 
     TouchState touchState;
 

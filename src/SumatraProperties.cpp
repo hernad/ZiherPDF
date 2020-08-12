@@ -521,10 +521,10 @@ static void GetProps(Controller* ctrl, PropertiesLayout* layoutData, bool extend
     }
 
     // TODO: display page count per current layout for ebooks?
-    if (!ctrl->AsEbook()) {
+    // if (!ctrl->AsEbook()) {
         str = str::Format(L"%d", ctrl->PageCount());
         layoutData->AddProperty(_TR("Number of Pages:"), str);
-    }
+    //}
 
     if (dm) {
         str = FormatPageSize(dm->GetEngine(), ctrl->CurrentPageNo(), dm->GetRotation());

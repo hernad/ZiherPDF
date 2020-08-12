@@ -5,17 +5,11 @@ extern Kind kindEnginePdf;
 extern Kind kindEngineMulti;
 extern Kind kindEngineXps;
 extern Kind kindEngineDjVu;
-extern Kind kindEngineImage;
-extern Kind kindEngineImageDir;
-extern Kind kindEngineComicBooks;
+// extern Kind kindEngineImage;
+// extern Kind kindEngineImageDir;
 extern Kind kindEnginePostScript;
-extern Kind kindEngineEpub;
-extern Kind kindEngineFb2;
-extern Kind kindEngineMobi;
-extern Kind kindEnginePdb;
-extern Kind kindEngineChm;
 extern Kind kindEngineHtml;
-extern Kind kindEngineTxt;
+// extern Kind kindEngineTxt;
 
 /* certain OCGs will only be rendered for some of these (e.g. watermarks) */
 enum class RenderTarget { View, Print, Export };

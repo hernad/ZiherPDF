@@ -17,7 +17,6 @@
 #include "SettingsStructs.h"
 #include "Controller.h"
 #include "GlobalPrefs.h"
-#include "ChmModel.h"
 #include "DisplayModel.h"
 #include "TextSelection.h"
 #include "ProgressUpdateUI.h"
@@ -340,10 +339,6 @@ void OnSelectAll(WindowInfo* win, bool textOnly) {
         return;
     }
 
-    if (win->AsChm()) {
-        win->AsChm()->SelectAll();
-        return;
-    }
     if (!win->AsFixed()) {
         return;
     }

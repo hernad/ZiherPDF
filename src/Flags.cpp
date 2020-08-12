@@ -111,7 +111,7 @@ enum {
     Scroll,
     AppData,
     Plugin,
-    StressTest,
+    //StressTest,
     ArgN,
     Render,
     Bench,
@@ -153,9 +153,9 @@ Flags::~Flags() {
     free(pluginURL);
     free(appdataDir);
     free(inverseSearchCmdLine);
-    free(stressTestPath);
-    free(stressTestFilter);
-    free(stressTestRanges);
+    //free(stressTestPath);
+    //free(stressTestFilter);
+    //free(stressTestRanges);
     free(lang);
 }
 
@@ -203,7 +203,7 @@ static void EnumeratePrinters() {
         }
     }
     free(info5Arr);
-    MessageBox(nullptr, output.Get(), L"SumatraPDF - EnumeratePrinters", MB_OK | MB_ICONINFORMATION);
+    MessageBox(nullptr, output.Get(), L"ZiherPDF - EnumeratePrinters", MB_OK | MB_ICONINFORMATION);
 }
 
 // parses a list of page ranges such as 1,3-5,7- (i..e all but pages 2 and 6)
@@ -408,27 +408,8 @@ void ParseCommandLine(const WCHAR* cmdLine, Flags& i) {
             // become the parent of a frameless SumatraPDF
             // (used e.g. for embedding it into a browser plugin)
             i.hwndPluginParent = (HWND)(INT_PTR)_wtol(argList.at(++n));
-        } else if (is_arg_with_param(StressTest)) {
-            // -stress-test <file or dir path> [<file filter>] [<page/file range(s)>] [<cycle
-            // count>x]
-            // e.g. -stress-test file.pdf 25x  for rendering file.pdf 25 times
-            //      -stress-test file.pdf 1-3  render only pages 1, 2 and 3 of file.pdf
-            //      -stress-test dir 301- 2x   render all files in dir twice, skipping first 300
-            //      -stress-test dir *.pdf;*.xps  render all files in dir that are either PDF or XPS
-            handle_string_param(i.stressTestPath);
-            int num;
-            if (has_additional_param() && str::FindChar(additional_param(), '*')) {
-                handle_string_param(i.stressTestFilter);
-            }
-            if (has_additional_param() && IsValidPageRange(additional_param())) {
-                handle_string_param(i.stressTestRanges);
-            }
-            if (has_additional_param() && str::Parse(additional_param(), L"%dx%$", &num) && num > 0) {
-                i.stressTestCycles = num;
-                n++;
-            }
-        } else if (is_arg_with_param(ArgN)) {
-            handle_int_param(i.stressParallelCount);
+        //} else if (is_arg_with_param(ArgN)) {
+        //    handle_int_param(i.stressParallelCount);
         } else if (is_arg_with_param(Render)) {
             handle_int_param(i.pageNumber);
             i.testRenderPage = true;

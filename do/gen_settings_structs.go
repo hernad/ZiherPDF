@@ -520,7 +520,7 @@ var (
 
 		//MkField("ThemeName", Utf8String, "light", "the name of the theme to use"),
 
-		mkField("EscToExit", Bool, false,
+		mkField("EscToExit", Bool, true,
 			"if true, Esc key closes SumatraPDF").setExpert(),
 		mkField("ReuseInstance", Bool, false,
 			"if true, we'll always open files using existing SumatraPDF process").setExpert(),
@@ -654,7 +654,7 @@ var (
 
 	globalPrefsStruct = mkStruct("GlobalPrefs", globalPrefs,
 		"Most values on this structure can be updated through the UI and are persisted "+
-			"in SumatraPDF-settings.txt")
+			"in ZiherPDF-settings.txt")
 )
 
 // limit comment lines to 72 chars

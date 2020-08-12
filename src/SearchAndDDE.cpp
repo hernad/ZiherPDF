@@ -22,7 +22,6 @@
 #include "SettingsStructs.h"
 #include "Controller.h"
 #include "GlobalPrefs.h"
-#include "ChmModel.h"
 #include "DisplayModel.h"
 #include "PdfSync.h"
 #include "ProgressUpdateUI.h"
@@ -69,10 +68,6 @@ bool NeedsFindUI(WindowInfo* win) {
 }
 
 void OnMenuFind(WindowInfo* win) {
-    if (win->AsChm()) {
-        win->AsChm()->FindInCurrentPage();
-        return;
-    }
 
     if (!win->AsFixed() || !NeedsFindUI(win)) {
         return;

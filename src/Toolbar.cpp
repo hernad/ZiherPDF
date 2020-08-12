@@ -85,7 +85,7 @@ static bool IsVisibleToolbarButton(WindowInfo* win, int buttonNo) {
     switch (gToolbarButtons[buttonNo].cmdId) {
         case CmdZoomFitWidthAndContinous:
         case CmdZoomFitPageAndSinglePage:
-            return !win->AsChm();
+            return true;
 
         case CmdFindFirst:
         case CmdFindNext:
@@ -198,7 +198,7 @@ void ShowOrHideToolbar(WindowInfo* win) {
     if (win->presentation || win->isFullScreen) {
         return;
     }
-    if (gGlobalPrefs->showToolbar && !win->AsEbook()) {
+    if (gGlobalPrefs->showToolbar ) { //&& !win->AsEbook()) {
         ShowWindow(win->hwndReBar, SW_SHOW);
     } else {
         // Move the focus out of the toolbar

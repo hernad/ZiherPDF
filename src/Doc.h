@@ -7,10 +7,6 @@
 // possible.
 // It's small enough to be passed by value.
 
-class EpubDoc;
-class Fb2Doc;
-class MobiDoc;
-class PalmDoc;
 
 struct ImageData;
 class EbookTocVisitor;
@@ -37,10 +33,6 @@ class Doc {
 
     union {
         void* generic;
-        EpubDoc* epubDoc;
-        Fb2Doc* fb2Doc;
-        MobiDoc* mobiDoc;
-        PalmDoc* palmDoc;
     };
 
     const WCHAR* GetFilePathFromDoc() const;
@@ -54,10 +46,8 @@ class Doc {
     Doc() {
         Clear();
     }
-    explicit Doc(EpubDoc* doc);
-    explicit Doc(Fb2Doc* doc);
-    explicit Doc(MobiDoc* doc);
-    explicit Doc(PalmDoc* doc);
+
+
 
     void Delete();
 

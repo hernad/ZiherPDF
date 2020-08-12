@@ -149,7 +149,7 @@
 #endif /* FZ_ENABLE_HTML */
 
 #ifndef FZ_ENABLE_EPUB
-#define FZ_ENABLE_EPUB 1
+#define FZ_ENABLE_EPUB 0
 #endif /* FZ_ENABLE_EPUB */
 
 #ifndef FZ_ENABLE_JPX

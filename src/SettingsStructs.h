@@ -249,7 +249,7 @@ struct SessionData {
 };
 
 // Most values on this structure can be updated through the UI and are
-// persisted in SumatraPDF-settings.txt
+// persisted in ZiherPDF-settings.txt
 struct GlobalPrefs {
     // background color of the non-document windows, traditionally yellow
     COLORREF mainWindowBackground;
@@ -576,11 +576,11 @@ static const StructInfo gFILETIMEInfo = {sizeof(FILETIME), 2, gFILETIMEFields, "
 
 static const FieldInfo gGlobalPrefsFields[] = {
     {(size_t)-1, SettingType::Comment,
-     (intptr_t) "For documentation, see https://www.sumatrapdfreader.org/settings/settings3.3.html"},
+     (intptr_t) "Za postavke pogledaj: https://www.sumatrapdfreader.org/settings/settings3.3.html"},
     {(size_t)-1, SettingType::Comment, 0},
     {offsetof(GlobalPrefs, mainWindowBackground), SettingType::Color, 0x8000f2ff},
-    {offsetof(GlobalPrefs, escToExit), SettingType::Bool, false},
-    {offsetof(GlobalPrefs, reuseInstance), SettingType::Bool, false},
+    {offsetof(GlobalPrefs, escToExit), SettingType::Bool, true},
+    {offsetof(GlobalPrefs, reuseInstance), SettingType::Bool, true},
     {offsetof(GlobalPrefs, useSysColors), SettingType::Bool, false},
     {offsetof(GlobalPrefs, restoreSession), SettingType::Bool, true},
     {offsetof(GlobalPrefs, tabWidth), SettingType::Int, 300},
@@ -616,7 +616,7 @@ static const FieldInfo gGlobalPrefsFields[] = {
     {offsetof(GlobalPrefs, inverseSearchCmdLine), SettingType::String, 0},
     {offsetof(GlobalPrefs, enableTeXEnhancements), SettingType::Bool, false},
     {offsetof(GlobalPrefs, defaultDisplayMode), SettingType::String, (intptr_t)L"automatic"},
-    {offsetof(GlobalPrefs, defaultZoom), SettingType::Utf8String, (intptr_t) "fit page"},
+    {offsetof(GlobalPrefs, defaultZoom), SettingType::Utf8String, (intptr_t) "fit width"},
     {offsetof(GlobalPrefs, windowState), SettingType::Int, 1},
     {offsetof(GlobalPrefs, windowPos), SettingType::Compact, (intptr_t)&gRectInfo},
     {offsetof(GlobalPrefs, showToc), SettingType::Bool, true},

@@ -4,7 +4,7 @@
 bool IsValidPageRange(const WCHAR* ranges);
 bool IsBenchPagesInfo(const WCHAR* s);
 void BenchFileOrDir(WStrVec& pathsToBench);
-bool IsStressTesting();
+//bool IsStressTesting();
 void BenchEbookLayout(WCHAR* filePath);
 
 struct Flags;
@@ -13,4 +13,4 @@ struct WindowInfo;
 void StartStressTest(Flags* i, WindowInfo* win);
 
 void OnStressTestTimer(WindowInfo* win, int timerId);
-void FinishStressTest(WindowInfo* win);
+//void FinishStressTest(WindowInfo* win);

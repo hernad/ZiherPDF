@@ -34,7 +34,7 @@
 
 // The following functions allow crash handler to be used by both installer
 // and sumatra proper. They must be implemented for each app.
-extern void GetStressTestInfo(str::Str* s);
+//extern void GetStressTestInfo(str::Str* s);
 extern bool CrashHandlerCanUseNet();
 extern void ShowCrashHandlerMessage();
 extern void GetProgramInfo(str::Str& s);
@@ -107,7 +107,7 @@ static std::span<u8> BuildCrashInfoText() {
         s.Append(gSystemInfo);
     }
 
-    GetStressTestInfo(&s);
+    //GetStressTestInfo(&s);
     s.Append("\n");
 
     dbghelp::GetExceptionInfo(s, gMei.ExceptionPointers);
@@ -163,6 +163,8 @@ static void DeleteSymbolsIfExist() {
 
 static bool ExtractSymbols(const u8* archiveData, size_t dataSize, char* dstDir, Allocator* allocator) {
     dbglogf("ExtractSymbols: dir '%s', size: %d\n", dstDir, (int)dataSize);
+
+    /*
     lzma::SimpleArchive archive;
     bool ok = ParseSimpleArchive(archiveData, dataSize, &archive);
     if (!ok) {
@@ -192,7 +194,8 @@ static bool ExtractSymbols(const u8* archiveData, size_t dataSize, char* dstDir,
             return false;
         }
     }
-    return ok;
+    */
+    return false;
 }
 
 // .pdb files are stored in a .zip file on a web server. Download that .zip
