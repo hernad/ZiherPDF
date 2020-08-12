@@ -92,7 +92,7 @@ func runCppCheck(all bool) {
 }
 
 func main() {
-	u.CdUpDir("sumatrapdf")
+	u.CdUpDir("ZiherPDF")
 	logf("Current directory: %s\n", u.CurrDirAbsMust())
 	timeStart := time.Now()
 	defer func() {

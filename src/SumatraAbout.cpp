@@ -71,7 +71,7 @@
 #define URL_LICENSE L"https://github.com/sumatrapdfreader/sumatrapdf/blob/master/AUTHORS"
 #define URL_AUTHORS L"https://github.com/sumatrapdfreader/sumatrapdf/blob/master/AUTHORS"
 #define URL_TRANSLATORS L"https://github.com/sumatrapdfreader/sumatrapdf/blob/master/TRANSLATORS"
-#define URL_SUPPORT_SUMATRA L"https://www.sumatrapdfreader.org/backers.html"
+#define URL_SUPPORT_SUMATRA L"https://github.com/hernad/ZiherPDF"
 
 #define LAYOUT_LTR 0
 
@@ -821,7 +821,7 @@ void DrawStartPage(WindowInfo* win, HDC hdc, FileHistory& fileHistory, COLORREF 
     win->staticLinks.Append(StaticLinkInfo(rect, SLINK_LIST_HIDE));
 
     if (!gIsRaMicroBuild) {
-        rect = DrawSupportLink(win->hwndCanvas, hdc, _TR("Support SumatraPDF"));
+        rect = DrawSupportLink(win->hwndCanvas, hdc, _TR("Support ZiherPDF"));
         win->staticLinks.Append(StaticLinkInfo(rect, URL_SUPPORT_SUMATRA));
     }
 }
